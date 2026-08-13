@@ -1,2 +1,2 @@
-﻿file_name,set,item_id_or_act_id,text_to_read,done,usable,notes
-,setC,,SOURCE NOT READY -- scaffolding/sw-en.csv does not exist yet. This set cannot be recorded yet.,,,
+﻿file_name,set,item_id_or_act_id,text_to_read,speaker_type,done,usable,notes
+,setC,,SOURCE NOT READY -- scaffolding/sw-en.csv does not exist yet. This set cannot be recorded yet.,,,,
