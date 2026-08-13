@@ -12,6 +12,9 @@ server/dist/
 web/coverage/
 server/coverage/
 
+# generation script cache (regenerable, keyed by prompt hash)
+tools/.cache/
+
 # misc
 .DS_Store
 *.log

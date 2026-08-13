@@ -90,8 +90,9 @@ recordings/speakers.csv         One row per person who recorded benchmark
 | Column | What goes in it |
 |---|---|
 | `utterance_id` | Unique ID, e.g. `sw-en-praise-002` (pair-function-sequence). |
-| `pedagogical_function` | One of: `instruction`, `praise`, `hint`, `correction`, `level_transition`, `encouragement`, `closing`. |
+| `pedagogical_function` | One of: `instruction`, `praise`, `hint`, `correction`, `level_transition`, `encouragement`, `closing`, `repair`, `escalation`, `facilitator`. |
 | `tarl_level` | Which level this utterance is used at, or `any` if level-independent. |
+| `audience` | `child` or `facilitator`. Facilitator-directed lines (the `facilitator` category, plus two `escalation` lines that alert the adult) are a different register — brief and factual, never warm or playful — since the agent is talking to the adult supervising the session, not the child. |
 | `text` | The full utterance exactly as the agent would say it — natural code-switched speech, not a translated sentence. |
 | `switch_points` | The same text with the switched span wrapped in double brackets, e.g. `Sawa, [[let's try the next one]]`. Marks exactly where the language changes — needed later for TTS voice/accent selection and for auditing how switching is actually distributed. |
 | `switch_type` | One of: `intra_sentential` (switch mid-sentence), `inter_sentential` (switch between full clauses/sentences), `tag_switch` (a short fixed phrase or interjection), `borrowing` (a loanword that's already naturalized in the local language, not really a "switch" — flag these so they don't get double-counted as code-switching). |

@@ -29,15 +29,4 @@ npm install
 npm run dev              # http://localhost:5173
 ```
 
-## Conventions
-
-- `_specs/` — write a short spec (see `_specs/template.md`) before building a
-  non-trivial feature. `_plans/` holds plans derived from a spec.
-- `web/src/components/` — one folder per component (see that folder's
-  README). Tests mirror it under `web/tests/components/`.
-- `/commit-message` — Claude Code slash command that drafts a commit message
-  from staged changes.
-
-Build order is MVP-first: get record → constrained score → level assignment
-→ facilitator confirmation working end-to-end before offline sync, PWA
-install, or low-data mode.
+See `CLAUDE.md` for architecture, conventions, and build-order notes.

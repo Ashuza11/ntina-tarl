@@ -1,0 +1,17 @@
+{
+  "name": "ntina-tools",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate-scaffolding": "node generate-scaffolding.js",
+    "merge-scaffolding": "node merge-scaffolding.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.68.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
