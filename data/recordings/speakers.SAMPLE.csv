@@ -1,0 +1,5 @@
+﻿Illustrative only. Do not copy this content into the working file.,,,,,,,,,
+speaker_id,role,age_range,native_language,accent,country,consent_obtained,consent_date,guardian_consent,notes
+spk-001,child_participant,6-8,Swahili,Coastal Kenyan Swahili,Kenya,yes,2026-08-01,yes,"guardian_consent is mandatory (not N/A) for any speaker under 18 — recording a child without it is a hard stop, not a formality to fill in later."
+spk-002,facilitator,adult,Swahili,Nairobi Swahili,Kenya,yes,2026-08-01,n/a,guardian_consent = n/a only valid for adult speakers.
+spk-003,child_participant,9-11,Yoruba,Ibadan Yoruba,Nigeria,yes,2026-08-02,yes,"age_range uses bands, not exact age, to limit identifying detail kept about a child in this file."

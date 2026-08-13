@@ -1,0 +1,18 @@
+# Copy to <pair>.yaml, e.g. sw-en.yaml, yo-en.yaml. Fill in every TODO.
+# See config/README.md before setting stt.language_code for a new pair —
+# do not guess a Sahara language code, confirm it in Sahara's own docs first.
+
+pair: TODO           # short id, e.g. "sw-en"
+label: "TODO"         # display label, e.g. "Swahili ↔ English"
+
+stt:
+  language_code: TODO  # Sahara's `use_language_asr_input` code for this pair
+  sample_rate: 16000
+  bit_rate: 16
+
+tts:
+  voice_accent: TODO   # must match a Sahara-supported accent for this language
+  voice_gender: female
+
+description: >
+  TODO
