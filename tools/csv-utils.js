@@ -56,8 +56,18 @@ function csvEscape(value) {
   return s
 }
 
-export function writeCsv(path, header, rows) {
-  const lines = [header.map(csvEscape).join(",")]
+// `leadingNotes` (optional): human-readable note rows written before the
+// header, one full-width row per note (note text in the first column,
+// blanks elsewhere) -- the same convention the data/ SAMPLE files used for
+// "Illustrative only" banners. Purely for a human reader; a file written
+// this way should not be re-parsed as CSV data by another script, since
+// readCsvObjects would treat the first note row as the header.
+export function writeCsv(path, header, rows, { leadingNotes = [] } = {}) {
+  const lines = []
+  for (const note of leadingNotes) {
+    lines.push([note, ...Array(header.length - 1).fill("")].map(csvEscape).join(","))
+  }
+  lines.push(header.map(csvEscape).join(","))
   for (const row of rows) {
     lines.push(header.map((col) => csvEscape(row[col])).join(","))
   }

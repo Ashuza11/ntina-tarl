@@ -18,3 +18,7 @@ tools/.cache/
 # misc
 .DS_Store
 *.log
+
+# Agent 
+.claude 
+.codex 

@@ -1,6 +1,6 @@
 # Tools
 
-Scripts, not application code. Currently: the scaffolding-drafting pipeline.
+Scripts, not application code.
 
 ## Scaffolding generation pipeline
 
@@ -63,3 +63,27 @@ function/trigger descriptions), not linguistic corpus data, so it doesn't
 carry the same fabrication risk as the instrument/scaffolding files — but the
 drafted *text* absolutely does, which is exactly what the DRAFT → linguist
 review → merge cycle exists to catch.
+
+## Recording scripts
+
+```bash
+node build-recording-scripts.js
+```
+
+Builds the sheets a human recorder actually holds, one CSV per (set,
+language pair), into `data/recordings/scripts/`:
+
+- **Set A** — read-aloud instrument items, from `data/instrument/<language>.csv`
+- **Set B** — free spoken answers to `data/recordings/prompts-setB.csv`
+  questions (the recorder reads the *question*; the speaker answers freely
+  and reads nothing)
+- **Set C** — scaffolding utterances read aloud, from `data/scaffolding/<pair>.csv`
+  (merge-scaffolding.js output, so this needs a completed DRAFT review first)
+
+Re-runnable, and safe to run before any of its sources are ready — a
+missing or empty source produces a one-row placeholder file instead of a
+crash, and the status summary printed at the end says exactly what's
+blocking each set for each pair. That summary is the actual point of the
+script; re-run it any time to see what's ready to record. `EXAMPLE-`
+rows (see `data/README.md`) and rejected scaffolding rows are always
+excluded from the generated sheets.

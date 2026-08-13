@@ -31,21 +31,51 @@ mark, or garbled text after reopening it — stop, don't save over it, and
 flag it. That's the file being opened in the wrong mode, and saving again
 will make it worse, not better.
 
-## Rule 2 — Sample files show you the shape, not the content
+## Rule 2 — Examples live at the top of the real file, not in a separate one
 
-Every file you need to fill in has a matching `<filename>.SAMPLE.csv` next to
-it — for example `swahili.csv` has `swahili.SAMPLE.csv` alongside it. Open
-the sample first. It has 3–5 fully filled-out rows, including the columns
-people tend to skip (the rationale/notes columns) — that's deliberate, those
-columns matter as much as the obvious ones.
+Every file you fill in has 2–3 fully completed example rows directly under
+the header, at the top. Each one is unmistakable two ways: the first column
+is prefixed `EXAMPLE-` (e.g. `EXAMPLE-sw-b-001`), and the row is marked
+`EXAMPLE-DELETE-ME` (in `review_status` where that column exists, in `notes`
+otherwise). Open the file, read those first few rows to see what a complete
+entry looks like — length, tone, how much detail belongs in each rationale
+column — then add your own rows below them, written from scratch.
 
-**The sample's language content is a placeholder, not real Swahili or
-Yoruba** — every sample file says so at the top. Copying it into the real
-working file would put fabricated, plausible-looking-but-wrong language data
-into the corpus, which is worse than an empty cell. Use the sample to see
-what a complete row looks like — length, tone, how much detail belongs in
-each rationale column — then write your own content from scratch in the
-real file.
+**Never edit or copy an EXAMPLE- row's content into a real row.** For the
+instrument files especially, the example `text` is a bracketed placeholder
+like `<a 2-syllable word a 6-year-old knows>`, not real Swahili or Yoruba —
+inventing real-looking language content there would put fabricated,
+plausible-looking-but-wrong data into the corpus, which is worse than an
+empty cell.
+
+Every script and process in this project that reads these files (the
+generation and recording-script tools in `tools/`) already skips any row
+whose ID starts with `EXAMPLE-`. Leave the example rows in place — delete
+them only once you've added enough real rows that you no longer need them
+for reference, and even then it's not urgent.
+
+## What do I record, and where is the text?
+
+Three recording sets, each sourced from a different file, built into
+ready-to-use sheets by `tools/build-recording-scripts.js` — run it and look
+in `data/recordings/scripts/` for `<pair>_setA_script.csv`,
+`<pair>_setB_script.csv`, `<pair>_setC_script.csv`.
+
+| Set | What the speaker does | Source file |
+|---|---|---|
+| A | Reads an instrument item aloud (monolingual). | `instrument/<language>.csv` |
+| B | **Listens to a question, answers freely** — does not read anything. | `recordings/prompts-setB.csv` |
+| C | Reads a scaffolding utterance aloud (code-switched). | `scaffolding/<pair>.csv` (merge output — see below) |
+
+**Set B is the priority.** It's the only genuinely spontaneous code-switched
+speech in the whole corpus — Sets A and C are read-aloud from a script, so
+the switching pattern is whatever the linguist wrote, not what a real
+speaker produces unprompted. Set B is what the challenge judges care about
+most: translate `recordings/prompts-setB.csv` first, even before finishing
+the instrument or scaffolding files. `data/recordings/scripts/` will tell
+you exactly which set is blocked and why — rerun
+`node tools/build-recording-scripts.js` any time and read its status
+summary rather than guessing what's ready.
 
 ## File layout
 
@@ -55,17 +85,34 @@ instrument/<language>.csv       swahili.csv, yoruba.csv
                                  child reads their own language, never a
                                  code-switched sentence, at this stage.
 
+scaffolding/<pair>.DRAFT.csv    sw-en.DRAFT.csv, yo-en.DRAFT.csv
+                                 AI-drafted scaffolding utterances awaiting
+                                 linguist verdict (keep/fix/reject). See
+                                 scaffolding/REVIEWING-DRAFTS.md.
+
 scaffolding/<pair>.csv          sw-en.csv, yo-en.csv
-                                 Everything the agent says out loud:
-                                 instructions, praise, hints, corrections,
-                                 level transitions. This is where the
-                                 code-switching lives.
+                                 The clean working file — everything the
+                                 agent says out loud, code-switched. This is
+                                 OUTPUT: tools/merge-scaffolding.js builds it
+                                 from a reviewed DRAFT file. Don't hand-author
+                                 it and don't worry if it doesn't exist yet —
+                                 it appears once a DRAFT round has been
+                                 reviewed and merged.
+
+recordings/prompts-setB.csv     The ten open questions for Set B (see above).
+                                 prompt_en is fixed; prompt_sw/prompt_yo are
+                                 for linguists to translate.
 
 recordings/metadata.csv         One row per benchmark audio recording.
 recordings/speakers.csv         One row per person who recorded benchmark
                                  audio (children and adult contributors).
                                  These two are for the mandatory speech-model
                                  benchmark only — not a log of real usage.
+
+recordings/scripts/             Generated recording sheets — see "What do I
+                                 record" above. Rebuilt by
+                                 tools/build-recording-scripts.js, safe to
+                                 rerun any time.
 ```
 
 ## Column glossary
@@ -82,10 +129,18 @@ recordings/speakers.csv         One row per person who recorded benchmark
 | `selection_rationale` | Why this specific item, in this order, at this level — required, not optional. If you can't explain why an item belongs where it is, that's worth flagging rather than guessing. |
 | `source` | Where it came from — a national curriculum/primer, an original item you wrote, an adaptation of an existing test. |
 | `reviewed_by` | Name of the native-speaker reviewer, once reviewed. Leave as `TBD` until then — never blank, since blank looks like "forgotten" rather than "not yet reviewed." |
-| `review_status` | `draft`, `reviewed`, or `approved`. Only `approved` items should be used in the live assessment. |
+| `review_status` | `draft`, `reviewed`, `approved`, or `EXAMPLE-DELETE-ME` for the example rows at the top of the file. Only `approved` items should be used in the live assessment. |
 | `notes` | Anything else worth flagging — regional variants, alternate spellings, concerns. |
 
+### scaffolding/&lt;pair&gt;.DRAFT.csv
+
+See `scaffolding/REVIEWING-DRAFTS.md` for the full column-by-column review
+guide — this is the file a linguist actually opens and marks up.
+
 ### scaffolding/&lt;pair&gt;.csv
+
+Built by `tools/merge-scaffolding.js` from a reviewed DRAFT file — you
+normally won't hand-edit this, but here's what's in it:
 
 | Column | What goes in it |
 |---|---|
@@ -100,6 +155,16 @@ recordings/speakers.csv         One row per person who recorded benchmark
 | `selection_rationale` | Why this exact phrasing and this exact switch point, not another one. |
 | `reviewed_by` / `review_status` / `notes` | Same meaning as in the instrument file. |
 
+### recordings/prompts-setB.csv
+
+| Column | What goes in it |
+|---|---|
+| `prompt_id` | Unique ID, e.g. `setB-01`. |
+| `prompt_en` | The English reference version of the question. Already filled in — don't change it. |
+| `prompt_sw` / `prompt_yo` | The question translated naturally into Swahili or Yoruba, the way you'd actually ask a child — not a stiff literal translation, and never code-switched (an English word in the question would prime the speaker toward switching, which is exactly what this set exists to observe unprompted). Currently AI-drafted and marked `DRAFT-NEEDS-REVIEW` — read them as a starting point to correct, not as finished text. |
+| `notes` | Anything worth flagging about this specific question — e.g. prompts 6 and 7 are marked as deliberately testing which number form (local-language or English) a speaker reaches for; don't "fix" that by prompting them toward one or the other. |
+| `translation_status` | `DRAFT-NEEDS-REVIEW` until a native speaker has checked the row, then `reviewed` (or `approved`, matching the other files' convention). **Don't record from a row still marked `DRAFT-NEEDS-REVIEW`** — a badly phrased prompt repeated across every speaker session is a lot of wasted recording, not a one-line fix. |
+
 ### recordings/metadata.csv
 
 | Column | What goes in it |
@@ -113,7 +178,7 @@ recordings/speakers.csv         One row per person who recorded benchmark
 | `file_path` | Where the audio file lives, relative to `data/recordings/`. |
 | `duration_seconds` | Length of the clip. |
 | `device` | What it was recorded on — matters because Ntina targets cheap Android phones specifically. |
-| `noise_condition` | `quiet`, `moderate`, or `noisy` — a rough, consistent judgment call, not a measurement. |
+| `noise_condition` | `quiet`, `moderate`, or `noisy` — a rough, consistent judgment call, not a measurement. The two example rows at the top of the file show a `quiet` and a `noisy` recording side by side so this judgment call has a concrete anchor. |
 | `date_recorded` | ISO date, `YYYY-MM-DD`. |
 | `consent_confirmed` | `yes` or `no`. **A row with `no` must never be included in any published benchmark set or shared externally, no matter how useful the clip is.** |
 | `consent_date` | Date consent was obtained — blank only if `consent_confirmed` is `no`. |
@@ -136,6 +201,6 @@ recordings/speakers.csv         One row per person who recorded benchmark
 
 ## Questions
 
-If a column's purpose isn't obvious from the sample, ask before guessing —
-an empty cell is easy to fill in later; a wrong guess that looks plausible
-can sit unnoticed for a long time.
+If a column's purpose isn't obvious from the example rows, ask before
+guessing — an empty cell is easy to fill in later; a wrong guess that looks
+plausible can sit unnoticed for a long time.

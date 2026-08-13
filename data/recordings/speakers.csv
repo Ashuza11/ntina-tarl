@@ -1,1 +1,4 @@
 ﻿speaker_id,role,age_range,native_language,accent,country,consent_obtained,consent_date,guardian_consent,notes
+EXAMPLE-spk-001,child_participant,6-8,Swahili,Coastal Kenyan Swahili,Kenya,yes,2026-08-01,yes,EXAMPLE-DELETE-ME -- guardian_consent is mandatory (not N/A) for any speaker under 18; recording a child without it is a hard stop.
+EXAMPLE-spk-002,child_participant,9-11,Yoruba,Ibadan Yoruba,Nigeria,yes,2026-08-02,yes,"EXAMPLE-DELETE-ME -- age_range uses bands, not exact age, to limit identifying detail kept about a child."
+EXAMPLE-spk-003,facilitator,adult,Swahili,Nairobi Swahili,Kenya,yes,2026-08-01,n/a,EXAMPLE-DELETE-ME -- guardian_consent = n/a is only valid for adult speakers.
