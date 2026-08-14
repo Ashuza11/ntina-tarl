@@ -77,6 +77,12 @@ you exactly which set is blocked and why — rerun
 `node tools/build-recording-scripts.js` any time and read its status
 summary rather than guessing what's ready.
 
+V0 recording note: the currently prepared Swahili and Yoruba Set B clips are
+contributor-confirmed readings of the prompt text, not spontaneous answers.
+They are labeled `scripted_prompt_reading` in V0 metadata and must not be
+reported as spontaneous benchmark speech. Future Set B sessions should follow
+the listen-and-answer procedure above.
+
 ## File layout
 
 ```
