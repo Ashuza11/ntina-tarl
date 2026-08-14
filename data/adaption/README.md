@@ -82,6 +82,43 @@ The generic score is not a reliable linguistic judgment of Tanzanian Kiswahili o
 
 The small size, short utterances, narrow literacy domain, and intentionally mixed language may also affect generic dataset comparisons. Rows should not be duplicated or padded merely to improve the automatic score. Platform scores are useful before/after diagnostics, but approval depends on human review by a Tanzanian Kiswahili speaker familiar with primary-school teaching.
 
+## Completed pilot run
+
+The 20-row Adaptive Data job completed with the following identifiers and platform-reported results:
+
+| Measure | Result |
+|---|---:|
+| Dataset name | `swahili_english_tutor_prompts` |
+| Dataset ID | `9b6a5853-6d0a-4163-bcfa-bcaf1b9e4918` |
+| Rows adapted | 20 |
+| Original quality score | 6.0/10 |
+| Adaptive quality score | 6.1/10 |
+| Relative improvement | 1.7% |
+| Original grade | C |
+| Adaptive grade | C |
+| Original percentile | 7.2% |
+| Adaptive percentile | 7.5% |
+| Prompt length shown after the run | 11 words |
+| Completion length shown after the run | 7 words |
+| Training metrics | Not available yet |
+
+The detected domains remained `Parenting-family` (45%), `Academic-education` (40%), and `Writing-editing-communication` (5%). The platform continued to report English as the detected language. The Blueprint was enabled for the run.
+
+The reported gain is small: the score increased by 0.1 point, the grade did not change, and the percentile increased by 0.3 point. This is a completed adaptation result, not evidence that the outputs have passed linguistic review.
+
+### Preliminary output inspection
+
+The exported adaptive completions must not be accepted automatically. Initial inspection found substantive failures that the generic 6.1 score did not expose:
+
+- `correction-model-pronunciation-001` replaced the required example word `shule` with the placeholder `[word]`, violating the target-preservation rule.
+- `instr-comprehension-001` changed a question about whom the story concerned into a question about what happened, changing the pedagogical meaning. It also used plural `niambieni` despite the `child` audience being singular.
+- `level-up-letter-to-word-001` addressed `watoto` in the plural even though the row is directed to one child.
+- Several completions became longer than their specified `max_words` constraint and require a systematic word-count check.
+- Some outputs added `mwanangu` and additional English cues even where they may not be necessary; a Tanzanian educator must judge their classroom naturalness.
+- Some outputs removed existing English switches, including `syllable` and `noise`. This may be appropriate in individual cases, but it must be reviewed rather than assumed to be an improvement.
+
+Pilot decision: **hold—do not scale to all 88 rows yet**. The adaptive output requires row-level human review and a stricter second pilot.
+
 ## Human evaluation
 
 Score every adapted completion from 1 to 5 on:

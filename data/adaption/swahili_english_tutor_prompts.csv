@@ -1,0 +1,181 @@
+prompt,completion,enhanced_prompt,enhanced_completion,act_id,audience,category,max_words,original_context,target_variety,tarl_level
+Announce moving up from letter/syllable to word level.,Hongera! Sasa tunaendelea kusoma maneno. Ready? Twende!,,"Hongera sana watoto! Tumemaliza herufi na silabi, sasa tunaendelea kusoma maneno. Ready? Twende!",level-up-letter-to-word-001,child,level_transition,14,"level_transition
+
+letter_syllable
+
+child
+
+Tanzanian Kiswahili Sanifu with natural classroom English code-switching
+
+14",Tanzanian Kiswahili Sanifu with natural classroom English code-switching,letter_syllable
+Model the correct pronunciation and ask the child to repeat it.,Sikiliza: ‘shule.’ Sasa repeat after me: ‘shule.’,,Sikiliza vizuri ninavyosema: [word]. Sasa sema baada yangu. Try again. Ready?,correction-model-pronunciation-001,child,correction,12,"correction
+
+word
+
+child
+
+Tanzanian Kiswahili Sanifu with natural classroom English code-switching
+
+12",Tanzanian Kiswahili Sanifu with natural classroom English code-switching,word
+Encourage a child who seems to be losing focus or getting tired.,"Umefanya vizuri sana! Keep going, tunakaribia mwisho!",,"Pole mwanangu, unafanya vizuri! Take your time, keep going, tunakaribia mwisho!",encourage-tired-001,child,encouragement,12,"encouragement
+
+any
+
+child
+
+Tanzanian Kiswahili Sanifu with natural classroom English code-switching
+
+12",Tanzanian Kiswahili Sanifu with natural classroom English code-switching,any
+Prompt the child to think of the sound the letter makes.,Hebu fikiria: herufi hii ina sauti gani?,,"Tafadhali fikiria polepole, herufi hii inatoa sauti gani? Try!",hint-letter-sound-001,child,hint,10,"hint
+
+beginner
+
+child
+
+Tanzanian Kiswahili Sanifu with natural classroom English code-switching
+
+10",Tanzanian Kiswahili Sanifu with natural classroom English code-switching,beginner
+Ask a simple comprehension question about the story just read.,"Great! Sasa niambie, hadithi hii ilikuwa inamhusu nani?",,"Good job kusikiliza! Sasa niambieni, nini kilichotokea kwenye hadithi tuliyosoma? Ready?",instr-comprehension-001,child,instruction,14,"instruction
+
+story
+
+child
+
+Tanzanian Kiswahili Sanifu with natural classroom English code-switching
+
+14",Tanzanian Kiswahili Sanifu with natural classroom English code-switching,story
+Note that the child is improving compared to earlier in the session.,Unazidi kufanya vizuri. Keep it up!,,"Hongera mwanangu, sasa unafanya vizuri zaidi kuliko mwanzo. Good job!",praise-improvement-001,child,praise,12,"praise
+
+any
+
+child
+
+Tanzanian Kiswahili Sanifu with natural classroom English code-switching
+
+12",Tanzanian Kiswahili Sanifu with natural classroom English code-switching,any
+Suggest using the rest of the sentence as a clue for the tricky word.,Soma sentensi yote; maneno mengine yatakupa clue.,,"Mwanangu, soma sentensi yote; maneno mengine yatakupa clue ya neno gumu, take your time.",hint-sentence-context-001,child,hint,14,"hint
+
+paragraph
+
+child
+
+Tanzanian Kiswahili Sanifu with natural classroom English code-switching
+
+14",Tanzanian Kiswahili Sanifu with natural classroom English code-switching,paragraph
+Praise visible effort even when the answer wasn't fully correct.,Good try! Umejitahidi; tujaribu tena pamoja.,,"Good try! Umejitahidi sana, tujaribu tena pamoja.",praise-effort-general-001,child,praise,10,"praise
+
+any
+
+child
+
+Tanzanian Kiswahili Sanifu with natural classroom English code-switching
+
+10",Tanzanian Kiswahili Sanifu with natural classroom English code-switching,any
+Close out a normal session and tell the child what happens next.,"Hongera sana! Umefanya vizuri leo. Tutaendelea kesho, sawa?",,"Sawa, tumemaliza kwa leo. Good job! Kesho tutaendelea na somo. Asante sana.",closing-session-complete-001,child,closing,14,"closing
+
+any
+
+child
+
+Tanzanian Kiswahili Sanifu with natural classroom English code-switching
+
+14",Tanzanian Kiswahili Sanifu with natural classroom English code-switching,any
+Ask the child to slow down and read at a calmer pace.,"Soma polepole, take your time, usiache maneno.",,"Soma polepole mwanangu, take your time, usiache maneno.",instr-slow-down-001,child,instruction,10,"instruction
+
+any
+
+child
+
+Tanzanian Kiswahili Sanifu with natural classroom English code-switching
+
+10",Tanzanian Kiswahili Sanifu with natural classroom English code-switching,any
+Suggest looking at the word again carefully before answering.,Angalia neno hilo tena kwa makini. Take your time.,,Tafadhali angalia neno hilo tena kwa makini. Take your time.,hint-look-again-001,child,hint,10,"hint
+
+word
+
+child
+
+Tanzanian Kiswahili Sanifu with natural classroom English code-switching
+
+10",Tanzanian Kiswahili Sanifu with natural classroom English code-switching,word
+Ask the child to try reading the same item one more time.,Hebu jaribu kuisoma tena. One more time!,,"Hebu jaribu kusoma tena, try again.",instr-retry-001,child,instruction,10,"instruction
+
+any
+
+child
+
+Tanzanian Kiswahili Sanifu with natural classroom English code-switching
+
+10",Tanzanian Kiswahili Sanifu with natural classroom English code-switching,any
+Check that the child is ready before starting the next item.,Uko ready? Twende!,,"Uko ready, mwanangu? Tuendelee na next item!",instr-ready-check-001,child,instruction,8,"instruction
+
+any
+
+child
+
+Tanzanian Kiswahili Sanifu with natural classroom English code-switching
+
+8",Tanzanian Kiswahili Sanifu with natural classroom English code-switching,any
+Prompt the child to blend the two sounds in the syllable together.,"Hebu unganisha sauti hizo mbili, then say them together.",,"Mwanangu, unganisha sauti hizi mbili pamoja kuunda silabi. Ready?",hint-syllable-blend-001,child,hint,12,"hint
+
+letter_syllable
+
+child
+
+Tanzanian Kiswahili Sanifu with natural classroom English code-switching
+
+12",Tanzanian Kiswahili Sanifu with natural classroom English code-switching,letter_syllable
+Praise fluent reading of a full paragraph.,Umesoma kifungu vizuri sana. Great job!,,Hongera mwanangu! Umesoma kifungu chote kwa ufasaha. Good job!,praise-first-try-paragraph-001,child,praise,10,"praise
+
+paragraph
+
+child
+
+Tanzanian Kiswahili Sanifu with natural classroom English code-switching
+
+10",Tanzanian Kiswahili Sanifu with natural classroom English code-switching,paragraph
+Praise correct letter-sound on the first try.,"Hongera! Good job, umeitamka vizuri!",,"Hongera! Good job, umepata sauti sahihi mara ya kwanza.",praise-first-try-beginner-001,child,praise,8,"praise
+
+beginner
+
+child
+
+Tanzanian Kiswahili Sanifu with natural classroom English code-switching
+
+8",Tanzanian Kiswahili Sanifu with natural classroom English code-switching,beginner
+Ask the child to try a short practice drill before the real item.,Kwanza tufanye practice moja. Uko tayari? Soma hili!,,Kwanza tufanye mazoezi mafupi kabla ya kazi ya kweli. Uko tayari?,instr-practice-drill-001,child,instruction,12,"instruction
+
+word
+
+child
+
+Tanzanian Kiswahili Sanifu with natural classroom English code-switching
+
+12",Tanzanian Kiswahili Sanifu with natural classroom English code-switching,word
+Ask the child to read the syllable shown aloud.,Hebu sasa soma syllable hii kwa sauti.,,"Hebu soma silabi hii kwa sauti, tafadhali.",instr-start-letter-syllable-001,child,instruction,10,"instruction
+
+letter_syllable
+
+child
+
+Tanzanian Kiswahili Sanifu with natural classroom English code-switching
+
+10",Tanzanian Kiswahili Sanifu with natural classroom English code-switching,letter_syllable
+Too much background noise. Ask the child to move somewhere quieter or closer to the phone.,Kuna noise nyingi. Tafadhali sogea karibu na simu.,,Kuna kelele nyingi. Tafadhali sogea karibu na simu au nenda mahali pa utulivu.,repair-background-noise-001,child,repair,10,"repair
+
+any
+
+child
+
+Tanzanian Kiswahili Sanifu with natural classroom English code-switching
+
+10",Tanzanian Kiswahili Sanifu with natural classroom English code-switching,any
+"Gently correct a misread letter sound without saying ""wrong"".",Ulikaribia! Sikiliza sauti ya herufi hii: mmm. Try again.,,"Ulikaribia! Sikiliza sauti ya herufi hii polepole, kisha try again.",correction-letter-soft-001,child,correction,10,"correction
+
+beginner
+
+child
+
+Tanzanian Kiswahili Sanifu with natural classroom English code-switching
+
+10",Tanzanian Kiswahili Sanifu with natural classroom English code-switching,beginner

@@ -67,3 +67,16 @@ so recordings are not pushed to GitHub. The prepared Hugging Face dataset has
 its own `.gitattributes` rule for storing WAV files with Git LFS.
 
 See `data/recordings/dataset-v0/README.md` for the full dataset card.
+
+## Ntina Text Dataset V0
+
+The Hugging Face-ready text companion is in `data/text-dataset-v0/`. It
+contains 470 rows across five configurations: reviewed/draft scaffolding,
+reading instruments, trilingual elicitation prompts, dialogue-act
+specifications, and a Tanzanian Kiswahili adaptation pilot. Its intended
+repository slug is `ntina-text-dataset-v0`.
+
+Review state is preserved rather than flattened: instrument and translated
+prompt rows remain drafts, replacement-bearing scaffolding verdicts are
+normalized as fixes, and damaged Yoruba orthography is explicitly flagged.
+See `data/text-dataset-v0/README.md` before using the text for training.
