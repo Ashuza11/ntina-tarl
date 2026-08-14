@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "response_headers": {
+    "Date": "Fri, 14 Aug 2026 08:47:13 GMT",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "cloudflare",
+    "x-ratelimit-limit": "1",
+    "x-ratelimit-remaining": "0",
+    "x-ratelimit-reset": "1786697235",
+    "retry-after": "1",
+    "cf-cache-status": "DYNAMIC",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=5eNlUJMXVWfPJW4i1jeqxkzH%2BROlZedmgZ3qnTS7laSFSb6VeemgI120bT6HBhcbLuuuw8KouUvx%2FtHIOtFnYS7w5j3qun31ASkwTl9L%2BWi0vrCJqorB9vEuNt%2BtKEsrsf7BTL4UGyk%3D\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "X-Content-Type-Options": "nosniff",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a2aeb1898f7ca44f-JNB",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "body": {
+    "data": {
+      "audio_file_name": "sw_en_2_wav",
+      "audio_transcript": "Nilituma pesa jana lakini transaction imeshindwa. Why is that?",
+      "processed_audio_duration_in_seconds": 10,
+      "processing_status": "FILE_TRANSCRIBED"
+    },
+    "message": "file status found",
+    "status": "Ok"
+  }
+}

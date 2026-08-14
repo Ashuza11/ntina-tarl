@@ -1,0 +1,29 @@
+# Yoruba-English. See config/README.md before touching stt.language_code
+# for any other pair -- do not guess a Sahara language code.
+
+pair: yo-en
+label: "Yoruba ↔ English"
+
+stt:
+  language_code: yo   # confirmed: Sahara STT Supported Languages table lists
+                       # "Yoruba-English | yo | code-switched: yes"
+  sample_rate: 16000
+  bit_rate: 16
+
+tts:
+  voice_accent: TODO  # Not directly confirmed. The TTS Supported Languages
+                       # And Accents page lists Yoruba as supported, but no
+                       # example request showing the literal voice_accent
+                       # string for Yoruba was found in the docs read so far
+                       # (other endpoints' examples use lowercase full words,
+                       # e.g. "swahili", "igbo" -- "yoruba" is a reasonable
+                       # guess by that pattern, but do not treat it as
+                       # confirmed until an actual example or a successful
+                       # live call proves it).
+  voice_gender: female
+
+description: >
+  Second language pair for the reading assessment MVP. Sahara STT confirmed
+  supporting Yoruba-English code-switching (docs.voice.intron.io). Streaming
+  STT for this pair was confirmed unavailable (RESOURCE_EXHAUSTED) as of the
+  live test in docs/API-FINDINGS.md; the batch upload endpoint is used.

@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "response_headers": {
+    "Date": "Fri, 14 Aug 2026 08:47:00 GMT",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "cloudflare",
+    "x-ratelimit-limit": "1",
+    "x-ratelimit-remaining": "0",
+    "x-ratelimit-reset": "1786697222",
+    "retry-after": "1",
+    "cf-cache-status": "DYNAMIC",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=7PzC52TibvmaOCtct77PowV3veEhhC%2F%2Ff2Wr67Tjb%2B%2B5zuiBlb1C3ZC5%2FIbgPRIbtDUkyj81vIguEzLbGRTLd7%2BdvH%2B4Tzlt9GZxsjejqRH47Xepa1wUtHW3v%2Bs%2BBF1gjMg01iQh7yA%3D\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "X-Content-Type-Options": "nosniff",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a2aeb13b0e822229-JNB",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "body": {
+    "data": {
+      "audio_file_name": "sw_en_1_wav",
+      "audio_transcript": "Habari, naitwa Amani. Nataka kuangalia salio ya akaunti yangu.",
+      "processed_audio_duration_in_seconds": 6,
+      "processing_status": "FILE_TRANSCRIBED"
+    },
+    "message": "file status found",
+    "status": "Ok"
+  }
+}

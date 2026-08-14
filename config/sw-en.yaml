@@ -1,0 +1,22 @@
+# Swahili-English. See config/README.md before touching stt.language_code
+# for any other pair -- do not guess a Sahara language code.
+
+pair: sw-en
+label: "Swahili ↔ English"
+
+stt:
+  language_code: sw   # confirmed: Sahara STT Supported Languages table lists
+                       # "Swahili-English | sw | code-switched: yes"
+  sample_rate: 16000
+  bit_rate: 16
+
+tts:
+  voice_accent: swahili  # confirmed directly from the official docs' own
+                          # /tts/v1/generate curl example: "voice_accent":
+                          # "swahili" (lowercase, full word -- not the 2-letter
+                          # "sw" STT code). Distinct field from voice_language.
+  voice_gender: female
+
+description: >
+  Primary language pair for the reading assessment MVP. Sahara STT confirmed
+  supporting Swahili-English code-switching (docs.voice.intron.io).
