@@ -1,0 +1,1184 @@
+provider,recording_id,model,language,speaker_id,set,content_type,status,latency_ms,reference,transcript,error,reference_valid,raw_wer,raw_cer,normalized_wer,normalized_cer
+groq,v0-sw-0079,whisper-large-v3,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,4729,Niambie kuhusu shule yako., Niambie kuusu shule yako. Uli fanya nini jana bada ya shule?,,True,2.0,1.4230769230769231,2.0,1.4
+deepgram,v0-sw-0079,nova-3/multi,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,4601,Niambie kuhusu shule yako.,n'ambieku su su de yaku mulifagna ninigiana bada er su le,,True,2.75,1.6538461538461537,2.75,1.68
+assemblyai,v0-sw-0079,universal-2,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,8316,Niambie kuhusu shule yako.,niambie kuusu shule yako ulifanya nini jana bada ya shule,,True,2.25,1.3461538461538463,1.75,1.36
+sahara,v0-sw-0079,sahara-file-v1,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,4565,Niambie kuhusu shule yako.,"Niambie kuhusu shule yako, ulifanya nini jana baada ya shule?",,True,1.75,1.3846153846153846,1.5,1.36
+groq,v0-sw-0001,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,1351,ma, Maa,,True,1.0,1.5,1.0,0.5
+groq,v0-sw-0002,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,715,me, Mei,,True,1.0,1.5,1.0,0.5
+groq,v0-sw-0003,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,743,mi, Ni,,True,1.0,1.0,1.0,0.5
+groq,v0-sw-0004,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,724,mo, Mo,,True,1.0,1.0,0.0,0.0
+deepgram,v0-sw-0001,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,2694,ma,ma,,True,0.0,0.0,0.0,0.0
+groq,v0-sw-0005,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,731,mu, Muu,,True,1.0,1.5,1.0,0.5
+deepgram,v0-sw-0002,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,623,me,me,,True,0.0,0.0,0.0,0.0
+groq,v0-sw-0006,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,659,na, Na,,True,1.0,1.0,0.0,0.0
+deepgram,v0-sw-0003,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,746,mi,me,,True,1.0,0.5,1.0,0.5
+sahara,v0-sw-0001,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,3284,ma,"
+",,True,1.0,1.0,1.0,1.0
+groq,v0-sw-0007,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,752,ne, Ni.,,True,1.0,2.0,1.0,0.5
+deepgram,v0-sw-0004,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,610,mo,mo,,True,0.0,0.0,0.0,0.0
+groq,v0-sw-0008,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,705,ni, Ni,,True,1.0,1.0,0.0,0.0
+deepgram,v0-sw-0005,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,495,mu,मुंह,,True,1.0,2.0,2.0,1.5
+groq,v0-sw-0009,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,736,no, No.,,True,1.0,1.5,0.0,0.0
+deepgram,v0-sw-0006,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,526,na,no,,True,1.0,0.5,1.0,0.5
+deepgram,v0-sw-0007,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,669,ne,né,,True,1.0,0.5,1.0,0.5
+groq,v0-sw-0010,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,805,nu, Nuu.,,True,1.0,2.0,1.0,0.5
+sahara,v0-sw-0002,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,2881,me,"Me.
+",,True,1.0,1.5,0.0,0.0
+deepgram,v0-sw-0008,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,644,ni,ni,,True,0.0,0.0,0.0,0.0
+groq,v0-sw-0011,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,688,ka, Ka,,True,1.0,1.0,0.0,0.0
+deepgram,v0-sw-0009,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,805,no,no,,True,0.0,0.0,0.0,0.0
+groq,v0-sw-0012,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,835,ke, Kee,,True,1.0,1.5,1.0,0.5
+deepgram,v0-sw-0010,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,798,nu,noo,,True,1.0,1.0,1.0,1.0
+groq,v0-sw-0013,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,739,ki, Ki,,True,1.0,1.0,0.0,0.0
+deepgram,v0-sw-0011,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,763,ka,k,,True,1.0,0.5,1.0,0.5
+groq,v0-sw-0014,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,723,ko, Kuu.,,True,1.0,2.5,1.0,1.0
+sahara,v0-sw-0003,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,2897,mi,"Me.
+",,True,1.0,2.0,1.0,0.5
+groq,v0-sw-0015,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,729,ku, Kuu.,,True,1.0,2.0,1.0,0.5
+deepgram,v0-sw-0012,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,911,ke,k,,True,1.0,0.5,1.0,0.5
+deepgram,v0-sw-0013,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,730,ki,key,,True,1.0,1.0,1.0,1.0
+groq,v0-sw-0016,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,918,wa, Wa,,True,1.0,1.0,0.0,0.0
+deepgram,v0-sw-0014,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,716,ko,co,,True,1.0,0.5,1.0,0.5
+groq,v0-sw-0017,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,774,we, Wee.,,True,1.0,2.0,1.0,0.5
+groq,v0-sw-0018,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,692,wi, Wee.,,True,1.0,2.5,1.0,1.0
+sahara,v0-sw-0004,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,2723,mo,"No.
+",,True,1.0,1.5,1.0,0.5
+assemblyai,v0-sw-0001,universal-2,sw,spk-sw-001,setA,syllable,ok,11604,ma,ma,,True,0.0,0.0,0.0,0.0
+groq,v0-sw-0019,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,724,wo, Wo.,,True,1.0,1.5,0.0,0.0
+deepgram,v0-sw-0015,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,1948,ku,q,,True,1.0,1.0,1.0,1.0
+groq,v0-sw-0020,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,655,wu, Wu,,True,1.0,1.0,0.0,0.0
+groq,v0-sw-0021,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,2288,la, La,,True,1.0,1.0,0.0,0.0
+deepgram,v0-sw-0016,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,1405,wa,wow,,True,1.0,1.0,1.0,1.0
+groq,v0-sw-0022,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,679,le, Li,,True,1.0,1.5,1.0,0.5
+sahara,v0-sw-0005,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,2794,mu,"More.
+",,True,1.0,3.0,1.0,1.5
+deepgram,v0-sw-0017,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,940,we,way,,True,1.0,1.0,1.0,1.0
+groq,v0-sw-0023,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,665,li, Li,,True,1.0,1.0,0.0,0.0
+deepgram,v0-sw-0018,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,476,wi,wii,,True,1.0,0.5,1.0,0.5
+groq,v0-sw-0024,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,702,lo, Lo.,,True,1.0,1.5,0.0,0.0
+deepgram,v0-sw-0019,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,475,wo,woah,,True,1.0,1.0,1.0,1.0
+deepgram,v0-sw-0020,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,481,wu,woo,,True,1.0,1.0,1.0,1.0
+groq,v0-sw-0025,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,827,lu, Lu,,True,1.0,1.0,0.0,0.0
+assemblyai,v0-sw-0002,universal-2,sw,spk-sw-001,setA,syllable,ok,5216,me,me,,True,0.0,0.0,0.0,0.0
+groq,v0-sw-0026,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,766,sa, Sa,,True,1.0,1.0,0.0,0.0
+deepgram,v0-sw-0021,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,644,la,la,,True,0.0,0.0,0.0,0.0
+sahara,v0-sw-0006,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,2845,na,"Naa.
+",,True,1.0,2.0,1.0,0.5
+groq,v0-sw-0027,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,875,se, Sisi.,,True,1.0,2.5,1.0,1.5
+groq,v0-sw-0028,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,646,si, Sii.,,True,1.0,2.0,1.0,0.5
+groq,v0-sw-0029,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,647,so," So,",,True,1.0,1.5,0.0,0.0
+deepgram,v0-sw-0022,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,2195,le,ley,,True,1.0,0.5,1.0,0.5
+groq,v0-sw-0030,whisper-large-v3,sw,spk-sw-001,setA,syllable,ok,899,su, Su,,True,1.0,1.0,0.0,0.0
+sahara,v0-sw-0007,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,3038,ne,"Ni.
+",,True,1.0,2.0,1.0,0.5
+deepgram,v0-sw-0023,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,1149,li,lee,,True,1.0,1.0,1.0,1.0
+groq,v0-sw-0031,whisper-large-v3,sw,spk-sw-001,setA,word,ok,703,mama, Mama,,True,1.0,0.5,0.0,0.0
+assemblyai,v0-sw-0003,universal-2,sw,spk-sw-001,setA,syllable,ok,4123,mi,ni,,True,1.0,0.5,1.0,0.5
+deepgram,v0-sw-0024,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,778,lo,hello,,True,1.0,1.5,1.0,1.5
+groq,v0-sw-0032,whisper-large-v3,sw,spk-sw-001,setA,word,ok,682,baba, Baba,,True,1.0,0.5,0.0,0.0
+deepgram,v0-sw-0025,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,589,lu,loup,,True,1.0,1.0,1.0,1.0
+groq,v0-sw-0033,whisper-large-v3,sw,spk-sw-001,setA,word,ok,758,dada, Dada,,True,1.0,0.5,0.0,0.0
+deepgram,v0-sw-0026,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,618,sa,sa,,True,0.0,0.0,0.0,0.0
+groq,v0-sw-0034,whisper-large-v3,sw,spk-sw-001,setA,word,ok,662,kaka, Kaka,,True,1.0,0.5,0.0,0.0
+deepgram,v0-sw-0027,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,585,se,sí,,True,1.0,0.5,1.0,0.5
+sahara,v0-sw-0008,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,3009,ni,"
+",,True,1.0,1.0,1.0,1.0
+groq,v0-sw-0035,whisper-large-v3,sw,spk-sw-001,setA,word,ok,832,maji, Magi,,True,1.0,0.75,1.0,0.25
+deepgram,v0-sw-0028,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,786,si,sí,,True,1.0,0.5,1.0,0.5
+groq,v0-sw-0036,whisper-large-v3,sw,spk-sw-001,setA,word,ok,676,moto, MOTO,,True,1.0,1.25,0.0,0.0
+groq,v0-sw-0037,whisper-large-v3,sw,spk-sw-001,setA,word,ok,703,meza, Meza,,True,1.0,0.5,0.0,0.0
+groq,v0-sw-0038,whisper-large-v3,sw,spk-sw-001,setA,word,ok,846,paka, Baka.,,True,1.0,0.75,1.0,0.25
+assemblyai,v0-sw-0004,universal-2,sw,spk-sw-001,setA,syllable,ok,4452,mo,mo,,True,0.0,0.0,0.0,0.0
+groq,v0-sw-0039,whisper-large-v3,sw,spk-sw-001,setA,word,ok,774,soko, Soko,,True,1.0,0.5,0.0,0.0
+deepgram,v0-sw-0029,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,2294,so,so,,True,0.0,0.0,0.0,0.0
+sahara,v0-sw-0009,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,2925,no,"No.
+",,True,1.0,1.5,0.0,0.0
+groq,v0-sw-0040,whisper-large-v3,sw,spk-sw-001,setA,word,ok,-363,duka, Duka,,True,1.0,0.5,0.0,0.0
+groq,v0-sw-0041,whisper-large-v3,sw,spk-sw-001,setA,word,ok,723,embe, MB,,True,1.0,1.0,1.0,0.5
+deepgram,v0-sw-0030,nova-3/multi,sw,spk-sw-001,setA,syllable,ok,-71,su,zu,,True,1.0,0.5,1.0,0.5
+groq,v0-sw-0042,whisper-large-v3,sw,spk-sw-001,setA,word,ok,713,ndizi, Ndizi.,,True,1.0,0.6,0.0,0.0
+deepgram,v0-sw-0031,nova-3/multi,sw,spk-sw-001,setA,word,ok,881,mama,mama,,True,0.0,0.0,0.0,0.0
+groq,v0-sw-0043,whisper-large-v3,sw,spk-sw-001,setA,word,ok,718,nyumba, Nyamba,,True,1.0,0.5,1.0,0.16666666666666666
+deepgram,v0-sw-0032,nova-3/multi,sw,spk-sw-001,setA,word,ok,642,baba,baba,,True,0.0,0.0,0.0,0.0
+sahara,v0-sw-0010,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,1555,nu,"No.
+",,True,1.0,2.0,1.0,0.5
+deepgram,v0-sw-0033,nova-3/multi,sw,spk-sw-001,setA,word,ok,781,dada,dada,,True,0.0,0.0,0.0,0.0
+assemblyai,v0-sw-0005,universal-2,sw,spk-sw-001,setA,syllable,ok,4044,mu,mu,,True,0.0,0.0,0.0,0.0
+deepgram,v0-sw-0034,nova-3/multi,sw,spk-sw-001,setA,word,ok,1776,kaka,caca,,True,1.0,0.5,1.0,0.5
+groq,v0-sw-0044,whisper-large-v3,sw,spk-sw-001,setA,word,ok,3062,jiko, Jiku. Mlangu.,,True,2.0,3.0,2.0,2.0
+deepgram,v0-sw-0035,nova-3/multi,sw,spk-sw-001,setA,word,ok,568,maji,magi,,True,1.0,0.25,1.0,0.25
+groq,v0-sw-0045,whisper-large-v3,sw,spk-sw-001,setA,word,ok,691,mlango, Gari,,True,1.0,0.8333333333333334,1.0,0.8333333333333334
+deepgram,v0-sw-0036,nova-3/multi,sw,spk-sw-001,setA,word,ok,708,moto,moto,,True,0.0,0.0,0.0,0.0
+deepgram,v0-sw-0037,nova-3/multi,sw,spk-sw-001,setA,word,ok,750,meza,mesa,,True,1.0,0.25,1.0,0.25
+groq,v0-sw-0046,whisper-large-v3,sw,spk-sw-001,setA,word,ok,4320,gari, Google,,True,1.0,1.75,1.0,1.25
+sahara,v0-sw-0011,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,4474,ka,"Kaa.
+",,True,1.0,2.0,1.0,0.5
+groq,v0-sw-0047,whisper-large-v3,sw,spk-sw-001,setA,word,ok,1469,nguo, Kiatu,,True,1.0,1.5,1.0,1.25
+groq,v0-sw-0048,whisper-large-v3,sw,spk-sw-001,setA,word,ok,4383,kiatu, Soko,,True,1.0,1.0,1.0,1.0
+groq,v0-sw-0049,whisper-large-v3,sw,spk-sw-001,setA,word,ok,4670,shule, Shule,,True,1.0,0.4,0.0,0.0
+sahara,v0-sw-0012,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,3186,ke,"K.
+",,True,1.0,1.5,1.0,0.5
+assemblyai,v0-sw-0006,universal-2,sw,spk-sw-001,setA,syllable,ok,5822,na,na,,True,0.0,0.0,0.0,0.0
+groq,v0-sw-0050,whisper-large-v3,sw,spk-sw-001,setA,word,ok,4935,mtoto, Kitabu.,,True,1.0,1.4,1.0,1.0
+deepgram,v0-sw-0038,nova-3/multi,sw,spk-sw-001,setA,word,ok,4795,paka,paca,,True,1.0,0.25,1.0,0.25
+groq,v0-sw-0051,whisper-large-v3,sw,spk-sw-001,setA,word,ok,1610,kitabu, Motu,,True,1.0,0.8333333333333334,1.0,0.6666666666666666
+deepgram,v0-sw-0039,nova-3/multi,sw,spk-sw-001,setA,word,ok,947,soko,soco,,True,1.0,0.25,1.0,0.25
+groq,v0-sw-0052,whisper-large-v3,sw,spk-sw-001,setA,word,ok,4601,sahani, Sahani,,True,1.0,0.3333333333333333,0.0,0.0
+sahara,v0-sw-0013,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,3224,ki,"King.
+",,True,1.0,2.5,1.0,1.0
+groq,v0-sw-0053,whisper-large-v3,sw,spk-sw-001,setA,word,ok,4563,kalamu, Kalamu,,True,1.0,0.3333333333333333,0.0,0.0
+assemblyai,v0-sw-0007,universal-2,sw,spk-sw-001,setA,syllable,ok,4487,ne,nee,,True,1.0,0.5,1.0,0.5
+deepgram,v0-sw-0040,nova-3/multi,sw,spk-sw-001,setA,word,ok,2274,duka,duca,,True,1.0,0.25,1.0,0.25
+groq,v0-sw-0054,whisper-large-v3,sw,spk-sw-001,setA,word,ok,5129,kikapu, Ki,,True,1.0,1.0,1.0,0.6666666666666666
+sahara,v0-sw-0014,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,2969,ko,"
+",,True,1.0,1.0,1.0,1.0
+groq,v0-sw-0055,whisper-large-v3,sw,spk-sw-001,setA,word,ok,1389,ndugu, Kapu,,True,1.0,0.8,1.0,0.8
+deepgram,v0-sw-0041,nova-3/multi,sw,spk-sw-001,setA,word,ok,1625,embe,m b,,True,2.0,0.75,2.0,0.75
+deepgram,v0-sw-0042,nova-3/multi,sw,spk-sw-001,setA,word,ok,857,ndizi,daisy,,True,1.0,0.8,1.0,0.8
+groq,v0-sw-0056,whisper-large-v3,sw,spk-sw-001,setA,word,ok,4785,rafiki, Ndugu.,,True,1.0,1.1666666666666667,1.0,1.0
+deepgram,v0-sw-0043,nova-3/multi,sw,spk-sw-001,setA,word,ok,683,nyumba,namba,,True,1.0,0.3333333333333333,1.0,0.3333333333333333
+groq,v0-sw-0057,whisper-large-v3,sw,spk-sw-001,setA,word,ok,4946,chakula, Afiki,,True,1.0,1.0,1.0,0.8571428571428571
+assemblyai,v0-sw-0008,universal-2,sw,spk-sw-001,setA,syllable,ok,4264,ni,nu,,True,1.0,0.5,1.0,0.5
+sahara,v0-sw-0015,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,3335,ku,"
+",,True,1.0,1.0,1.0,1.0
+groq,v0-sw-0058,whisper-large-v3,sw,spk-sw-001,setA,word,ok,1436,samaki, Shakula,,True,1.0,1.0,1.0,0.8333333333333334
+deepgram,v0-sw-0044,nova-3/multi,sw,spk-sw-001,setA,word,ok,1917,jiko,jiko lango,,True,1.0,1.5,1.0,1.5
+groq,v0-sw-0059,whisper-large-v3,sw,spk-sw-001,setA,word,ok,4845,kikombe, Sama ki.,,True,2.0,1.2857142857142858,2.0,1.0
+deepgram,v0-sw-0045,nova-3/multi,sw,spk-sw-001,setA,word,ok,1279,mlango,gary,,True,1.0,0.8333333333333334,1.0,0.8333333333333334
+groq,v0-sw-0060,whisper-large-v3,sw,spk-sw-001,setA,word,ok,5051,mvua, Kikombi,,True,1.0,2.0,1.0,1.75
+deepgram,v0-sw-0046,nova-3/multi,sw,spk-sw-001,setA,word,ok,580,gari,google,,True,1.0,1.25,1.0,1.25
+sahara,v0-sw-0016,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,2853,wa,"Wa.
+",,True,1.0,1.5,0.0,0.0
+deepgram,v0-sw-0047,nova-3/multi,sw,spk-sw-001,setA,word,ok,784,nguo,qui a tout,,True,3.0,2.25,3.0,2.25
+groq,v0-sw-0061,whisper-large-v3,sw,spk-sw-001,setA,word,ok,4653,jua, Mvua.,,True,1.0,1.3333333333333333,1.0,0.6666666666666666
+assemblyai,v0-sw-0009,universal-2,sw,spk-sw-001,setA,syllable,ok,4647,no,no,,True,0.0,0.0,0.0,0.0
+groq,v0-sw-0062,whisper-large-v3,sw,spk-sw-001,setA,word,ok,1471,mwezi, Jua,,True,1.0,1.0,1.0,1.0
+groq,v0-sw-0063,whisper-large-v3,sw,spk-sw-001,setA,word,ok,4295,mchezo, Meza,,True,1.0,0.6666666666666666,1.0,0.5
+groq,v0-sw-0064,whisper-large-v3,sw,spk-sw-001,setA,word,ok,4795,mwalimu, Mchezu.,,True,1.0,1.0,1.0,0.7142857142857143
+sahara,v0-sw-0017,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,3375,we,"We?
+",,True,1.0,1.5,0.0,0.0
+deepgram,v0-sw-0048,nova-3/multi,sw,spk-sw-001,setA,word,ok,3708,kiatu,soco,,True,1.0,1.0,1.0,1.0
+groq,v0-sw-0065,whisper-large-v3,sw,spk-sw-001,setA,word,ok,4254,simba, Mwalimu,,True,1.0,1.4,1.0,1.2
+deepgram,v0-sw-0049,nova-3/multi,sw,spk-sw-001,setA,word,ok,1122,shule,schulez,,True,1.0,0.4,1.0,0.4
+groq,v0-sw-0066,whisper-large-v3,sw,spk-sw-001,setA,word,ok,1026,ndege, Simba,,True,1.0,1.2,1.0,1.0
+assemblyai,v0-sw-0010,universal-2,sw,spk-sw-001,setA,syllable,ok,4399,nu,nu,,True,0.0,0.0,0.0,0.0
+groq,v0-sw-0067,whisper-large-v3,sw,spk-sw-001,setA,word,ok,4474,ng'ombe, Digi,,True,1.0,1.0,1.0,1.0
+deepgram,v0-sw-0050,nova-3/multi,sw,spk-sw-001,setA,word,ok,1122,mtoto,quitabu,,True,1.0,1.2,1.0,1.2
+groq,v0-sw-0068,whisper-large-v3,sw,spk-sw-001,setA,word,ok,4578,mbuzi, Ngombi.,,True,1.0,1.4,1.0,1.0
+sahara,v0-sw-0018,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,3506,wi,"We.
+",,True,1.0,2.0,1.0,0.5
+deepgram,v0-sw-0051,nova-3/multi,sw,spk-sw-001,setA,word,ok,1355,kitabu,moto,,True,1.0,0.8333333333333334,1.0,0.8333333333333334
+groq,v0-sw-0069,whisper-large-v3,sw,spk-sw-001,setA,word,ok,4701,kuku, Mbuzi Kuku,,True,2.0,2.0,1.0,1.5
+deepgram,v0-sw-0052,nova-3/multi,sw,spk-sw-001,setA,word,ok,982,sahani,sahani,,True,0.0,0.0,0.0,0.0
+groq,v0-sw-0070,whisper-large-v3,sw,spk-sw-001,setA,word,ok,1082,asante, Asante.,,True,1.0,0.5,0.0,0.0
+assemblyai,v0-sw-0011,universal-2,sw,spk-sw-001,setA,syllable,ok,3857,ka,ka,,True,0.0,0.0,0.0,0.0
+sahara,v0-sw-0019,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,2103,wo,"
+",,True,1.0,1.0,1.0,1.0
+deepgram,v0-sw-0053,nova-3/multi,sw,spk-sw-001,setA,word,ok,1239,kalamu,calamo,,True,1.0,0.3333333333333333,1.0,0.3333333333333333
+groq,v0-sw-0071,whisper-large-v3,sw,spk-sw-001,setA,paragraph,ok,7627,Leo ni siku ya shule. Nina sare mpya safi. Viatu vyangu ni vipya. Nafurahi kwenda shuleni leo., Leo ni siku ya shule. Nina sera mpia safi. Vyatu vyangu ni vipia na furai kuenda shule leo.,,True,0.47058823529411764,0.13829787234042554,0.47058823529411764,0.1111111111111111
+deepgram,v0-sw-0054,nova-3/multi,sw,spk-sw-001,setA,word,ok,1457,kikapu,tea,,True,1.0,0.8333333333333334,1.0,0.8333333333333334
+sahara,v0-sw-0020,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,3542,wu,"
+",,True,1.0,1.0,1.0,1.0
+deepgram,v0-sw-0055,nova-3/multi,sw,spk-sw-001,setA,word,ok,1488,ndugu,capo,,True,1.0,1.0,1.0,1.0
+assemblyai,v0-sw-0012,universal-2,sw,spk-sw-001,setA,syllable,ok,3553,ke,kei,,True,1.0,0.5,1.0,0.5
+groq,v0-sw-0072,whisper-large-v3,sw,spk-sw-001,setA,paragraph,ok,3396,Mama anapika kwa moto. Moto unatoa joto kali. Moto unatupa mwanga pia. Sote tunapenda moto jioni., Mama anapika kwa moto. Moto unatoa joto kali. Moto unatupa muanga pia. Sote tunapenda moto jioni.,,True,0.0625,0.020618556701030927,0.0625,0.010752688172043012
+deepgram,v0-sw-0056,nova-3/multi,sw,spk-sw-001,setA,word,ok,1375,rafiki,dougo,,True,1.0,1.0,1.0,1.0
+deepgram,v0-sw-0057,nova-3/multi,sw,spk-sw-001,setA,word,ok,1265,chakula,grafiquing,,True,1.0,1.1428571428571428,1.0,1.1428571428571428
+sahara,v0-sw-0021,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,4523,la,"Na.
+",,True,1.0,1.5,1.0,0.5
+deepgram,v0-sw-0058,nova-3/multi,sw,spk-sw-001,setA,word,ok,2460,samaki,shakula,,True,1.0,0.8333333333333334,1.0,0.8333333333333334
+assemblyai,v0-sw-0013,universal-2,sw,spk-sw-001,setA,syllable,ok,5369,ki,ki,,True,0.0,0.0,0.0,0.0
+deepgram,v0-sw-0059,nova-3/multi,sw,spk-sw-001,setA,word,ok,2463,kikombe,samaki,,True,1.0,1.0,1.0,1.0
+deepgram,v0-sw-0060,nova-3/multi,sw,spk-sw-001,setA,word,ok,2081,mvua,qui combe,,True,2.0,2.25,2.0,2.25
+sahara,v0-sw-0022,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,5645,le,"Le.
+",,True,1.0,1.5,0.0,0.0
+groq,v0-sw-0073,whisper-large-v3,sw,spk-sw-001,setA,story,ok,10171,"Jembe lake lilikuwa fupi mno. Mlango wake ulikuwa chini mno. Kitanda chake kilikuwa kifupi mno. Mtu huyu alikuwa mrefu zaidi! Alitengeneza mpini wa jembe mrefu sana. Alitengeneza fremu ndefu za milango. Alitengeneza kitanda kirefu sana. Aliacha nyumba yake na kuishi katika msitu mkubwa. Aliishi kwa miaka mingi, naye alifurahi.", Jembe lake lilikuwa fupi mno. Mlangu wake ulikuwa chini mno. Kitanda chake kilikuwa kifupi mno. Mtu huyu alikuwa mrefu za hidi alitengeneza mpini wajembe mrefu sana Alitengeneza mfremu ndefu za mlangu Alitengeneza kitanda kirefu sana Alitengeneza fremu ndefu zamlangu Alitengeneza kitanda kirefu sana Aliacha nyumba yake na kuhishi katika msitu mkubwa Aliishi kwa miaka mingi nae alifurai,,True,0.46938775510204084,0.25609756097560976,0.3673469387755102,0.2358490566037736
+deepgram,v0-sw-0061,nova-3/multi,sw,spk-sw-001,setA,word,ok,2240,jua,nvwa,,True,1.0,1.0,1.0,1.0
+assemblyai,v0-sw-0014,universal-2,sw,spk-sw-001,setA,syllable,ok,6896,ko,kuu,,True,1.0,1.0,1.0,1.0
+deepgram,v0-sw-0062,nova-3/multi,sw,spk-sw-001,setA,word,ok,1096,mwezi,jua,,True,1.0,1.0,1.0,1.0
+sahara,v0-sw-0023,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,3128,li,"Le.
+",,True,1.0,2.0,1.0,0.5
+deepgram,v0-sw-0063,nova-3/multi,sw,spk-sw-001,setA,word,ok,1090,mchezo,mesa,,True,1.0,0.6666666666666666,1.0,0.6666666666666666
+deepgram,v0-sw-0064,nova-3/multi,sw,spk-sw-001,setA,word,ok,1456,mwalimu,gesu,,True,1.0,0.8571428571428571,1.0,0.8571428571428571
+deepgram,v0-sw-0065,nova-3/multi,sw,spk-sw-001,setA,word,ok,1735,simba,moi limo,,True,2.0,1.4,2.0,1.4
+assemblyai,v0-sw-0015,universal-2,sw,spk-sw-001,setA,syllable,ok,7389,ku,kuu,,True,1.0,0.5,1.0,0.5
+sahara,v0-sw-0024,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,6902,lo,"No.
+",,True,1.0,1.5,1.0,0.5
+deepgram,v0-sw-0066,nova-3/multi,sw,spk-sw-001,setA,word,ok,4739,ndege,simba,,True,1.0,1.0,1.0,1.0
+deepgram,v0-sw-0067,nova-3/multi,sw,spk-sw-001,setA,word,ok,1489,ng'ombe,déguer,,True,1.0,1.0,1.0,1.0
+sahara,v0-sw-0025,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,4161,lu,"Lo.
+",,True,1.0,2.0,1.0,0.5
+deepgram,v0-sw-0068,nova-3/multi,sw,spk-sw-001,setA,word,ok,939,mbuzi,un gombi,,True,2.0,1.4,2.0,1.4
+groq,v0-sw-0074,whisper-large-v3,sw,spk-sw-001,setA,story,ok,13065,"Tom anabeba tenga la ndizi zilizoiva. Tom anaenda sokoni kuuza ndizi. Lakini hakuna anayenunua ndizi za Tom. ""Ni wanawake pekee ndio wanaouza matunda,"" watu wanasema. Lakini Tom hakati tamaa. Anaita, ""Nunua ndizi zangu tamu!"" Mwanamke mmoja ananunua ndizi zake. Watu wengine wanakuja na kununua ndizi za Tom. Mara, tenga linakuwa tupu, naye Tom anafurahi."," Tom anabeba tanga la ndizi zilizoiva. Tom anaenda sokoni kuza ndizi. Lakini hakuna anainunua ndizi za Tom. Ni mwanamke mpeke diyo anauza mtunda. Tunda. Watu wanasema. Lakini Tom hakati tama. Anaita. Nunuandizi za kutuma. Nunuandizi zangu tamu. Wanamke moja ananunuandizi zaki. Watu wengine wanakuja na kununua ndizi za tom. Mara, tenga ni nakuwa tupu. Nae tom anafurai.",,True,0.5555555555555556,0.18028169014084508,0.42592592592592593,0.1390532544378698
+groq,v0-sw-0075,whisper-large-v3,sw,spk-sw-001,setA,comprehension_question,ok,2094,Jembe la mtu huyu lilikuwa refu au fupi mwanzoni?, Jembe la mtu huyu lilikuwa mrefu au fupi mwanzoni.,,True,0.2222222222222222,0.061224489795918366,0.1111111111111111,0.020833333333333332
+sahara,v0-sw-0026,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,3334,sa,"Saa.
+",,True,1.0,2.0,1.0,0.5
+deepgram,v0-sw-0069,nova-3/multi,sw,spk-sw-001,setA,word,ok,3517,kuku,bougie,,True,1.0,1.25,1.0,1.25
+groq,v0-sw-0076,whisper-large-v3,sw,spk-sw-001,setA,comprehension_question,ok,914,Kwa nini mtu huyu alitengeneza vitu vipya?, Kwanini mtu huyu ali tengeneza vitu vitia?,,True,0.7142857142857143,0.11904761904761904,0.7142857142857143,0.0975609756097561
+assemblyai,v0-sw-0016,universal-2,sw,spk-sw-001,setA,syllable,ok,7664,wa,wa,,True,0.0,0.0,0.0,0.0
+deepgram,v0-sw-0070,nova-3/multi,sw,spk-sw-001,setA,word,ok,333,asante,assanti,,True,1.0,0.3333333333333333,1.0,0.3333333333333333
+groq,v0-sw-0077,whisper-large-v3,sw,spk-sw-001,setA,comprehension_question,ok,1467,Tom alikuwa akiuza nini sokoni?, Tom alikuwa akiuza nini sokoni?,,True,0.0,0.03225806451612903,0.0,0.0
+sahara,v0-sw-0027,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,1975,se,"Say.
+",,True,1.0,2.5,1.0,1.0
+groq,v0-sw-0078,whisper-large-v3,sw,spk-sw-001,setA,comprehension_question,ok,1864,Kwa nini watu hawakutaka kununua ndizi za Tom mwanzoni?, Kwanini watu hawa kutaka kununuandizi za tomu mwanzoni?,,True,0.6666666666666666,0.10909090909090909,0.6666666666666666,0.07407407407407407
+groq,v0-sw-0080,whisper-large-v3,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,2003,Ulifanya nini jana baada ya shule?, Unafikaje sokoni ukitoka nyumbani kwenu.,,True,1.0,0.9411764705882353,1.0,0.9090909090909091
+sahara,v0-sw-0028,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,3476,si,"Si.
+",,True,1.0,1.5,0.0,0.0
+deepgram,v0-sw-0071,nova-3/multi,sw,spk-sw-001,setA,paragraph,ok,4906,Leo ni siku ya shule. Nina sare mpya safi. Viatu vyangu ni vipya. Nafurahi kwenda shuleni leo.,leoniciku yashule nina serampia safi vietviango ni vipia la foray coin da chou de leo,,True,1.0,0.3829787234042553,0.9411764705882353,0.32222222222222224
+assemblyai,v0-sw-0017,universal-2,sw,spk-sw-001,setA,syllable,ok,6347,we,we,,True,0.0,0.0,0.0,0.0
+groq,v0-sw-0081,whisper-large-v3,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,1109,Unafikaje sokoni ukitoka nyumbani kwenu?, So mgani unalipenda zaidi na kwanini?,,True,1.2,0.775,1.2,0.7948717948717948
+groq,v0-sw-0082,whisper-large-v3,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,6181,"Somo gani unalipenda zaidi, na kwa nini?", Niambie wakati ulipo msaidi ya mtu.,,True,1.0,0.75,1.0,0.7105263157894737
+deepgram,v0-sw-0072,nova-3/multi,sw,spk-sw-001,setA,paragraph,ok,4636,Mama anapika kwa moto. Moto unatoa joto kali. Moto unatupa mwanga pia. Sote tunapenda moto jioni.,mamma una pica kuamoto moto una toa joto cali moto una una tupa manga pia saute tout una penda moto gioni,,True,1.1875,0.30927835051546393,1.0,0.23655913978494625
+sahara,v0-sw-0029,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,5194,so,"So.
+",,True,1.0,1.5,0.0,0.0
+groq,v0-sw-0083,whisper-large-v3,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,2616,Niambie wakati ulipomsaidia mtu., Hesabu kwa sauti kwanzia moja hadi ishirini.,,True,1.75,1.0,1.75,1.0
+assemblyai,v0-sw-0018,universal-2,sw,spk-sw-001,setA,syllable,ok,5107,wi,wee,,True,1.0,1.0,1.0,1.0
+sahara,v0-sw-0030,sahara-file-v1,sw,spk-sw-001,setA,syllable,ok,7087,su,"So.
+",,True,1.0,2.0,1.0,0.5
+groq,v0-sw-0084,whisper-large-v3,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,8799,Hesabu kwa sauti kuanzia moja hadi ishirini., 15 jumlisha saba ni ngapi? Niambie jinsi uriviopata jibu lako.,,True,1.4285714285714286,1.0681818181818181,1.4285714285714286,1.069767441860465
+assemblyai,v0-sw-0019,universal-2,sw,spk-sw-001,setA,syllable,ok,9638,wo,wa,,True,1.0,0.5,1.0,0.5
+sahara,v0-sw-0031,sahara-file-v1,sw,spk-sw-001,setA,word,ok,5318,mama,"Mama.
+",,True,1.0,0.75,0.0,0.0
+groq,v0-sw-0085,whisper-large-v3,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,4000,Kumi na tano jumlisha saba ni ngapi? Niambie jinsi ulivyopata jibu lako., Niambie jambo lililo tokea shuleni wiki ii.,,True,1.0,0.7638888888888888,1.0,0.7714285714285715
+deepgram,v0-sw-0073,nova-3/multi,sw,spk-sw-001,setA,story,ok,13561,"Jembe lake lilikuwa fupi mno. Mlango wake ulikuwa chini mno. Kitanda chake kilikuwa kifupi mno. Mtu huyu alikuwa mrefu zaidi! Alitengeneza mpini wa jembe mrefu sana. Alitengeneza fremu ndefu za milango. Alitengeneza kitanda kirefu sana. Aliacha nyumba yake na kuishi katika msitu mkubwa. Aliishi kwa miaka mingi, naye alifurahi.",djembelake dilikwa fupi languake ulikwa chinim no kitan dachaki kilikwa ti fupi no unto who you ali kwa mrefu zahedi ali tenganesa mpini wajembe refusana alitenguenza fremu defu zamlango alitenguenza quitanda qui refusana alitenguenza fremun defusamlangu alitenguenza quitanda quere fusana ali alihacha nyumbayake na kuishi katika mtsitu mcubo aliishi kwamiya kamingi nai ali foray,,True,1.0,0.46646341463414637,0.9795918367346939,0.4308176100628931
+groq,v0-sw-0086,whisper-large-v3,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,2121,Niambie jambo lililotokea shuleni wiki hii., Unataka kukua nani ukikua?,,True,1.0,0.7674418604651163,1.0,0.7380952380952381
+sahara,v0-sw-0032,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3065,baba,"Baba.
+",,True,1.0,0.75,0.0,0.0
+assemblyai,v0-sw-0020,universal-2,sw,spk-sw-001,setA,syllable,ok,6197,wu,muu,,True,1.0,1.0,1.0,1.0
+groq,v0-sw-0087,whisper-large-v3,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,1476,Unataka kuwa nini ukikua?," Nyeleze mchezo, unaocheza na warafiki zako na...",,True,1.75,1.52,1.75,1.3333333333333333
+sahara,v0-sw-0033,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3941,dada,"Dad.
+",,True,1.0,0.75,1.0,0.25
+groq,v0-sw-0088,whisper-large-v3,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,2509,"Nieleze mchezo unaocheza na marafiki zako, na kanuni zake.", Kanuni Zaki,,True,1.0,0.8448275862068966,0.8888888888888888,0.8214285714285714
+assemblyai,v0-sw-0021,universal-2,sw,spk-sw-001,setA,syllable,ok,4775,la,la,,True,0.0,0.0,0.0,0.0
+groq,v0-sw-0089,whisper-large-v3,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4615,Hebu sasa soma syllable hii kwa sauti.," Hebu, soma sasa silabol hii kwa sauti.",,True,0.5714285714285714,0.2631578947368421,0.42857142857142855,0.21621621621621623
+sahara,v0-sw-0034,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3927,kaka,"Taka.
+",,True,1.0,0.75,1.0,0.25
+groq,v0-sw-0090,whisper-large-v3,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4767,Hebu jaribu kuisoma tena. One more time!, Ebu jaribu kusoma tena one more time.,,True,0.7142857142857143,0.15,0.2857142857142857,0.05263157894736842
+deepgram,v0-sw-0074,nova-3/multi,sw,spk-sw-001,setA,story,ok,14304,"Tom anabeba tenga la ndizi zilizoiva. Tom anaenda sokoni kuuza ndizi. Lakini hakuna anayenunua ndizi za Tom. ""Ni wanawake pekee ndio wanaouza matunda,"" watu wanasema. Lakini Tom hakati tamaa. Anaita, ""Nunua ndizi zangu tamu!"" Mwanamke mmoja ananunua ndizi zake. Watu wengine wanakuja na kununua ndizi za Tom. Mara, tenga linakuwa tupu, naye Tom anafurahi.",tom anabeba tanga landisizilzoiva tom anaenda soco ni kusa nidi laki ni hakuna anaennunua dizzy za tom ni moanamke peke dio anáousa entunda what tú anacema like any tom akachi tamá anai ta nunu andisi zakutuma nunu andisi zangutamo manamke moja ananunuandisi sake wa tu enguine wana kuja naku nunuandisi zatom mara tenga ninacua tupu na etom anafurai,,True,1.0,0.3323943661971831,0.8888888888888888,0.2603550295857988
+sahara,v0-sw-0035,sahara-file-v1,sw,spk-sw-001,setA,word,ok,4424,maji,"Maji.
+",,True,1.0,0.75,0.0,0.0
+assemblyai,v0-sw-0022,universal-2,sw,spk-sw-001,setA,syllable,ok,7011,le,li,,True,1.0,0.5,1.0,0.5
+deepgram,v0-sw-0075,nova-3/multi,sw,spk-sw-001,setA,comprehension_question,ok,1360,Jembe la mtu huyu lilikuwa refu au fupi mwanzoni?,djembe lam touhouyu lidikwa mrefu ao fupi moanzoni,,True,0.8888888888888888,0.2653061224489796,0.8888888888888888,0.22916666666666666
+sahara,v0-sw-0036,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3623,moto,"Moto.
+",,True,1.0,0.75,0.0,0.0
+deepgram,v0-sw-0076,nova-3/multi,sw,spk-sw-001,setA,comprehension_question,ok,5458,Kwa nini mtu huyu alitengeneza vitu vipya?,quanini un tu huyu ali tenghenesa vittu vitia,,True,1.0,0.30952380952380953,1.0,0.2926829268292683
+sahara,v0-sw-0037,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3495,meza,"Meza.
+",,True,1.0,0.75,0.0,0.0
+sahara,v0-sw-0038,sahara-file-v1,sw,spk-sw-001,setA,word,ok,2875,paka,"Mpaka.
+",,True,1.0,0.75,1.0,0.25
+groq,v0-sw-0091,whisper-large-v3,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,10943,"Soma polepole, take your time, usikimbilie maneno."," Soma pole pole, take your time, usiache maneno",,True,0.5714285714285714,0.2,0.42857142857142855,0.1702127659574468
+assemblyai,v0-sw-0023,universal-2,sw,spk-sw-001,setA,syllable,ok,11032,li,li,,True,0.0,0.0,0.0,0.0
+deepgram,v0-sw-0077,nova-3/multi,sw,spk-sw-001,setA,comprehension_question,ok,5198,Tom alikuwa akiuza nini sokoni?,tom aliquo a chiusa ni ni socconi,,True,1.4,0.3548387096774194,1.2,0.3
+sahara,v0-sw-0039,sahara-file-v1,sw,spk-sw-001,setA,word,ok,2823,soko,"Soko.
+",,True,1.0,0.75,0.0,0.0
+groq,v0-sw-0092,whisper-large-v3,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,2726,Uko ready? Twende!," Ok, ready? 20.",,True,0.6666666666666666,0.5555555555555556,0.6666666666666666,0.5
+groq,v0-sw-0093,whisper-large-v3,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,2060,"Hongera! Good job, umeitamka vizuri!"," Ongera, good job!",,True,1.0,0.6111111111111112,0.6,0.5454545454545454
+sahara,v0-sw-0040,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3187,duka,"Duka.
+",,True,1.0,0.75,0.0,0.0
+deepgram,v0-sw-0078,nova-3/multi,sw,spk-sw-001,setA,comprehension_question,ok,4668,Kwa nini watu hawakutaka kununua ndizi za Tom mwanzoni?,kwanini wa tu hawakutaka kununu and dizzy zato moanzoni,,True,0.8888888888888888,0.2545454545454545,0.8888888888888888,0.2037037037037037
+assemblyai,v0-sw-0024,universal-2,sw,spk-sw-001,setA,syllable,ok,5962,lo,lo,,True,0.0,0.0,0.0,0.0
+groq,v0-sw-0094,whisper-large-v3,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,2352,Umesoma kifungu vizuri sana. Great job!, Umeitamka vizuri.,,True,1.0,0.6923076923076923,0.8333333333333334,0.6756756756756757
+sahara,v0-sw-0041,sahara-file-v1,sw,spk-sw-001,setA,word,ok,2964,embe,"MB.
+",,True,1.0,1.0,1.0,0.5
+deepgram,v0-sw-0080,nova-3/multi,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,2740,Ulifanya nini jana baada ya shule?,una fikage soco ni ukitoka nyombani qe nu,,True,1.3333333333333333,0.9705882352941176,1.3333333333333333,0.9393939393939394
+groq,v0-sw-0095,whisper-large-v3,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,5974,Good try! Umejitahidi; tujaribu tena pamoja., Hume soma kifungo vizuri sana. Great job!,,True,1.1666666666666667,0.8409090909090909,1.1666666666666667,0.8048780487804879
+deepgram,v0-sw-0081,nova-3/multi,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,2343,Unafikaje sokoni ukitoka nyumbani kwenu?,somos gani una rippenda zaiti nacua nini,,True,1.4,0.875,1.4,0.8717948717948718
+sahara,v0-sw-0042,sahara-file-v1,sw,spk-sw-001,setA,word,ok,4422,ndizi,"Ndizi.
+",,True,1.0,0.6,0.0,0.0
+assemblyai,v0-sw-0025,universal-2,sw,spk-sw-001,setA,syllable,ok,5745,lu,luu,,True,1.0,0.5,1.0,0.5
+deepgram,v0-sw-0082,nova-3/multi,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,3475,"Somo gani unalipenda zaidi, na kwa nini?",nyambie wa khati ulipomsaidi amtu,,True,1.0,0.8,1.0,0.7894736842105263
+groq,v0-sw-0096,whisper-large-v3,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,5185,Unazidi kufanya vizuri. Keep it up!, Good try. Umejitaidi. Tujaribu tena pamoja.,,True,1.0,1.0,1.0,0.9393939393939394
+groq,v0-sw-0097,whisper-large-v3,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,5667,Soma sentensi yote; maneno mengine yatakupa clue., Unazidi kufanya vizuri. Keep it up!,,True,1.0,0.7959183673469388,1.0,0.8085106382978723
+deepgram,v0-sw-0083,nova-3/multi,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,798,Niambie wakati ulipomsaidia mtu.,ressabu kwasauti kwanzia moja hadi ishirini,,True,1.5,0.96875,1.5,1.0
+sahara,v0-sw-0043,sahara-file-v1,sw,spk-sw-001,setA,word,ok,2602,nyumba,"Nyamba.
+",,True,1.0,0.6666666666666666,1.0,0.16666666666666666
+deepgram,v0-sw-0084,nova-3/multi,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,5359,Hesabu kwa sauti kuanzia moja hadi ishirini.,culminatano jumlisha saba ningapi ni ambie ginssi uridiopata gi bulaco,,True,1.4285714285714286,1.25,1.4285714285714286,1.255813953488372
+groq,v0-sw-0098,whisper-large-v3,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,5159,Angalia neno hilo tena kwa makini. Take your time., Soma sentence yote Maneno mengi ya takupa klu,,True,1.0,0.78,1.0,0.75
+sahara,v0-sw-0044,sahara-file-v1,sw,spk-sw-001,setA,word,ok,7596,jiko,"Jiko mlango.
+",,True,2.0,2.5,1.0,1.75
+assemblyai,v0-sw-0026,universal-2,sw,spk-sw-001,setA,syllable,ok,11044,sa,saa,,True,1.0,0.5,1.0,0.5
+deepgram,v0-sw-0085,nova-3/multi,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,4439,Kumi na tano jumlisha saba ni ngapi? Niambie jinsi ulivyopata jibu lako.,nianbie jambo lilliro tokea shuleni wikii,,True,1.0,0.7777777777777778,1.0,0.7857142857142857
+sahara,v0-sw-0045,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3748,mlango,"Gari?
+",,True,1.0,1.0,1.0,0.8333333333333334
+groq,v0-sw-0099,whisper-large-v3,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,8531,Ulikaribia! Sikiliza sauti ya herufi hii: mmm. Try again., Angalia neno hilo tena kwa makini. Take your time.,,True,1.0,0.7894736842105263,1.0,0.7924528301886793
+assemblyai,v0-sw-0027,universal-2,sw,spk-sw-001,setA,syllable,ok,6834,se,sii,,True,1.0,1.0,1.0,1.0
+sahara,v0-sw-0046,sahara-file-v1,sw,spk-sw-001,setA,word,ok,4311,gari,"Nguo.
+",,True,1.0,1.25,1.0,1.0
+groq,v0-sw-0100,whisper-large-v3,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,2049,Sikiliza: “shule.” Sasa repeat after me: “shule.”, Uli Karibia,,True,1.0,0.8775510204081632,1.0,0.8536585365853658
+sahara,v0-sw-0047,sahara-file-v1,sw,spk-sw-001,setA,word,ok,4875,nguo,"Kiatu.
+",,True,1.0,1.5,1.0,1.25
+groq,v0-sw-0101,whisper-large-v3,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,5040,Ulikaribia! Umeruka neno moja. Read tena bila kuliacha., Sikiliza sauti ya herufihi. Try again.,,True,1.0,0.7454545454545455,1.0,0.75
+assemblyai,v0-sw-0028,universal-2,sw,spk-sw-001,setA,syllable,ok,5677,si,hii,,True,1.0,1.0,1.0,1.0
+deepgram,v0-sw-0086,nova-3/multi,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,12239,Niambie jambo lililotokea shuleni wiki hii.,una taca hukua nani ukikua,,True,1.0,0.7209302325581395,1.0,0.7142857142857143
+groq,v0-sw-0102,whisper-large-v3,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,3224,Hongera! Sasa tunaendelea kusoma maneno. Ready? Twende!, Sikiliza shule. Sasa repeat after me. Shule.,,True,1.0,0.8,1.0,0.7647058823529411
+sahara,v0-sw-0048,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3510,kiatu,"Soko.
+",,True,1.0,1.2,1.0,1.0
+assemblyai,v0-sw-0029,universal-2,sw,spk-sw-001,setA,syllable,ok,5665,so,kwa hivyo,,True,2.0,4.0,2.0,4.0
+sahara,v0-sw-0049,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3745,shule,"Shule.
+",,True,1.0,0.6,0.0,0.0
+groq,v0-sw-0103,whisper-large-v3,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4143,Tutaendelea kufanya mazoezi ya sauti za herufi. You’re doing well!," Uli karibia, umeruka neno moja, Reed tena bila kuliacha.",,True,1.0,0.8636363636363636,1.0,0.8125
+deepgram,v0-sw-0087,nova-3/multi,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,6488,Unataka kuwa nini ukikua?,ni elesem ceso na ocesa na guarafiki zako na,,True,2.25,1.36,2.25,1.375
+deepgram,v0-sw-0088,nova-3/multi,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,2523,"Nieleze mchezo unaocheza na marafiki zako, na kanuni zake.",kanuni-zaki,,True,1.0,0.8448275862068966,0.8888888888888888,0.8214285714285714
+groq,v0-sw-0104,whisper-large-v3,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,3023,"Umefanya vizuri sana! Keep going, tunakaribia mwisho!"," Hongera, sasa tunahendelea kusoma maneno. Ready? Twende!",,True,1.0,0.8490566037735849,1.0,0.84
+sahara,v0-sw-0050,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3676,mtoto,,,True,1.0,1.0,1.0,1.0
+assemblyai,v0-sw-0030,universal-2,sw,spk-sw-001,setA,syllable,ok,4925,su,shuu,,True,1.0,1.0,1.0,1.0
+groq,v0-sw-0105,whisper-large-v3,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,2421,Usiwe na wasiwasi; tuko pamoja. Ready? Tuanze!, Tutandelea kufanya mazoezi ya sauti za herufi. You're doing well.,,True,1.4285714285714286,1.108695652173913,1.4285714285714286,1.119047619047619
+deepgram,v0-sw-0089,nova-3/multi,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,3448,Hebu sasa soma syllable hii kwa sauti.,rebo somasasa syllable rico a saúti,,True,0.8571428571428571,0.3684210526315789,0.8571428571428571,0.35135135135135137
+sahara,v0-sw-0051,sahara-file-v1,sw,spk-sw-001,setA,word,ok,4067,kitabu,"Moto.
+",,True,1.0,0.8333333333333334,1.0,0.8333333333333334
+groq,v0-sw-0106,whisper-large-v3,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,5000,"Karibu tena! Welcome back, tuendelee tulipoishia."," Humefanya vizuri sana, keep going, tunakaribia mwisho",,True,1.1666666666666667,0.8979591836734694,1.1666666666666667,0.8913043478260869
+assemblyai,v0-sw-0031,universal-2,sw,spk-sw-001,setA,word,ok,4669,mama,mama,,True,0.0,0.0,0.0,0.0
+sahara,v0-sw-0052,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3398,sahani,"Saha.
+",,True,1.0,0.5,1.0,0.3333333333333333
+deepgram,v0-sw-0090,nova-3/multi,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,5080,Hebu jaribu kuisoma tena. One more time!,ebujaribu akusoma tena one more time,,True,0.8571428571428571,0.175,0.42857142857142855,0.10526315789473684
+groq,v0-sw-0107,whisper-large-v3,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,3512,"Asante sana kwa kazi yako nzuri leo, well done!", Karibu tena. Welcome. Tuendele tulipo ishia.,,True,1.0,0.851063829787234,1.0,0.8
+groq,v0-sw-0108,whisper-large-v3,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,5111,"Samahani, sikusikia. Please jaribu tena."," Samaani sikusikia. Please, jaribu dena.",,True,0.6,0.125,0.4,0.05405405405405406
+assemblyai,v0-sw-0032,universal-2,sw,spk-sw-001,setA,word,ok,5290,baba,baba,,True,0.0,0.0,0.0,0.0
+sahara,v0-sw-0053,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3410,kalamu,"Kalamu.
+",,True,1.0,0.5,0.0,0.0
+groq,v0-yo-0001,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3381,"Wo lẹ́tà yìí, kí ni ohùn rẹ̀? Sọ fún mi!", Wole tai kiniu mure.,,True,1.0,0.8,1.0,0.7567567567567568
+deepgram,v0-sw-0091,nova-3/multi,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,6064,"Soma polepole, take your time, usikimbilie maneno.",soma pole pole take your time usiace maneno,,True,0.8571428571428571,0.24,0.42857142857142855,0.1702127659574468
+sahara,v0-sw-0054,sahara-file-v1,sw,spk-sw-001,setA,word,ok,4846,kikapu,"
+",,True,1.0,1.0,1.0,1.0
+groq,v0-yo-0002,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3331,Ṣe àyẹwò! Jọwọ ka syllable tó wà níbẹ̀ fún mi.," She aiewo, jo woka slibuto wani befumi.",,True,1.0,0.6521739130434783,1.0,0.6136363636363636
+assemblyai,v0-sw-0033,universal-2,sw,spk-sw-001,setA,word,ok,6750,dada,dada,,True,0.0,0.0,0.0,0.0
+deepgram,v0-sw-0092,nova-3/multi,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,3165,Uko ready? Twende!,okready twenty,,True,1.0,0.4444444444444444,1.0,0.3125
+groq,v0-yo-0003,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5228,"Ẹ wò ọ̀rọ̀ yìí, kí o sì ka á sókè.", E wu o roi ike sika laot li.,,True,1.0,0.7058823529411765,1.0,0.6875
+deepgram,v0-sw-0093,nova-3/multi,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,1756,"Hongera! Good job, umeitamka vizuri!",onguera good job,,True,1.0,0.6388888888888888,0.6,0.5757575757575758
+sahara,v0-sw-0055,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3372,ndugu,"Kapu.
+",,True,1.0,1.0,1.0,0.8
+deepgram,v0-sw-0094,nova-3/multi,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,2526,Umesoma kifungu vizuri sana. Great job!,uma tamka visuri,,True,1.0,0.7692307692307693,1.0,0.7297297297297297
+groq,v0-yo-0004,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2893,"Dára, jẹ́ ká bẹ̀rẹ̀. Jọwọ, read àdoédoé yìí fún mi."," Dara, Tjeka Bere, Jowokali Tricho Ifumi.",,True,1.0,0.6666666666666666,1.0,0.6382978723404256
+sahara,v0-sw-0056,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3351,rafiki,"Ndugu.
+",,True,1.0,1.1666666666666667,1.0,1.0
+assemblyai,v0-sw-0034,universal-2,sw,spk-sw-001,setA,word,ok,6004,kaka,kaka,,True,0.0,0.0,0.0,0.0
+groq,v0-yo-0005,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5861,"Jẹ́ ká bẹ̀rẹ̀! Jọ̀wọ́, ka ìtàn yìí káàárọ̀ látọ̀dọ̀ ìbẹ̀rẹ̀.", Let's start. Jo o kaito i la tibere.,,True,1.0,0.75,1.0,0.7543859649122807
+deepgram,v0-sw-0095,nova-3/multi,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,3203,Good try! Umejitahidi; tujaribu tena pamoja.,omei soma que fungo visuri sana great job,,True,1.3333333333333333,0.7727272727272727,1.3333333333333333,0.8048780487804879
+groq,v0-yo-0006,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,1836,Dára! Ǹjẹ́ o lè sọ fún mi kíní ìtàn yẹn túmọ̀ sí?," Dara, in juli sofo mi kini ito i emin.",,True,0.9166666666666666,0.6122448979591837,0.9166666666666666,0.574468085106383
+sahara,v0-sw-0057,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3775,chakula,"Rafiki.
+",,True,1.0,1.0,1.0,0.8571428571428571
+groq,v0-yo-0007,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5312,"Dára, jẹ́ ká gbìyànjú mọ́ lẹ́ẹ̀kan sí i, try again!"," Dara, jaka gminyon ju mon le e konsi.",,True,1.0,0.6666666666666666,1.0,0.6458333333333334
+assemblyai,v0-sw-0035,universal-2,sw,spk-sw-001,setA,word,ok,4302,maji,maji,,True,0.0,0.0,0.0,0.0
+groq,v0-yo-0008,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2174,"Dáadáa, slow down kí o sì ka fẹ́ẹ́fẹ́ẹ́ díẹ̀."," O Dara, slow down ko si ka fere fete.",,True,0.7777777777777778,0.4888888888888889,0.7777777777777778,0.4883720930232558
+deepgram,v0-sw-0096,nova-3/multi,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4912,Unazidi kufanya vizuri. Keep it up!,good try umgeetahide tujari butena pamocha,,True,1.0,1.0,1.0,1.0303030303030303
+groq,v0-yo-0009,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5279,"Jọ̀wọ́, mú fóònù wá sún mọ́ ẹnu rẹ kí o sọ̀rọ̀ speak clearly!", Jo omu funua sienu re kiusi soro.,,True,1.0,0.7377049180327869,1.0,0.711864406779661
+sahara,v0-sw-0058,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3816,samaki,"Chakula.
+",,True,1.0,1.1666666666666667,1.0,1.0
+assemblyai,v0-sw-0036,universal-2,sw,spk-sw-001,setA,word,ok,4920,moto,modu,,True,1.0,0.5,1.0,0.5
+groq,v0-yo-0010,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,1398,Ṣé o ṣetán? Jẹ́ ká bẹ̀rẹ̀ — ready?, She o tishito. Jeka bere. Ready?,,True,0.875,0.6764705882352942,0.7142857142857143,0.6
+groq,v0-yo-0011,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5732,Ṣe o rò pé kí ni yóò ṣẹlẹ̀ tó bá tẹ̀lé? Sọ fún mi!, She oru pekin yu sheletu bateli. Tell me.,,True,1.0,0.66,1.0,0.625
+deepgram,v0-sw-0097,nova-3/multi,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,3722,Soma sentensi yote; maneno mengine yatakupa clue.,o nasí de cuffanha visúri keep it up,,True,1.1428571428571428,0.7755102040816326,1.1428571428571428,0.7872340425531915
+sahara,v0-sw-0059,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3231,kikombe,"Samaki.
+",,True,1.0,1.1428571428571428,1.0,1.0
+groq,v0-yo-0012,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5123,"Ṣe kó o, èmi yóò sọ ó lẹ́ẹ̀kan sí i, fara balẹ̀ gbọ́."," Listen, emiyo solekansi.",,True,1.0,0.7358490566037735,1.0,0.76
+assemblyai,v0-sw-0037,universal-2,sw,spk-sw-001,setA,word,ok,3385,meza,meza,,True,0.0,0.0,0.0,0.0
+groq,v0-yo-0013,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,1588,"Dúró díẹ̀, jẹ́ kí n pe olùrànlọ́wọ́ wá, okay?"," Doro diye, jekingpe o lura lawawa, okei?",,True,1.0,0.5333333333333333,1.0,0.5476190476190477
+groq,v0-yo-0014,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,6416,Jẹ́ ká gbìyànjú àdánwò kékeré kan. Ready? Bẹ̀rẹ̀!, Je kak bin yo ju i don uke kire kon. Ready? Bere!,,True,1.375,0.5510204081632653,1.375,0.5652173913043478
+sahara,v0-sw-0060,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3781,mvua,"Kikombe.
+",,True,1.0,2.0,1.0,1.75
+deepgram,v0-sw-0098,nova-3/multi,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4484,Angalia neno hilo tena kwa makini. Take your time.,soma sentenciote maneno mengui y atakupa clou,,True,1.0,0.76,1.0,0.75
+groq,v0-yo-0015,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,1713,"Ó yani lẹ́nu! Well done, ó tọ́ pátápátá!", U janileno. Well done. Utu patakata.,,True,0.875,0.475,0.75,0.40540540540540543
+groq,v0-yo-0016,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,1095,"Ó dára! O ka a dáadáa, [[well done]]!", This is good. Okadada.,,True,1.0,0.8378378378378378,1.0,0.8
+assemblyai,v0-sw-0038,universal-2,sw,spk-sw-001,setA,word,ok,4892,paka,baka,,True,1.0,0.25,1.0,0.25
+sahara,v0-sw-0061,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3429,jua,"Mvua.
+",,True,1.0,1.3333333333333333,1.0,0.6666666666666666
+deepgram,v0-sw-0099,nova-3/multi,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,3862,Ulikaribia! Sikiliza sauti ya herufi hii: mmm. Try again.,angalia nenohilotenaquamacchini - take your time,,True,1.0,0.8070175438596491,1.0,0.8113207547169812
+groq,v0-yo-0017,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3545,"Ó dára! O ka ọ̀rọ̀ náà dáadáa, well done!"," O dara, o kaoronodada. Well done.",,True,0.8888888888888888,0.4634146341463415,0.6666666666666666,0.34210526315789475
+sahara,v0-sw-0062,sahara-file-v1,sw,spk-sw-001,setA,word,ok,5610,mwezi,"
+",,True,1.0,1.0,1.0,1.0
+groq,v0-yo-0018,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,6193,"Ó dára púpọ̀! O ka gbogbo ìtàn náà dáadáa, well done!", Odara pupo okagubui tono dada. Well done!,,True,0.9090909090909091,0.4716981132075472,0.8181818181818182,0.42
+deepgram,v0-sw-0100,nova-3/multi,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,5417,Sikiliza: “shule.” Sasa repeat after me: “shule.”,uli caribia,,True,1.0,0.8775510204081632,1.0,0.8536585365853658
+assemblyai,v0-sw-0039,universal-2,sw,spk-sw-001,setA,word,ok,7029,soko,soko,,True,0.0,0.0,0.0,0.0
+groq,v0-yo-0019,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2248,"Ó dára gan! O ka ìtàn náà dáadáa, well done!"," Oda ragom, oka ito no dada. Well done!",,True,0.9,0.4318181818181818,0.8,0.36585365853658536
+deepgram,v0-sw-0101,nova-3/multi,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,2064,Ulikaribia! Umeruka neno moja. Read tena bila kuliacha.,sitiliza sauti yajurufi he try again,,True,1.0,0.7636363636363637,1.0,0.75
+groq,v0-yo-0020,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,1487,"Àgbàdo! O gbìyànjú, o ṣe é! Good job!"," ਹੋਸে, good job!",,True,0.875,0.7027027027027027,0.75,0.696969696969697
+sahara,v0-sw-0063,sahara-file-v1,sw,spk-sw-001,setA,word,ok,4275,mchezo,"
+",,True,1.0,1.0,1.0,1.0
+groq,v0-yo-0021,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5791,"Ẹ̀yẹn ni! O ti ṣe é. Well done, ọmọ mi!"," Bene, otishi, well done, omo mi.",,True,0.9,0.5128205128205128,0.7,0.42857142857142855
+assemblyai,v0-sw-0040,universal-2,sw,spk-sw-001,setA,word,ok,5073,duka,duka,,True,0.0,0.0,0.0,0.0
+deepgram,v0-sw-0102,nova-3/multi,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,3651,Hongera! Sasa tunaendelea kusoma maneno. Ready? Twende!,sikilisa shule saa repeat after me - shule,,True,1.1428571428571428,0.7818181818181819,1.0,0.7647058823529411
+groq,v0-yo-0022,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2161,"Ìdáhùn rẹ dára gan-an! Well done, ọmọ mi!"," I da un re darakam, well done omo mi.",,True,1.125,0.4878048780487805,0.6666666666666666,0.39473684210526316
+sahara,v0-sw-0064,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3380,mwalimu,"Mchezo.
+",,True,1.0,1.1428571428571428,1.0,0.8571428571428571
+groq,v0-yo-0023,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5367,"Ó dára! O gbìyànjú gan-an, mo fẹ́ràn ìyẹn!", That is good. Ogmi ojukon. Mufero inye.,,True,1.0,0.8095238095238095,1.0,0.7948717948717948
+deepgram,v0-sw-0103,nova-3/multi,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,3483,Tutaendelea kufanya mazoezi ya sauti za herufi. You’re doing well!,uli caribia umeruca nen o moja ritz tena bila cuiliacha,,True,1.0,0.803030303030303,1.0,0.796875
+assemblyai,v0-sw-0041,universal-2,sw,spk-sw-001,setA,word,ok,5002,embe,mb,,True,1.0,0.5,1.0,0.5
+groq,v0-yo-0024,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2969,"Ó dára! O ti n ṣe better ju ìbẹ̀rẹ̀ lọ, mo fẹ́ràn rẹ̀!"," O dara o tinshi betta ju ibere lo, mu feranre.",,True,0.8461538461538461,0.46296296296296297,0.8461538461538461,0.4117647058823529
+sahara,v0-sw-0065,sahara-file-v1,sw,spk-sw-001,setA,word,ok,5015,simba,"Mwalimu.
+",,True,1.0,1.4,1.0,1.2
+deepgram,v0-sw-0104,nova-3/multi,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,2842,"Umefanya vizuri sana! Keep going, tunakaribia mwisho!",honguera sassa tuna endelea cusoma maneno ready tuende,,True,1.1428571428571428,0.8301886792452831,1.1428571428571428,0.84
+groq,v0-yo-0025,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5152,"Ó dára! O ka pẹ̀lú ìgboyà, well done!"," O Dara, o kakwa i lui buya. Well done!",,True,1.0,0.5405405405405406,0.75,0.4117647058823529
+sahara,v0-sw-0066,sahara-file-v1,sw,spk-sw-001,setA,word,ok,4162,ndege,"Simba.
+",,True,1.0,1.4,1.0,1.0
+assemblyai,v0-sw-0042,universal-2,sw,spk-sw-001,setA,word,ok,5851,ndizi,ndizi,,True,0.0,0.0,0.0,0.0
+groq,v0-yo-0026,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3629,"Ó dára! O ṣe àṣìṣe, o sì ṣe àtúnṣe rẹ̀ dára! Well done!"," O dara, o shi a shishi, o shi shi a tunshire dara. Well done!",,True,0.8461538461538461,0.5636363636363636,0.7692307692307693,0.5294117647058824
+deepgram,v0-sw-0105,nova-3/multi,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,5013,Usiwe na wasiwasi; tuko pamoja. Ready? Tuanze!,tu tandela cufagna mazoese ya saúti za herufi you're doing well,,True,1.5714285714285714,1.0869565217391304,1.5714285714285714,1.119047619047619
+sahara,v0-sw-0067,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3161,ng'ombe,"Ndege.
+",,True,1.0,1.0,1.0,0.7142857142857143
+groq,v0-yo-0027,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2439,"Ìdáhùn rẹ dára gan-an! Wow, o ronú nǹkan tó ṣàánú púpọ̀!"," I da o re daragon, waw, oro nun kontosha anu bupo.",,True,1.0,0.6428571428571429,1.0,0.6037735849056604
+deepgram,v0-sw-0106,nova-3/multi,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,3404,"Karibu tena! Welcome back, tuendelee tulipoishia.",o mefania visuri sana keep going to na caribbea mucho,,True,1.6666666666666667,0.9387755102040817,1.6666666666666667,0.9565217391304348
+groq,v0-yo-0028,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,6739,"Ó dára! Well done, ọmọ mi. Mo gbọ́ ọ dáadáa."," O Dara, well done. O momi, mubo dada.",,True,1.0,0.5,0.8,0.375
+assemblyai,v0-sw-0043,universal-2,sw,spk-sw-001,setA,word,ok,6274,nyumba,nyanba,,True,1.0,0.3333333333333333,1.0,0.3333333333333333
+sahara,v0-sw-0068,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3716,mbuzi,"Ngombe.
+",,True,1.0,1.2,1.0,1.2
+groq,v0-yo-0029,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2697,Wo lẹ́tà yìí. Ó ń ṣe ohun wo?," Wuleta i, un shi unmo.",,True,1.0,0.7241379310344828,1.0,0.6666666666666666
+deepgram,v0-sw-0107,nova-3/multi,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4197,"Asante sana kwa kazi yako nzuri leo, well done!",caributena welcome tuendele tulippo isia,,True,1.0,0.7872340425531915,1.0,0.8
+groq,v0-yo-0030,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,1293,"Jẹ́ kí a darapọ̀ mọ́ ara wọn: ṣe àkójọpọ̀, sọ wọ́n papọ̀!"," Jeka dako muarawu, adem tsu gata, sumo pakbo.",,True,1.0,0.6842105263157895,1.0,0.6666666666666666
+sahara,v0-sw-0069,sahara-file-v1,sw,spk-sw-001,setA,word,ok,4200,kuku,"Mbuzi ku.
+",,True,2.0,1.75,2.0,1.25
+groq,v0-yo-0031,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,1530,Wo lẹ́tà àkọ́kọ́ ọ̀rọ̀ yẹn. Èwo ni?, Wuleta ako koronye i wuni.,,True,1.0,0.6857142857142857,1.0,0.6666666666666666
+deepgram,v0-sw-0108,nova-3/multi,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,3549,"Samahani, sikusikia. Please jaribu tena.",samani sikusikia please giari butena,,True,1.0,0.275,0.6,0.16216216216216217
+assemblyai,v0-sw-0044,universal-2,sw,spk-sw-001,setA,word,ok,5687,jiko,jiku mlangu,,True,2.0,2.0,2.0,2.0
+groq,v0-yo-0032,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5445,Wo ọ̀rọ̀ yìí dára! Ó dà bí ọ̀rọ̀ tí o mọ̀ tẹ́lẹ̀., Wō oro ii very well. Oda bioro tiu motele.,,True,1.0,0.7346938775510204,1.0,0.7021276595744681
+sahara,v0-sw-0070,sahara-file-v1,sw,spk-sw-001,setA,word,ok,3624,asante,"Asante.
+",,True,1.0,0.5,0.0,0.0
+groq,v0-yo-0033,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2759,Wo ó! Wo àwọn ọ̀rọ̀ mìíràn nínú gbolohun náà — wọn lè ràn ọ́ lọ́wọ́.," Look, wu anwa oro miro, ni nu bulu unno, wali rolo wo.",,True,1.0,0.6617647058823529,1.0,0.625
+assemblyai,v0-sw-0045,universal-2,sw,spk-sw-001,setA,word,ok,5150,mlango,gari,,True,1.0,0.8333333333333334,1.0,0.8333333333333334
+deepgram,v0-yo-0001,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5392,"Wo lẹ́tà yìí, kí ni ohùn rẹ̀? Sọ fún mi!",woolet ahí que ni un mure,,True,0.9,0.725,0.9,0.6756756756756757
+groq,v0-yo-0034,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3264,Rò ó! Kí ló ṣẹlẹ̀ nínú ìtàn wa? Èyí tó bá ìtàn mu ni ó tọ̀.," Wō kilu shalerinu ito wa e ito baito muni, right one.",,True,1.0,0.6949152542372882,0.9375,0.6785714285714286
+assemblyai,v0-sw-0046,universal-2,sw,spk-sw-001,setA,word,ok,4986,gari,google,,True,1.0,1.25,1.0,1.25
+groq,v0-yo-0035,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3552,Rántí ohun tó ṣẹlẹ̀ ní ìbẹ̀rẹ̀ ìtàn wa. Think back!, Rantio mtoshale nitawa. Think back.,,True,0.9,0.5686274509803921,0.8,0.5510204081632653
+deepgram,v0-yo-0002,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5757,Ṣe àyẹwò! Jọwọ ka syllable tó wà níbẹ̀ fún mi.,hier hier wo yo go kissle butowan y b for me,,True,1.1,0.7608695652173914,1.1,0.75
+groq,v0-yo-0036,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3771,"Jẹ ká gbiyanju lẹ́ẹ̀kan sí i. Sọ ohun kọ̀ọ̀kan lọ́ra lọ́ra, slowly!"," Djekak binyo djulek konsi, so un konkon slowly.",,True,1.0,0.6567164179104478,0.9166666666666666,0.609375
+deepgram,v0-yo-0003,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4029,"Ẹ wò ọ̀rọ̀ yìí, kí o sì ka á sókè.",é vu o roíques e cal loudly,,True,0.9,0.7941176470588235,0.9,0.78125
+assemblyai,v0-sw-0047,universal-2,sw,spk-sw-001,setA,word,ok,5194,nguo,kia tuu,,True,2.0,1.5,2.0,1.5
+sahara,v0-sw-0071,sahara-file-v1,sw,spk-sw-001,setA,paragraph,ok,13396,Leo ni siku ya shule. Nina sare mpya safi. Viatu vyangu ni vipya. Nafurahi kwenda shuleni leo.,"Leo ni siku ya shule, nina sera mpya safi, viatu vyangu ni vipya, nafurahi kwenda shule leo.",,True,0.47058823529411764,0.10638297872340426,0.11764705882352941,0.044444444444444446
+groq,v0-yo-0037,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,6091,Dúró! Wo ọ̀rọ̀ náà mọ́jú kíyèsí àárọ̀ rẹ̀ — look again!," Woro no, mojoki e si. Look again.",,True,1.0,0.6,0.8,0.5686274509803921
+groq,v0-yo-0038,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2601,"Jẹ́ ká gbìyànjú — broken si awọn ìpín kéékéré, ó dára?", Je kagmi yo ju kabri ke si anwe i piki kiri shu dara.,,True,1.0909090909090908,0.6296296296296297,1.2,0.62
+deepgram,v0-yo-0004,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3980,"Dára, jẹ́ ká bẹ̀rẹ̀. Jọwọ, read àdoédoé yìí fún mi.",dara chekabere jowoka literature ifumi,,True,1.0,0.7450980392156863,1.0,0.6808510638297872
+groq,v0-yo-0039,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,1108,Ronu: kí ni àwòrán rẹ̀ trông bii? Draw am lórí ọkàn rẹ!," Rono kini a unorejo, jore lati uri.",,True,1.0,0.7272727272727273,1.0,0.6923076923076923
+deepgram,v0-yo-0005,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,1569,"Jẹ́ ká bẹ̀rẹ̀! Jọ̀wọ́, ka ìtàn yìí káàárọ̀ látọ̀dọ̀ ìbẹ̀rẹ̀.",let's start yookai toei lattiveri,,True,1.0,0.8333333333333334,1.0,0.8245614035087719
+groq,v0-yo-0040,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,1552,Ẹ má bẹ̀rù! Whisper ohun náà kánkán fún mi.," Ema Beru, wispa unofumi.",,True,1.0,0.6744186046511628,1.0,0.6341463414634146
+deepgram,v0-yo-0006,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,1822,Dára! Ǹjẹ́ o lè sọ fún mi kíní ìtàn yẹn túmọ̀ sí?,dara in julie soften mi kidney diamine,,True,0.9166666666666666,0.6938775510204082,0.9166666666666666,0.6595744680851063
+groq,v0-yo-0041,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,6280,"Ó dára, ṣùgbọ́n ẹ̀kọ́ náà jẹ́ ""try again"" — tún gbọ́ó."," O dara, shumon e kono oje, try again, tsubo.",,True,1.0,0.5555555555555556,0.8,0.5208333333333334
+sahara,v0-sw-0072,sahara-file-v1,sw,spk-sw-001,setA,paragraph,ok,7612,Mama anapika kwa moto. Moto unatoa joto kali. Moto unatupa mwanga pia. Sote tunapenda moto jioni.,Mama anapika kwa moto. Moto unatoa joto kali. Moto unatupa mwanga pia na sote tunapenda moto jioni.,,True,0.1875,0.041237113402061855,0.0625,0.03225806451612903
+assemblyai,v0-sw-0048,universal-2,sw,spk-sw-001,setA,word,ok,8573,kiatu,soko,,True,1.0,1.0,1.0,1.0
+groq,v0-yo-0042,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2042,"Ẹ̀yẹ! Jẹ́ ká gbìyànjú lẹ́ẹ̀kan sí i, try again!"," O ya, je kagmi o julek kongsi. Try again.",,True,1.0,0.5957446808510638,0.7777777777777778,0.5
+groq,v0-yo-0043,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,1373,"Ẹ̀yin ọmọ, gbiyanjú mọ́. Ọ̀rọ̀ náà jẹ́ ""aso"", ṣe try again."," Enyo mo, e dvinyo djumo, orono je, asho, try again.",,True,0.8181818181818182,0.5932203389830508,0.8181818181818182,0.5849056603773585
+deepgram,v0-yo-0007,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4823,"Dára, jẹ́ ká gbìyànjú mọ́ lẹ́ẹ̀kan sí i, try again!",dara já cadmiou o jumbo legozi,,True,1.0,0.803921568627451,1.0,0.7708333333333334
+deepgram,v0-yo-0008,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4943,"Dáadáa, slow down kí o sì ka fẹ́ẹ́fẹ́ẹ́ díẹ̀.",odara slow down cosica ferre ferre ferre,,True,0.7777777777777778,0.5777777777777777,0.7777777777777778,0.5813953488372093
+groq,v0-yo-0044,whisper-large-v3,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5386,"Ẹ jẹ ká gbìyànjú mọ̀. Jọwọ, ka gbólóọ̀run náà lẹ́ẹ̀kan sí i."," Eje kachayi mo, jo wo, kakbolu non le konsi.",,True,1.0,0.6166666666666667,1.0,0.6140350877192983
+sahara,v0-sw-0073,sahara-file-v1,sw,spk-sw-001,setA,story,ok,10022,"Jembe lake lilikuwa fupi mno. Mlango wake ulikuwa chini mno. Kitanda chake kilikuwa kifupi mno. Mtu huyu alikuwa mrefu zaidi! Alitengeneza mpini wa jembe mrefu sana. Alitengeneza fremu ndefu za milango. Alitengeneza kitanda kirefu sana. Aliacha nyumba yake na kuishi katika msitu mkubwa. Aliishi kwa miaka mingi, naye alifurahi.","Jembe lake lilikuwa fupi mno, mlango wake ulikuwa chini mno, kitanda chake kilikuwa kifupi mno. Mtu huyu alikuwa mrefu zaidi, alitengeneza pini wa jembe mrefu sana, alitengeneza fremu ndefu za mlango, alitengeneza kitanda kirefu sana. Alitengeneza fremu ndefu za mlango, alitengeneza kitanda kirefu sana. Sana, aliacha nyumba yake na kuishi katika msitu mkubwa. Aliishi kwa miaka mingi naye alifurahi.",,True,0.42857142857142855,0.2682926829268293,0.24489795918367346,0.22955974842767296
+deepgram,v0-yo-0009,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,1657,"Jọ̀wọ́, mú fóònù wá sún mọ́ ẹnu rẹ kí o sọ̀rọ̀ speak clearly!",yoon funua sienure q si solo,,True,1.0,0.7704918032786885,1.0,0.7627118644067796
+assemblyai,v0-sw-0049,universal-2,sw,spk-sw-001,setA,word,ok,10084,shule,shule,,True,0.0,0.0,0.0,0.0
+groq,v0-yo-0045,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,1798,"Gbọ́ dáadáa: ""ọ̀wọ̀."" Ẹ̀yin repeat rẹ̀ — ""ọ̀wọ̀!"""," ʻŋtū, eje kāchūngu ʻitano, sō kini ʻusō?",,True,1.0,0.8979591836734694,1.0,0.9
+groq,v0-yo-0046,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4173,"Ò tó! Ẹ jẹ ká tún wo ìtàn náà, sai? Kí ni ó sọ?"," Odara, shubon orokon wa ti ofu. Jeka try again.",,True,1.0,0.8723404255319149,1.0,0.8372093023255814
+deepgram,v0-yo-0010,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5959,Ṣé o ṣetán? Jẹ́ ká bẹ̀rẹ̀ — ready?,shield tichito jecabear ready,,True,1.0,0.7352941176470589,0.8571428571428571,0.7
+groq,v0-yo-0047,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3821,"Ó dára, ṣùgbọ́n ọ̀rọ̀ kan wà tí o fo. Jẹ́ ká try again!"," Omo mi, udara shubo itoso no u no i pada. Jeka try again.",,True,0.9230769230769231,0.7090909090909091,0.8461538461538461,0.6730769230769231
+deepgram,v0-yo-0011,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2502,Ṣe o rò pé kí ni yóò ṣẹlẹ̀ tó bá tẹ̀lé? Sọ fún mi!,she's a rupeeking usually to battali tell me,,True,1.0,0.7,1.0,0.6875
+groq,v0-yo-0048,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,5210,"Ọmọ mi, ó dára, ṣùgbọ́n ìtọ́sọ̀nà ohùn náà yí padà. Jẹ́ ká try again!"," Koburu, eje ka skip ki ate siwaju.",,True,1.0,0.8405797101449275,1.0,0.8615384615384616
+sahara,v0-sw-0074,sahara-file-v1,sw,spk-sw-001,setA,story,ok,9681,"Tom anabeba tenga la ndizi zilizoiva. Tom anaenda sokoni kuuza ndizi. Lakini hakuna anayenunua ndizi za Tom. ""Ni wanawake pekee ndio wanaouza matunda,"" watu wanasema. Lakini Tom hakati tamaa. Anaita, ""Nunua ndizi zangu tamu!"" Mwanamke mmoja ananunua ndizi zake. Watu wengine wanakuja na kununua ndizi za Tom. Mara, tenga linakuwa tupu, naye Tom anafurahi.","Tom anabeba tanga la ndizi zilizoiva. Tom anaenda sokoni kuuza ndizi, lakini hakuna anayenunua ndizi za Tom. Ni mwanamke 1 ananunua ndizi. Yeye anauza ndizi tamu anaita. Nunua ndizi za Tom. Nunua ndizi zangu tamu. Mwanamke 1 ananunua ndizi zake, watu wengine wanakuja na kununua ndizi za Tom. Naye Tom anafurahi.",,True,0.5,0.29014084507042254,0.35185185185185186,0.257396449704142
+deepgram,v0-yo-0012,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,936,"Ṣe kó o, èmi yóò sọ ó lẹ́ẹ̀kan sí i, fara balẹ̀ gbọ́.",listen a muse solemnly can see,,True,1.0,0.8301886792452831,1.0,0.82
+groq,v0-yo-0049,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,6428,"Kò burú, ẹ jẹ ká skip èyí kí a siwaju."," U dara, shu mwen je ka so uru korekbo. Repeat after me. Amina.",,True,1.3,1.236842105263158,1.3,1.2222222222222223
+groq,v0-yo-0050,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,1174,Ó dára! Ṣùgbọ́n jẹ́ ká sọ orúkọ rẹ̀ pọ̀: repeat after me — Àmíná.," That is good. Oshidada, jeka wo anwen leta bayi, she ebe.",,True,1.0,0.7846153846153846,1.0,0.8333333333333334
+groq,v0-yo-0051,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,928,"Ó dára! O ṣe dáradára. Jẹ ká wo àwọn lẹ́tà báyìí, ṣe é bẹ́ẹ̀?"," ʻŌdara, you have done it. Jeka loka oro pobai.",,True,1.0,0.8032786885245902,1.0,0.7543859649122807
+sahara,v0-sw-0075,sahara-file-v1,sw,spk-sw-001,setA,comprehension_question,ok,3423,Jembe la mtu huyu lilikuwa refu au fupi mwanzoni?,Jembe la mtu huyu lilikuwa mrefu au fupi mwanzoni?,,True,0.1111111111111111,0.02040816326530612,0.1111111111111111,0.020833333333333332
+groq,v0-yo-0052,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,5082,Ó dára! O ti ṣe é! Jẹ ká lọ kà ọ̀rọ̀ pọ̀ báyìí.," Ushi dara dara, je kaka paragraf pa po bayi.",,True,1.0,0.7446808510638298,1.0,0.7272727272727273
+deepgram,v0-yo-0013,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4807,"Dúró díẹ̀, jẹ́ kí n pe olùrànlọ́wọ́ wá, okay?",duro tear jacking p o luraloawa okay,,True,1.0,0.6222222222222222,0.8888888888888888,0.5714285714285714
+groq,v0-yo-0053,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,1052,Ẹ wà o! O ṣe daradara. Jẹ ká ka paragraph papọ̀ bayi!," Ewa, udara pupo, ama aka ito nisi hi. Well done!",,True,1.0,0.8113207547169812,1.0,0.8
+groq,v0-yo-0054,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,5760,Ẹ wà! Ó dára púpọ̀! A máa ń ka ìtàn nísinsìnyí. Well done!," O Dara, amanshi atunye wupa kwo ore. Keep going, iwono nshida ada.",,True,1.0,0.9827586206896551,1.0,0.9444444444444444
+sahara,v0-sw-0076,sahara-file-v1,sw,spk-sw-001,setA,comprehension_question,ok,3661,Kwa nini mtu huyu alitengeneza vitu vipya?,Kwanini mtu huyu alitengeneza vitu vipya?,,True,0.2857142857142857,0.023809523809523808,0.2857142857142857,0.024390243902439025
+groq,v0-yo-0055,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2058,"Ó dára, a máa ń ṣe àtúnyẹ̀wò papọ̀ rẹ̀. Keep going, ìwọ ń ṣe dáadáa!"," U dara ama awanibi, au practice leta bako si.",,True,1.0,0.7647058823529411,1.0,0.734375
+deepgram,v0-yo-0014,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4644,Jẹ́ ká gbìyànjú àdánwò kékeré kan. Ready? Bẹ̀rẹ̀!,check out me your juice y don't hookikireko ready bere,,True,1.25,0.8571428571428571,1.125,0.8043478260869565
+groq,v0-yo-0056,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,6251,"Ó dára, a máa wà níbí. A óò practice lẹ́tà pọ̀ síi!"," Ko po lo po lo po, ama a che anwa o rosi pa po, oke?",,True,1.25,0.8627450980392157,1.1666666666666667,0.8333333333333334
+sahara,v0-sw-0077,sahara-file-v1,sw,spk-sw-001,setA,comprehension_question,ok,3756,Tom alikuwa akiuza nini sokoni?,Tom alikuwa akiuza nini sokoni?,,True,0.0,0.0,0.0,0.0
+deepgram,v0-yo-0015,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4039,"Ó yani lẹ́nu! Well done, ó tọ́ pátápátá!",oyani leno well done o tú pata pata,,True,1.0,0.425,0.875,0.35135135135135137
+groq,v0-yo-0057,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2991,"Kò tọ̀pọ̀lọpọ̀! A máa ń ṣe àwọn ọ̀rọ̀ síi papọ̀, okay?"," O dara, a oma shise kwe lu paragraf, o nsheda ada.",,True,1.0,0.8518518518518519,0.9090909090909091,0.8235294117647058
+assemblyai,v0-sw-0050,universal-2,sw,spk-sw-001,setA,word,ok,23027,mtoto,kitabu,,True,1.0,1.0,1.0,1.0
+deepgram,v0-yo-0016,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,1018,"Ó dára! O ka a dáadáa, [[well done]]!",this is good okay dada,,True,1.0,0.8378378378378378,1.0,0.8
+sahara,v0-sw-0078,sahara-file-v1,sw,spk-sw-001,setA,comprehension_question,ok,5651,Kwa nini watu hawakutaka kununua ndizi za Tom mwanzoni?,Kwa nini watu hawakutaka kununua ndizi za Tom mwanzoni?,,True,0.0,0.0,0.0,0.0
+deepgram,v0-yo-0017,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2190,"Ó dára! O ka ọ̀rọ̀ náà dáadáa, well done!",odara oka orono dada well done,,True,0.8888888888888888,0.4146341463414634,0.7777777777777778,0.34210526315789475
+groq,v0-yo-0058,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3252,"Ó dára, a ó máa ṣiṣẹ pẹ̀lú paragraph. O ń ṣe dáadáa!"," Odara, e je ki ashi atunye u leta diye babo. Ready? Je ki abere.",,True,1.1666666666666667,0.9038461538461539,1.1666666666666667,0.8979591836734694
+deepgram,v0-yo-0018,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4081,"Ó dára púpọ̀! O ka gbogbo ìtàn náà dáadáa, well done!",odara pupo o kagobuin dono da da well done,,True,0.9090909090909091,0.4716981132075472,0.7272727272727273,0.42
+groq,v0-yo-0059,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4147,"Ó dára, ẹ jẹ́ ká ṣe àtúnyẹ̀wò lẹ́tà díẹ̀ papọ̀. Ready? Jẹ́ kí a bẹ̀rẹ̀!"," Eka bo, ni i te jade a kokoi, auwa levu tu dara jufumo.",,True,1.0,0.7746478873239436,1.0,0.7761194029850746
+sahara,v0-sw-0080,sahara-file-v1,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,5938,Ulifanya nini jana baada ya shule?,Unafikaje sokoni ukitoka nyumbani kwenu?,,True,1.0,0.8823529411764706,1.0,0.9090909090909091
+deepgram,v0-yo-0019,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2588,"Ó dára gan! O ka ìtàn náà dáadáa, well done!",odaragon o kai no no dada well done,,True,0.9,0.4090909090909091,0.7,0.34146341463414637
+groq,v0-yo-0060,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3570,"Ẹ káàbọ̀! Ní ìtẹ̀jáde àkọ́kọ́ yìí, a ó wá ìpele tó dára jù fún ọ.", Iji ke kere o Shedara. Keep going. Aferi e pari.,,True,1.0,0.8307692307692308,1.0,0.8225806451612904
+deepgram,v0-yo-0020,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3264,"Àgbàdo! O gbìyànjú, o ṣe é! Good job!",oh mijo ju oxe good job,,True,1.0,0.6216216216216216,0.75,0.5454545454545454
+groq,v0-yo-0061,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,1111,"Ẹ̀yẹ kékeré, o ṣe dára! Keep going, a fẹ́rẹ̀ parí!"," Emma worry your mommy, you don't worry me, you won't share that either.",,True,1.3,1.14,1.3,1.173913043478261
+sahara,v0-sw-0081,sahara-file-v1,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,6336,Unafikaje sokoni ukitoka nyumbani kwenu?,Somo gani unalipenda zaidi na kwa nini?,,True,1.4,0.8,1.4,0.8205128205128205
+deepgram,v0-yo-0021,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2084,"Ẹ̀yẹn ni! O ti ṣe é. Well done, ọmọ mi!",bernie otishe well done or more me,,True,1.0,0.6153846153846154,0.9,0.5428571428571428
+groq,v0-yo-0062,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3637,"Ẹ má worry, ọmọ mi! Ìdánwò ni — ìwọ ń ṣe dáadáa."," E rumaba o momi. Iwole she, no worries rara.",,True,1.0,0.7708333333333334,1.0,0.7674418604651163
+deepgram,v0-yo-0022,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3014,"Ìdáhùn rẹ dára gan-an! Well done, ọmọ mi!",it's un rare d'aracum well done among me,,True,1.0,0.6341463414634146,0.7777777777777778,0.5789473684210527
+groq,v0-yo-0063,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,5149,"Ẹ̀rù má bà ọ, ọmọ mi. Ìwọ lè ṣe é — no worries rárá!"," U dara, u she dada, keep it up, e kowafere pari.",,True,1.0,0.7884615384615384,1.0,0.7659574468085106
+sahara,v0-sw-0082,sahara-file-v1,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,4267,"Somo gani unalipenda zaidi, na kwa nini?",Niambie wakati ulipomsaidia mtu.,,True,1.0,0.75,1.0,0.7368421052631579
+deepgram,v0-yo-0023,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2250,"Ó dára! O gbìyànjú gan-an, mo fẹ́ràn ìyẹn!",that is good but me o juukon move around here,,True,1.25,0.8809523809523809,1.1111111111111112,0.8717948717948718
+groq,v0-yo-0064,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2654,"Ó dára! O ṣe dáadáa, keep it up! Ẹ̀kọ́ wa fẹ́rẹ̀ parí."," O Dara, i biri ton biri i lidye. Shugwa mo trust fo.",,True,1.0,0.7962962962962963,1.0,0.76
+deepgram,v0-yo-0024,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2451,"Ó dára! O ti n ṣe better ju ìbẹ̀rẹ̀ lọ, mo fẹ́ràn rẹ̀!",odarra otensibethajuy berrelo muferonre,,True,1.0,0.6481481481481481,1.0,0.6078431372549019
+sahara,v0-sw-0083,sahara-file-v1,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,3877,Niambie wakati ulipomsaidia mtu.,"1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20.",,True,5.0,2.0625,5.0,1.5161290322580645
+groq,v0-yo-0065,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4967,"Ó dára! Ìbéèrè tó ń bọ̀ yìí le díẹ̀, ṣùgbọ́n mo gbádùn fún ọ!", Eka bo kada. Welcome back. Djeka tesi wajupapo.,,True,1.0,0.8524590163934426,1.0,0.8448275862068966
+assemblyai,v0-sw-0051,universal-2,sw,spk-sw-001,setA,word,ok,23469,kitabu,motu,,True,1.0,0.6666666666666666,1.0,0.6666666666666666
+deepgram,v0-yo-0025,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4148,"Ó dára! O ka pẹ̀lú ìgboyà, well done!",odara oka kuelubhuya well done,,True,0.875,0.4864864864864865,0.75,0.4117647058823529
+sahara,v0-sw-0084,sahara-file-v1,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,4149,Hesabu kwa sauti kuanzia moja hadi ishirini.,"15, jumlisha 7 ni ngapi? Niambie jinsi ulivyopata jibu lako.",,True,1.4285714285714286,1.0681818181818181,1.4285714285714286,1.0465116279069768
+groq,v0-yo-0066,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,5743,"Ẹ káàbọ̀ padà! Welcome back, jẹ́ ká tẹ̀síwájú papọ̀ nhẹ̀!"," Ejeki Agbo, Sorosi, speak up! Iwole she?",,True,1.0,0.8070175438596491,1.0,0.8333333333333334
+deepgram,v0-yo-0026,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4291,"Ó dára! O ṣe àṣìṣe, o sì ṣe àtúnṣe rẹ̀ dára! Well done!",udara oshi ashishi oshi ashishi atunshire dara well done,,True,1.0,0.6363636363636364,0.8461538461538461,0.5882352941176471
+groq,v0-yo-0067,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2078,"Ẹ jẹ́ kí a gbọ́ ọ̀ ẹ! Sọ̀rọ̀ síi, speak up, ìwọ lè ṣe é!"," Ewa, Jekakpada, fukos omo mi anchen kontu dara.",,True,1.0,0.8392857142857143,1.0,0.8269230769230769
+groq,v0-yo-0068,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,5219,"Ẹ wá, jẹ ká padà! Focus, ọmọ mi — a ń ṣe nǹkan tó dára!"," Odara, good job, Lonnie. Iwekika wa mawa lola.",,True,1.0,0.8,1.0,0.7959183673469388
+sahara,v0-sw-0085,sahara-file-v1,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,5469,Kumi na tano jumlisha saba ni ngapi? Niambie jinsi ulivyopata jibu lako.,Niambie jambo lililotokea shuleni wiki hii?,,True,1.0,0.7777777777777778,1.0,0.7714285714285715
+assemblyai,v0-sw-0052,universal-2,sw,spk-sw-001,setA,word,ok,9397,sahani,sahani,,True,0.0,0.0,0.0,0.0
+groq,v0-yo-0069,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2156,Ó dára! Good job lónìí. Ìwé kíkà wa máa ń bá a lọ lọ́la!, It is good. Aotu mpadawa. Alete si wajule ino.,,True,1.0,0.7857142857142857,0.9285714285714286,0.7358490566037735
+deepgram,v0-yo-0027,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3819,"Ìdáhùn rẹ dára gan-an! Wow, o ronú nǹkan tó ṣàánú púpọ̀!",da un red aragon wow oronou com torchon à nupupo,,True,1.0,0.6428571428571429,0.9166666666666666,0.6226415094339622
+groq,v0-yo-0070,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,5098,"Dára, a ó tún padà wá. A lè tẹ̀síwájú lẹ́yìn náà, ọkàn mi!", U dara ama padawani ojotumbo. Thank you omo mi.,,True,1.0,0.7413793103448276,0.9230769230769231,0.7037037037037037
+sahara,v0-sw-0086,sahara-file-v1,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,3659,Niambie jambo lililotokea shuleni wiki hii.,"Unataka kukua nani ukikua?
+",,True,1.0,0.7441860465116279,1.0,0.7380952380952381
+groq,v0-yo-0071,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2320,"Ó dára, a máa padà wá ọjọ́ tó ń bọ̀. O ṣe àgbàdo, ọmọ mi!", I won shida ada. I pili reje level 1. Oda rago.,,True,1.0,0.7719298245614035,1.0,0.7358490566037735
+deepgram,v0-yo-0028,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3255,"Ó dára! Well done, ọmọ mi. Mo gbọ́ ọ dáadáa.",otara well done,,True,1.0,0.75,0.8,0.7
+assemblyai,v0-sw-0053,universal-2,sw,spk-sw-001,setA,word,ok,5430,kalamu,kalamu,,True,0.0,0.0,0.0,0.0
+groq,v0-yo-0072,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,5237,"Ìwọ ń ṣiṣẹ́ dáadáa! Ìpele rẹ jẹ́ level one, ó dára gan-an!"," Eje kia dupe, Oshidara Gonluni, well done!",,True,1.0,0.7586206896551724,1.0,0.7636363636363637
+groq,v0-yo-0073,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,1894,"Ẹ jẹ́ kí a dúpẹ́! O ṣe dára gan-an lónìí, well done!"," Udaro, hao kwa dawasi ya daole wa lojo tumbo. That is good.",,True,1.0,0.9230769230769231,1.0,0.8775510204081632
+sahara,v0-sw-0087,sahara-file-v1,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,5384,Unataka kuwa nini ukikua?,Nielezee mchezo unaocheza na marafiki zako.,,True,1.5,1.4,1.5,1.4166666666666667
+groq,v0-yo-0074,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,5223,Ó dàárọ̀! A ó padà wá ṣe àdáwọlé wa lọ́jọ́ tó ń bọ̀. Ó dára!," Hmm, mi u bo. Jo wo sole e kansi.",,True,1.0,0.8166666666666667,1.0,0.8245614035087719
+deepgram,v0-yo-0029,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5427,Wo lẹ́tà yìí. Ó ń ṣe ohun wo?,wo le taí shi,,True,1.0,0.7586206896551724,0.875,0.7037037037037037
+groq,v0-yo-0075,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,6370,"Hmm,미 mi ò gbọ́ ọ̀. Jọ̀wọ́ sọ lẹ́ẹ̀kan sí i!"," ุੋาে ม་฿ญ, ซาো฿ญ ม་฿ญ",,True,1.0,0.9090909090909091,1.0,0.8571428571428571
+groq,v0-yo-0076,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,1124,"Ẹ sọ lẹ́ẹ̀kan síi, sọ̀rọ̀ díẹ̀ louder!"," Ejo wa sumofunu, aru kukowo wa.",,True,1.0,0.8421052631578947,1.0,0.8611111111111112
+sahara,v0-sw-0088,sahara-file-v1,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,3782,"Nieleze mchezo unaocheza na marafiki zako, na kanuni zake.","Kanuni zake.
+",,True,0.8888888888888888,0.8275862068965517,0.7777777777777778,0.8035714285714286
+groq,v0-yo-0077,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,6093,"Ẹ jọ̀ọ́, wá sún mọ́ fóònù, ariwo púpọ̀ wà!", Ejo saw i down ray again.,,True,1.0,0.7857142857142857,1.0,0.7692307692307693
+deepgram,v0-yo-0030,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2136,"Jẹ́ kí a darapọ̀ mọ́ ara wọn: ṣe àkójọpọ̀, sọ wọ́n papọ̀!",checker dak por muarang add them together suon a papo,,True,1.0,0.7192982456140351,1.0,0.7037037037037037
+groq,v0-yo-0078,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,1711,"Ẹ jọ̀ọ́, sọ ìdáhùn rẹ mọ́ again."," Duro die, Jekin Paria saw mi.",,True,1.0,0.8125,1.0,0.8666666666666667
+deepgram,v0-yo-0031,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,1473,Wo lẹ́tà àkọ́kọ́ ọ̀rọ̀ yẹn. Èwo ni?,wo let her a cocorogne i uni,,True,1.0,0.7142857142857143,0.8571428571428571,0.696969696969697
+groq,v0-yo-0079,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,1543,"Dúró díẹ̀, jẹ́ kí n parí àsọ mi!"," Shiw so kwe kat, i an YouTube-o da-da.",,True,1.0,1.03125,1.25,0.9666666666666667
+deepgram,v0-yo-0032,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,1545,Wo ọ̀rọ̀ yìí dára! Ó dà bí ọ̀rọ̀ tí o mọ̀ tẹ́lẹ̀.,we owe yi very well uda piorou que o motelé,,True,0.9166666666666666,0.7346938775510204,0.9166666666666666,0.7021276595744681
+sahara,v0-sw-0089,sahara-file-v1,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4137,Hebu sasa soma syllable hii kwa sauti.,Hebu soma sasa syllable hii kwa sauti.,,True,0.2857142857142857,0.10526315789473684,0.2857142857142857,0.10810810810810811
+groq,v0-yo-0080,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,6113,"Ṣé o sọ pé ""cat""? Ìyẹn ni ohun tó gbọ́ dáadáa.", E wole ibyanjume tatikunde lori item i.,,True,1.0,0.8043478260869565,1.0,0.8095238095238095
+assemblyai,v0-sw-0054,universal-2,sw,spk-sw-001,setA,word,ok,12312,kikapu,ki,,True,1.0,0.6666666666666666,1.0,0.6666666666666666
+deepgram,v0-yo-0033,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2479,Wo ó! Wo àwọn ọ̀rọ̀ mìíràn nínú gbolohun náà — wọn lè ràn ọ́ lọ́wọ́.,look wo i want to rumino ni nu bulum no only rumin all over,,True,1.0,0.7058823529411765,1.0,0.671875
+groq,v0-yo-0081,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2818,"Ẹ wọlé, ìgbìyànjú mẹ́ta ti kùnlẹ̀ lórí item yìí.", I shuru e rowa. Session koletes wajubayi.,,True,1.0,0.8541666666666666,1.0,0.8695652173913043
+deepgram,v0-yo-0034,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2211,Rò ó! Kí ló ṣẹlẹ̀ nínú ìtàn wa? Èyí tó bá ìtàn mu ni ó tọ̀.,woo kilos celerino y ton wa e toba y ton muni right one,,True,1.0,0.6610169491525424,0.9375,0.6428571428571429
+groq,v0-yo-0082,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,1739,Ìṣòro ẹ̀rọ wà. Session kò lè tẹ̀síwájú báyìí., Datu is fain. Mabinu. E ni turiru ala wanbo ni bayi.,,True,1.375,0.9555555555555556,1.375,0.9534883720930233
+sahara,v0-sw-0090,sahara-file-v1,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,5216,Hebu jaribu kuisoma tena. One more time!,Hebu jaribu kusoma tena 1 more time.,,True,0.5714285714285714,0.15,0.2857142857142857,0.10526315789473684
+deepgram,v0-yo-0035,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,1875,Rántí ohun tó ṣẹlẹ̀ ní ìbẹ̀rẹ̀ ìtàn wa. Think back!,ran tio unto sele ni tan wa think back,,True,1.0,0.5098039215686274,0.7,0.4489795918367347
+groq,v0-yo-0083,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2116,"Ó dára, màá bínú. Ẹni tó lè ràn ọ́ lọ́wọ́ ń bọ̀ ní báyìí."," Juro, eni konwa la terno onlo wo nao.",,True,1.0,0.7192982456140351,1.0,0.7777777777777778
+assemblyai,v0-sw-0055,universal-2,sw,spk-sw-001,setA,word,ok,6896,ndugu,kapu,,True,1.0,0.8,1.0,0.8
+deepgram,v0-yo-0036,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2094,"Jẹ ká gbiyanju lẹ́ẹ̀kan sí i. Sọ ohun kọ̀ọ̀kan lọ́ra lọ́ra, slowly!",jack had been o julet con si son con con slowly,,True,1.0,0.7014925373134329,0.9166666666666666,0.6875
+groq,v0-yo-0084,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,6192,"Dúró, ènìyàn kan wá láti ràn ọ́ lọ́wọ́ now.", Jekia Ri ati nyo ikweli ridin leviketa e fawosi.,,True,1.0,0.9069767441860465,1.0,0.926829268292683
+sahara,v0-sw-0091,sahara-file-v1,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,5012,"Soma polepole, take your time, usikimbilie maneno.",Asante kwa maelekezo. Tafadhali weka transcript unayotaka nirekebishe.,,True,1.1428571428571428,1.12,1.1428571428571428,1.1063829787234043
+deepgram,v0-yo-0037,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2603,Dúró! Wo ọ̀rọ̀ náà mọ́jú kíyèsí àárọ̀ rẹ̀ — look again!,duro war o no mucho que sí look again,,True,0.9090909090909091,0.6,0.8,0.5490196078431373
+groq,v0-yo-0085,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3796,Jẹ́ kí a jẹrìí: a ti yàn ipele reading level kẹta. Ẹ fọwọ́ sí i?," Ijoko yitikpari, omono akpari idongo meta. Ose seko romeri tutu, sko retijade.",,True,1.0,0.984375,1.0,0.9344262295081968
+assemblyai,v0-sw-0056,universal-2,sw,spk-sw-001,setA,word,ok,6730,rafiki,ndugu,,True,1.0,1.0,1.0,1.0
+deepgram,v0-yo-0038,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4404,"Jẹ́ ká gbìyànjú — broken si awọn ìpín kéékéré, ó dára?",jack at meals to cabbreaker sea and wait nikikiri shoo dara,,True,1.0,0.7777777777777778,1.1,0.78
+sahara,v0-sw-0092,sahara-file-v1,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4758,Uko ready? Twende!,"Okay, ready twende.
+",,True,1.0,0.4444444444444444,0.3333333333333333,0.1875
+groq,v0-yo-0086,whisper-large-v3,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,1716,"Ìjókòó yìí ti parí. Ọmọ náà pari ìdánwò mẹ́ta, ó ṣẹṣẹ kọ ọrọ mẹ́rin tuntun, score rẹ̀ jẹ́ ìdajì."," Ikepele iti pari, mu omoto kon wa sibi.",,True,1.0,0.8020833333333334,0.9473684210526315,0.8043478260869565
+deepgram,v0-yo-0039,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2860,Ronu: kí ni àwòrán rẹ̀ trông bii? Draw am lórí ọkàn rẹ!,ronnu chi ne honoregio drore la ziuri,,True,1.0,0.7272727272727273,1.0,0.6730769230769231
+groq,v0-yo-b-0001,whisper-large-v3,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,3735,Sọ fún mi nípa ilé-ìwé rẹ., Sofumi nipa ile iwe ire.,,True,1.0,0.5,1.0,0.44
+sahara,v0-sw-0093,sahara-file-v1,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4564,"Hongera! Good job, umeitamka vizuri!","Hongera good job.
+",,True,1.0,0.5833333333333334,0.4,0.5151515151515151
+groq,v0-yo-b-0002,whisper-large-v3,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,4993,Kí ni o ṣe lánàá lẹ́yìn ilé-ìwé?, Ki ni o shielano le nyi le iwe?,,True,0.8571428571428571,0.59375,0.75,0.5483870967741935
+assemblyai,v0-sw-0057,universal-2,sw,spk-sw-001,setA,word,ok,6901,chakula,rafiki,,True,1.0,0.8571428571428571,1.0,0.8571428571428571
+groq,v0-yo-b-0003,whisper-large-v3,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,1610,Báwo ni o ṣe ń lọ sí ọjà láti ilé?, Ba o nyoshen losi o djalati le.,,True,0.9,0.6176470588235294,0.9,0.5757575757575758
+deepgram,v0-yo-0040,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4620,Ẹ má bẹ̀rù! Whisper ohun náà kánkán fún mi.,emma beryl whisper uno for me,,True,1.0,0.5813953488372093,0.8888888888888888,0.5609756097560976
+groq,v0-yo-b-0004,whisper-large-v3,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,4717,"Ẹ̀kọ́ wo ni o fẹ́ràn jùlọ, kí ló sì dé?"," E ko wini o feno julo, ki lo si de?",,True,0.9,0.46153846153846156,0.9,0.4594594594594595
+groq,v0-yo-b-0005,whisper-large-v3,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,5281,Sọ fún mi nípa àkókò kan tí o ràn ẹnìkan lọ́wọ́.," Sofou mwenikwa akoko o kon, ti yoron e ni kon lawo.",,True,1.0,0.625,1.0,0.5957446808510638
+sahara,v0-sw-0094,sahara-file-v1,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4176,Umesoma kifungu vizuri sana. Great job!,"Umeitamka vizuri.
+",,True,1.0,0.6666666666666666,0.8333333333333334,0.6756756756756757
+groq,v0-yo-b-0006,whisper-large-v3,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,1524,Ka ní ohùn sókè láti ọ̀kan dé ogún.," Kani o nsuke, lati o kon de o gun.",,True,1.125,0.45714285714285713,1.125,0.4117647058823529
+assemblyai,v0-sw-0058,universal-2,sw,spk-sw-001,setA,word,ok,4198,samaki,shakula,,True,1.0,0.8333333333333334,1.0,0.8333333333333334
+deepgram,v0-yo-0041,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3899,"Ó dára, ṣùgbọ́n ẹ̀kọ́ náà jẹ́ ""try again"" — tún gbọ́ó.",odora je bon et qu'on n'ose try again tu bois,,True,1.0,0.6111111111111112,0.8,0.5625
+groq,v0-yo-b-0007,whisper-large-v3,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,5661,Mélòó ni mẹ́ẹ̀ẹ́dógún kún èje? Sọ fún mi bí o ṣe rí ìdáhùn náà.," Meloni me do gungun eje, so fumi biyoshe ri i da un no.",,True,1.0,0.5714285714285714,1.0,0.5409836065573771
+sahara,v0-sw-0095,sahara-file-v1,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4149,Good try! Umejitahidi; tujaribu tena pamoja.,Umesoma kifungu vizuri sana. Great job.,,True,1.0,0.8181818181818182,1.0,0.8048780487804879
+groq,v0-yo-b-0008,whisper-large-v3,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,1447,Sọ fún mi ohun kan tó ṣẹlẹ̀ ní ilé-ìwé ní ọ̀sẹ̀ yìí.," Shofumi, o nukantu shele ni lewi ni yoseyi.",,True,1.0,0.5961538461538461,1.0,0.5686274509803921
+deepgram,v0-yo-0042,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4002,"Ẹ̀yẹ! Jẹ́ ká gbìyànjú lẹ́ẹ̀kan sí i, try again!",oh yeah check out me or juliet can see try again,,True,1.1111111111111112,0.6808510638297872,1.0,0.6818181818181818
+groq,v0-yo-b-0009,whisper-large-v3,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,4969,Kí ni o fẹ́ ṣe nígbà tí o bá dàgbà?," Kin i ofeshe, niba aji oba adaba.",,True,1.0,0.6571428571428571,1.0,0.5882352941176471
+assemblyai,v0-sw-0059,universal-2,sw,spk-sw-001,setA,word,ok,4988,kikombe,samaki,,True,1.0,1.0,1.0,1.0
+groq,v0-yo-b-0010,whisper-large-v3,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,2246,"Ṣàlàyé eré kan tí o ń ṣeré pẹ̀lú àwọn ọ̀rẹ́ rẹ, àti òfin rẹ̀.", Sha la ye i re konti unshi o re kwe luwa un re re a ti o fin re.,,True,1.2857142857142858,0.7049180327868853,1.2857142857142858,0.6949152542372882
+sahara,v0-sw-0096,sahara-file-v1,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,5318,Unazidi kufanya vizuri. Keep it up!,"Good try, umejitahidi. Tujaribu tena pamoja.",,True,1.0,1.0,1.0,0.9696969696969697
+groq,v0-yo-child-a-yo-ls-001,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,4213,ba, ത,,True,1.0,1.0,1.0,1.0
+groq,v0-yo-child-a-yo-ls-002,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,4370,be, B,,True,1.0,1.0,1.0,0.5
+groq,v0-yo-child-a-yo-ls-003,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,4425,bẹ, ব,,True,1.0,1.0,1.0,1.0
+assemblyai,v0-sw-0060,universal-2,sw,spk-sw-001,setA,word,ok,4887,mvua,kikombe,,True,1.0,1.75,1.0,1.75
+groq,v0-yo-child-a-yo-ls-004,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,949,bi, B,,True,1.0,1.0,1.0,0.5
+sahara,v0-sw-0097,sahara-file-v1,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4680,Soma sentensi yote; maneno mengine yatakupa clue.,Unazidi kufanya vizuri. Keep it up.,,True,1.0,0.7959183673469388,1.0,0.8085106382978723
+groq,v0-yo-child-a-yo-ls-005,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,4777,bo, Boop!,,True,1.0,2.5,1.0,1.0
+groq,v0-yo-child-a-yo-ls-006,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,1134,bọ, ਸ,,True,1.0,1.0,1.0,1.0
+assemblyai,v0-sw-0061,universal-2,sw,spk-sw-001,setA,word,ok,4795,jua,mvua,,True,1.0,0.6666666666666666,1.0,0.6666666666666666
+groq,v0-yo-child-a-yo-ls-007,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,4120,bu, Bo,,True,1.0,1.5,1.0,0.5
+deepgram,v0-yo-0043,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,10761,"Ẹ̀yin ọmọ, gbiyanjú mọ́. Ọ̀rọ̀ náà jẹ́ ""aso"", ṣe try again.",eyomo edvy oyumo oro nog ye achio try again,,True,0.9090909090909091,0.6271186440677966,0.8181818181818182,0.5849056603773585
+groq,v0-yo-child-a-yo-ls-008,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,4392,ma, Ma,,True,1.0,1.0,0.0,0.0
+sahara,v0-sw-0098,sahara-file-v1,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4886,Angalia neno hilo tena kwa makini. Take your time.,"Ndio, nilifika Dar es Salaam tarehe 15 Januari 2023, nikaenda moja kwa moja kwenye ofisi za Tanesco. Nilikutana na Bw. John Mwakyembe ambaye alinisaidia sana kuelewa mchakato wa kuomba umeme mpya. Aliniambia nitume maombi yangu kupitia mfumo wa online na nilifanya hivyo tarehe 16 Januari 2023. Baada ya siku 3, nilipokea ujumbe kutoka Tanesco wakiniarifu kuwa maombi yangu yamepokelewa na yatafanyiwa kazi ndani ya siku 7.",,True,7.222222222222222,7.58,7.222222222222222,7.729166666666667
+groq,v0-yo-child-a-yo-ls-009,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,3373,me, ਸੀ,,True,1.0,1.5,1.0,1.0
+assemblyai,v0-sw-0062,universal-2,sw,spk-sw-001,setA,word,ok,4592,mwezi,jua,,True,1.0,1.0,1.0,1.0
+groq,v0-yo-child-a-yo-ls-010,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,4002,mẹ, ਸੇ,,True,1.0,1.5,1.0,1.0
+groq,v0-yo-child-a-yo-ls-011,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,4293,mi, ਸੀ,,True,1.0,1.5,1.0,1.0
+deepgram,v0-yo-0044,nova-3/multi,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,6651,"Ẹ jẹ ká gbìyànjú mọ̀. Jọwọ, ka gbólóọ̀run náà lẹ́ẹ̀kan sí i.",ella catchá emo yo wo cat bolu no le consigo,,True,1.0,0.75,1.0,0.7368421052631579
+groq,v0-yo-child-a-yo-ls-012,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,2230,mo, ਸੋ,,True,1.0,1.5,1.0,1.0
+assemblyai,v0-sw-0063,universal-2,sw,spk-sw-001,setA,word,ok,4654,mchezo,meza,,True,1.0,0.5,1.0,0.5
+groq,v0-yo-child-a-yo-ls-013,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,4311,mọ, Mo,,True,1.0,1.5,1.0,0.5
+groq,v0-yo-child-a-yo-ls-014,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,4429,mu, ਸੇ,,True,1.0,1.5,1.0,1.0
+sahara,v0-sw-0099,sahara-file-v1,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,9027,Ulikaribia! Sikiliza sauti ya herufi hii: mmm. Try again.,Angalia neno hilo tena kwa makini. Take your time.,,True,1.0,0.7894736842105263,1.0,0.7924528301886793
+groq,v0-yo-child-a-yo-ls-015,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,4133,na, No.,,True,1.0,2.0,1.0,0.5
+deepgram,v0-yo-0045,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4524,"Gbọ́ dáadáa: ""ọ̀wọ̀."" Ẹ̀yin repeat rẹ̀ — ""ọ̀wọ̀!""",o tu eje ka chung hugo e tonó so k n i o s o,,True,1.875,0.8571428571428571,2.142857142857143,0.925
+groq,v0-yo-child-a-yo-ls-016,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,1009,ne, Ni,,True,1.0,1.5,1.0,0.5
+groq,v0-yo-child-a-yo-ls-017,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,4228,nẹ, ਸ,,True,1.0,1.0,1.0,1.0
+assemblyai,v0-sw-0064,universal-2,sw,spk-sw-001,setA,word,ok,4402,mwalimu,chezu,,True,1.0,0.8571428571428571,1.0,0.8571428571428571
+groq,v0-yo-child-a-yo-ls-018,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,4596,ni, Ni,,True,1.0,1.0,0.0,0.0
+deepgram,v0-yo-0046,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3245,"Ò tó! Ẹ jẹ ká tún wo ìtàn náà, sai? Kí ni ó sọ?",odora chuban or oconwa a tiofu jeca try again,,True,1.0,0.8723404255319149,1.0,0.9069767441860465
+sahara,v0-sw-0100,sahara-file-v1,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,3826,Sikiliza: “shule.” Sasa repeat after me: “shule.”,"Ulikaribia.
+",,True,1.0,0.8775510204081632,1.0,0.8780487804878049
+groq,v0-yo-child-a-yo-ls-019,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,1506,no, Low,,True,1.0,1.5,1.0,1.0
+groq,v0-yo-child-a-yo-ls-021,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,4013,nu, রু,,True,1.0,1.5,1.0,1.0
+groq,v0-yo-child-a-yo-ls-022,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,5533,la, লা,,True,1.0,1.5,1.0,1.0
+groq,v0-yo-child-a-yo-ls-023,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,4277,le, রে,,True,1.0,1.5,1.0,1.0
+deepgram,v0-yo-0047,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3367,"Ó dára, ṣùgbọ́n ọ̀rọ̀ kan wà tí o fo. Jẹ́ ká try again!",o mummy udara should mo y torso no hu no yi pada je kan try again,,True,1.1538461538461537,0.8,1.0769230769230769,0.7884615384615384
+groq,v0-yo-child-a-yo-ls-024,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,803,lẹ, ଱ে,,True,1.0,1.5,1.0,1.0
+assemblyai,v0-sw-0065,universal-2,sw,spk-sw-001,setA,word,ok,6701,simba,malimo,,True,1.0,1.0,1.0,1.0
+deepgram,v0-yo-0048,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,1906,"Ọmọ mi, ó dára, ṣùgbọ́n ìtọ́sọ̀nà ohùn náà yí padà. Jẹ́ ká try again!",coburu é de cask keep qui a tested o adubo,,True,1.0,0.8115942028985508,1.0,0.8
+groq,v0-yo-child-a-yo-ls-025,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,4524,li, ฤี,,True,1.0,1.5,1.0,1.0
+sahara,v0-sw-0101,sahara-file-v1,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,5648,Ulikaribia! Umeruka neno moja. Read tena bila kuliacha.,"Sikiliza sauti ya hei again.
+",,True,1.0,0.7454545454545455,1.0,0.7307692307692307
+groq,v0-yo-child-a-yo-ls-026,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,4571,lo, Nou,,True,1.0,1.5,1.0,1.0
+deepgram,v0-yo-0049,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,1611,"Kò burú, ẹ jẹ ká skip èyí kí a siwaju.",odara shumujeka sore orukorekbo repeat after me amina,,True,1.0,1.105263157894737,1.0,1.1666666666666667
+groq,v0-yo-child-a-yo-ls-027,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,1875,lọ, Lo,,True,1.0,1.5,1.0,0.5
+deepgram,v0-yo-0050,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,1896,Ó dára! Ṣùgbọ́n jẹ́ ká sọ orúkọ rẹ̀ pọ̀: repeat after me — Àmíná.,that is good,,True,1.0,0.9230769230769231,1.0,0.9166666666666666
+groq,v0-yo-child-a-yo-ls-028,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,4491,lu, লু,,True,1.0,1.5,1.0,1.0
+assemblyai,v0-sw-0066,universal-2,sw,spk-sw-001,setA,word,ok,4277,ndege,simba,,True,1.0,1.0,1.0,1.0
+groq,v0-yo-child-a-yo-ls-029,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,4394,ka, Қа,,True,1.0,1.5,1.0,1.0
+deepgram,v0-yo-0051,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,1207,"Ó dára! O ṣe dáradára. Jẹ ká wo àwọn lẹ́tà báyìí, ṣe é bẹ́ẹ̀?",odora you have done it,,True,1.0,0.819672131147541,1.0,0.8070175438596491
+groq,v0-yo-child-a-yo-ls-030,whisper-large-v3,yo,spk-yo-003,setA,syllable,ok,4213,ki, কী,,True,1.0,1.5,1.0,1.0
+sahara,v0-sw-0102,sahara-file-v1,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,5085,Hongera! Sasa tunaendelea kusoma maneno. Ready? Twende!,Sikiliza shule sasa. Repeat after me: shule.,,True,1.0,0.8,1.0,0.7647058823529411
+groq,v0-yo-child-a-yo-p-001,whisper-large-v3,yo,spk-yo-004,setA,paragraph,ok,2989,Ìyá ń dáná fún oúnjẹ. Iná ń jó gbóná gbóná. Iná ń fún ni ìmọ́lẹ̀. Gbogbo wa fẹ́ràn iná gan-an.," I ya unda no funje, ino ndro bunogbuno, ino funi ni mole, bubu wafero inogo.",,True,0.95,0.6063829787234043,0.9523809523809523,0.5666666666666667
+deepgram,v0-yo-0052,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3610,Ó dára! O ti ṣe é! Jẹ ká lọ kà ọ̀rọ̀ pọ̀ báyìí.,oché dara dara jeca ka paragraph papobaí,,True,1.0,0.7659574468085106,1.0,0.75
+assemblyai,v0-sw-0067,universal-2,sw,spk-sw-001,setA,word,ok,4475,ng'ombe,ndegi,,True,1.0,0.8571428571428571,1.0,0.8571428571428571
+sahara,v0-sw-0103,sahara-file-v1,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,5247,Tutaendelea kufanya mazoezi ya sauti za herufi. You’re doing well!,"Ulikaribia, umeruka neno 1. Rate tena bila kulia.",,True,1.0,0.803030303030303,1.0,0.765625
+deepgram,v0-yo-0053,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2955,Ẹ wà o! O ṣe daradara. Jẹ ká ka paragraph papọ̀ bayi!,ewa udora pupo ama akar ito nisii well done,,True,1.0,0.8113207547169812,1.0,0.78
+groq,v0-yo-child-a-yo-p-002,whisper-large-v3,yo,spk-yo-004,setA,paragraph,ok,3760,Mo fẹ́ràn kíka ìwé gidigidi. Ìyá àti bàbá mi ṣiṣẹ́. Mo ka ìwé fúnra mi. Kíka jẹ́ ìdùnnú fún mi., mo fenro ki ka iwe gidigidin i a tsi baba min shise mo ka iwe funra mi ki ka je idunu funri,,True,1.05,0.45263157894736844,0.9,0.3956043956043956
+assemblyai,v0-sw-0068,universal-2,sw,spk-sw-001,setA,word,ok,3957,mbuzi,ngombi,,True,1.0,1.0,1.0,1.0
+deepgram,v0-yo-0054,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,1457,Ẹ wà! Ó dára púpọ̀! A máa ń ka ìtàn nísinsìnyí. Well done!,odora aman shay atunye upapore keep going y warn on shaydar da,,True,1.0,0.896551724137931,1.0,0.9444444444444444
+sahara,v0-sw-0104,sahara-file-v1,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,3256,"Umefanya vizuri sana! Keep going, tunakaribia mwisho!","Hongera, sasa tunaendelea kusoma maneno ""ready"". Twende.",,True,1.0,0.8679245283018868,1.0,0.82
+deepgram,v0-yo-0055,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2001,"Ó dára, a máa ń ṣe àtúnyẹ̀wò papọ̀ rẹ̀. Keep going, ìwọ ń ṣe dáadáa!",odora ama a wanibi i will practice later bakonsi,,True,0.9333333333333333,0.7647058823529411,0.9333333333333333,0.765625
+groq,v0-yo-child-a-yo-s-001-q1,whisper-large-v3,yo,spk-yo-004,setA,comprehension_question,ok,3026,Ǹjẹ́ ọkọ́ ọkùnrin náà gùn tàbí kúrú ní ìbẹ̀rẹ̀ ìtàn náà?, Nje oko okurino okuru tabigun ni ibere ito no. Be ni oko okurino okurini ibere ito.,,True,1.4545454545454546,1.1607142857142858,1.4545454545454546,1.1272727272727272
+deepgram,v0-yo-0056,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3167,"Ó dára, a máa wà níbí. A óò practice lẹ́tà pọ̀ síi!",coke bolop bolop a marcher en moins aussi par por okay,,True,1.0,0.9019607843137255,1.0,0.9583333333333334
+groq,v0-yo-child-a-yo-s-001-q2,whisper-large-v3,yo,spk-yo-004,setA,comprehension_question,ok,3551,Kí nìdí tí ọkùnrin náà fi ṣe ohun èlò tuntun fún ara rẹ̀?, Ni niditi okorino ofishe unwe ilo toto funarare. Ni torikwe o gaju.,,True,1.0,0.8596491228070176,1.0,0.8214285714285714
+assemblyai,v0-sw-0069,universal-2,sw,spk-sw-001,setA,word,ok,6902,kuku,buzi kuku,,True,1.0,1.25,1.0,1.25
+deepgram,v0-yo-0057,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2750,"Kò tọ̀pọ̀lọpọ̀! A máa ń ṣe àwọn ọ̀rọ̀ síi papọ̀, okay?",odora a uma shisha per le paragraphe onde she da da,,True,1.0,0.8888888888888888,1.0,0.9019607843137255
+sahara,v0-sw-0105,sahara-file-v1,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,9004,Usiwe na wasiwasi; tuko pamoja. Ready? Tuanze!,"Tutaendelea kufanya mazoezi ya sauti za ""here's doing well.""",,True,1.2857142857142858,1.0434782608695652,1.2857142857142858,1.0238095238095237
+assemblyai,v0-sw-0070,universal-2,sw,spk-sw-001,setA,word,ok,5277,asante,asante,,True,0.0,0.0,0.0,0.0
+deepgram,v0-yo-0058,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4355,"Ó dára, a ó máa ṣiṣẹ pẹ̀lú paragraph. O ń ṣe dáadáa!",odora ejeki ashi atunye uleta de epapo ready jeki abere,,True,1.0,0.8653846153846154,1.0,0.8775510204081632
+groq,v0-yo-child-a-yo-s-001,whisper-large-v3,yo,spk-yo-004,setA,story,ok,7788,"Ọkọ́ rẹ̀ kúrú jù. Ọ̀nà ilẹ̀kùn rẹ̀ kéré jù. Ibùsùn rẹ̀ kúrú jù pẹ̀lú. Ọkùnrin yìí ga jù! Ó ṣe ọwọ ọkọ́ gígùn púpọ̀ kan. Ó ṣe ara ilẹ̀kùn gíga púpọ̀. Ó ṣe ibùsùn gígùn púpọ̀ kan. Ó kúrò ní ilé rẹ̀, ó sì gbé ní igbó ńlá kan. Ó gbé fún ọdún púpọ̀, ó sì láyọ̀.", Oko re kurudjum. Ono elekun re keredjum. Ibu sun re kurudjum pelum. Okun ri igadjum. Ose awo oko gigun pupo kon. Ose ara elekun gigak pupo. Ose ibu sun gigun pupo kon. Okuro ni ile re. Osi be ni ibo lan ko. Okbe fun odidio dun pupo. Osi la ibo.,,True,0.9824561403508771,0.53125,0.9824561403508771,0.5387755102040817
+deepgram,v0-yo-0059,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4694,"Ó dára, ẹ jẹ́ ká ṣe àtúnyẹ̀wò lẹ́tà díẹ̀ papọ̀. Ready? Jẹ́ kí a bẹ̀rẹ̀!",ekabo ni itajade akoko i i o a leve tu dara du foam,,True,1.0,0.8169014084507042,1.0,0.8208955223880597
+groq,v0-yo-child-a-yo-s-002-q1,whisper-large-v3,yo,spk-yo-004,setA,comprehension_question,ok,3916,Kí ni Adé gbìn sínú ọgbà rẹ̀?, Kin ya deg ni sinu ogbare. E fwa tege.,,True,1.1428571428571428,1.0,1.1428571428571428,0.9285714285714286
+sahara,v0-sw-0106,sahara-file-v1,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,7835,"Karibu tena! Welcome back, tuendelee tulipoishia.",Umefanya vizuri sana. Keep going. Tunakaribia mwisho.,,True,1.1666666666666667,0.8775510204081632,1.1666666666666667,0.8695652173913043
+groq,v0-yo-child-a-yo-s-002-q2,whisper-large-v3,yo,spk-yo-004,setA,comprehension_question,ok,3133,Kí nìdí tí ẹbí Adé fi láyọ̀ ní òpin ìtàn náà?, Kin e diti ebi a de filayo ni o pme ito no. Kosida mfun ibewe e.,,True,1.4545454545454546,1.0222222222222221,1.4545454545454546,0.9545454545454546
+deepgram,v0-yo-0060,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,5427,"Ẹ káàbọ̀! Ní ìtẹ̀jáde àkọ́kọ́ yìí, a ó wá ìpele tó dára jù fún ọ.",ikeke reo cheddara keep going afere pari,,True,1.0,0.8461538461538461,1.0,0.8387096774193549
+groq,v0-yo-child-a-yo-w-011,whisper-large-v3,yo,spk-yo-004,setA,word,ok,2045,ọwọ́, Awa,,True,1.0,1.0,1.0,0.75
+groq,v0-yo-child-a-yo-w-019,whisper-large-v3,yo,spk-yo-004,setA,word,ok,2201,ọjà, Oja,,True,1.0,1.0,1.0,0.6666666666666666
+deepgram,v0-yo-0061,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3412,"Ẹ̀yẹ kékeré, o ṣe dára! Keep going, a fẹ́rẹ̀ parí!",emma worry on mummy you don't weenie you want shade at that,,True,1.2,0.96,1.2,0.9782608695652174
+groq,v0-yo-child-a-yo-w-021,whisper-large-v3,yo,spk-yo-004,setA,word,ok,4569,odò, Odo,,True,1.0,1.0,1.0,0.3333333333333333
+groq,v0-yo-child-a-yo-w-022,whisper-large-v3,yo,spk-yo-004,setA,word,ok,5321,oòrùn, ਹোর,,True,1.0,1.0,2.0,1.0
+sahara,v0-sw-0107,sahara-file-v1,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,8638,"Asante sana kwa kazi yako nzuri leo, well done!","Karibu tena. Welcome, tuendelee tulipoishia.",,True,1.0,0.851063829787234,1.0,0.8
+assemblyai,v0-sw-0071,universal-2,sw,spk-sw-001,setA,paragraph,ok,14984,Leo ni siku ya shule. Nina sare mpya safi. Viatu vyangu ni vipya. Nafurahi kwenda shuleni leo.,leo ni siku ya shule nina sera mpya safi vyatuvyangu ni vipya na furayi kuenda shule leo,,True,0.7647058823529411,0.18085106382978725,0.4117647058823529,0.1
+groq,v0-yo-child-a-yo-w-023,whisper-large-v3,yo,spk-yo-004,setA,word,ok,2046,òṣùpá, Usuk ba?,,True,2.0,1.8,2.0,1.4
+deepgram,v0-yo-0062,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3838,"Ẹ má worry, ọmọ mi! Ìdánwò ni — ìwọ ń ṣe dáadáa.",erumaba o mummy igual es she no worries rara,,True,1.0,0.8333333333333334,1.0,0.8372093023255814
+groq,v0-yo-child-a-yo-w-024,whisper-large-v3,yo,spk-yo-004,setA,word,ok,4761,àpò, ʻAqw.,,True,1.0,2.0,1.0,1.3333333333333333
+sahara,v0-sw-0108,sahara-file-v1,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,5254,"Samahani, sikusikia. Please jaribu tena.","Samahani, sikusikia. Tafadhali jaribu tena.",,True,0.2,0.2,0.2,0.21621621621621623
+groq,v0-yo-child-a-yo-w-025,whisper-large-v3,yo,spk-yo-004,setA,word,ok,1344,àga, আগ,,True,1.0,1.0,1.0,1.0
+deepgram,v0-yo-0063,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2683,"Ẹ̀rù má bà ọ, ọmọ mi. Ìwọ lè ṣe é — no worries rárá!",odora oxedada keep it up ekwafe repari,,True,1.0,0.8076923076923077,1.0,0.7872340425531915
+groq,v0-yo-child-a-yo-w-026,whisper-large-v3,yo,spk-yo-004,setA,word,ok,4916,adìẹ, আগ্যে,,True,1.0,1.5,2.0,1.0
+groq,v0-yo-child-a-yo-w-027,whisper-large-v3,yo,spk-yo-004,setA,word,ok,4516,ewúrẹ́, E...Ewre...,,True,1.0,1.8333333333333333,2.0,0.8333333333333334
+deepgram,v0-yo-0064,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3257,"Ó dára! O ṣe dáadáa, keep it up! Ẹ̀kọ́ wa fẹ́rẹ̀ parí.",odara ibere ton berere y le dire sugar me o trust for,,True,1.0,0.7777777777777778,1.0,0.8
+groq,v0-yo-child-a-yo-w-028,whisper-large-v3,yo,spk-yo-004,setA,word,ok,1840,màálù, Maalu,,True,1.0,1.0,1.0,0.6
+sahara,v0-yo-0001,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4186,"Wo lẹ́tà yìí, kí ni ohùn rẹ̀? Sọ fún mi!","Wo letter yii kini ohun re
+",,True,0.9,0.6,0.9,0.5675675675675675
+deepgram,v0-yo-0065,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2042,"Ó dára! Ìbéèrè tó ń bọ̀ yìí le díẹ̀, ṣùgbọ́n mo gbádùn fún ọ!",ekabokada welcome back je kate si wa ju papo,,True,1.0,0.8524590163934426,1.0,0.8448275862068966
+assemblyai,v0-sw-0072,universal-2,sw,spk-sw-001,setA,paragraph,ok,10864,Mama anapika kwa moto. Moto unatoa joto kali. Moto unatupa mwanga pia. Sote tunapenda moto jioni.,mama anapika kwa moto moto unatoa joto kali moto unatupa muanga pia sote tunapenda moto jioni,,True,0.5625,0.09278350515463918,0.0625,0.010752688172043012
+groq,v0-yo-child-a-yo-w-029,whisper-large-v3,yo,spk-yo-004,setA,word,ok,4823,ológbò, Ologbo,,True,1.0,0.6666666666666666,1.0,0.3333333333333333
+deepgram,v0-yo-0066,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2120,"Ẹ káàbọ̀ padà! Welcome back, jẹ́ ká tẹ̀síwájú papọ̀ nhẹ̀!",ejaki abgao sorossi speak up iwoleshi,,True,1.0,0.8596491228070176,1.0,0.8518518518518519
+groq,v0-yo-child-a-yo-w-030,whisper-large-v3,yo,spk-yo-004,setA,word,ok,1634,ọkọ̀, Oko,,True,1.0,1.0,1.0,0.75
+sahara,v0-yo-0002,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5184,Ṣe àyẹwò! Jọwọ ka syllable tó wà níbẹ̀ fún mi.,"Ṣé ayé wo, jọwọ ka syllable tó wà níbẹ̀ fún mi.",,True,0.4,0.15217391304347827,0.3,0.11363636363636363
+deepgram,v0-yo-0067,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3170,"Ẹ jẹ́ kí a gbọ́ ọ̀ ẹ! Sọ̀rọ̀ síi, speak up, ìwọ lè ṣe é!",ewa jekapada focos omomi and shin kontudara,,True,1.0,0.8571428571428571,1.0,0.8653846153846154
+groq,v0-yo-child-a-yo-w-031,whisper-large-v3,yo,spk-yo-004,setA,word,ok,3338,iṣẹ́, ই্ষে,,True,1.0,1.25,2.0,1.0
+deepgram,v0-yo-0068,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,5081,"Ẹ wá, jẹ ká padà! Focus, ọmọ mi — a ń ṣe nǹkan tó dára!",odora good job loni iwekikawama walola,,True,1.0,0.8181818181818182,1.0,0.7959183673469388
+groq,v0-yo-child-a-yo-w-032,whisper-large-v3,yo,spk-yo-004,setA,word,ok,4780,eré, Eerie,,True,1.0,1.3333333333333333,1.0,1.0
+groq,v0-yo-child-a-yo-w-033,whisper-large-v3,yo,spk-yo-004,setA,word,ok,4606,òkúta, Okuta,,True,1.0,0.6,1.0,0.4
+deepgram,v0-yo-0069,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2387,Ó dára! Good job lónìí. Ìwé kíkà wa máa ń bá a lọ lọ́la!,it is good how to un paraguas how late is your adrenaline,,True,1.0,0.8214285714285714,0.9285714285714286,0.8113207547169812
+sahara,v0-yo-0003,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,8952,"Ẹ wò ọ̀rọ̀ yìí, kí o sì ka á sókè.","Ẹ wo ọrọ yìí, kẹ́ ẹ sì ka loutly.",,True,0.6,0.35294117647058826,0.6,0.375
+groq,v0-yo-child-a-yo-w-034,whisper-large-v3,yo,spk-yo-004,setA,word,ok,1503,oúnjẹ, ʻOnye,,True,1.0,1.0,1.0,0.8
+groq,v0-yo-child-a-yo-w-035,whisper-large-v3,yo,spk-yo-004,setA,word,ok,4659,ilé-ìwé, I leiwe.,,True,2.0,1.1428571428571428,1.0,0.7142857142857143
+deepgram,v0-yo-0070,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3092,"Dára, a ó tún padà wá. A lè tẹ̀síwájú lẹ́yìn náà, ọkàn mi!",odora amapadawani ojotumbo thank you omommi,,True,1.0,0.7586206896551724,1.0,0.7222222222222222
+groq,v0-yo-child-a-yo-w-036,whisper-large-v3,yo,spk-yo-004,setA,word,ok,4350,ọkùnrin, ʻŌkuri,,True,1.0,0.8571428571428571,1.0,0.7142857142857143
+sahara,v0-yo-0004,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,6594,"Dára, jẹ́ ká bẹ̀rẹ̀. Jọwọ, read àdoédoé yìí fún mi.","Dára, jẹ́ ká bẹ̀rẹ̀. Jọwọ ka literature yìí fún mi.",,True,0.3,0.27450980392156865,0.2,0.2765957446808511
+deepgram,v0-yo-0071,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4000,"Ó dára, a máa padà wá ọjọ́ tó ń bọ̀. O ṣe àgbàdo, ọmọ mi!",y want shadeada y pele regie level one o daragon,,True,1.0,0.7719298245614035,0.9333333333333333,0.7735849056603774
+groq,v0-yo-child-a-yo-w-037,whisper-large-v3,yo,spk-yo-004,setA,word,ok,4334,obìnrin, ʻōbimi.,,True,1.0,1.0,1.0,0.8571428571428571
+groq,v0-yo-child-a-yo-w-038,whisper-large-v3,yo,spk-yo-004,setA,word,ok,3564,ọjọ́, Ojo,,True,1.0,1.0,1.0,0.75
+sahara,v0-yo-0005,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,6586,"Jẹ́ ká bẹ̀rẹ̀! Jọ̀wọ́, ka ìtàn yìí káàárọ̀ látọ̀dọ̀ ìbẹ̀rẹ̀.","Jọwọ fi itan naa ranṣẹ, kí n le ka a àti ṣe àtúnṣe rẹ.",,True,1.3,0.7666666666666667,1.3,0.8070175438596491
+deepgram,v0-yo-0072,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,6194,"Ìwọ ń ṣiṣẹ́ dáadáa! Ìpele rẹ jẹ́ level one, ó dára gan-an!",ejekia dupeh o cheddaragh gongoni well done,,True,1.0,0.7931034482758621,1.0,0.8
+groq,v0-yo-child-a-yo-w-039,whisper-large-v3,yo,spk-yo-004,setA,word,ok,2544,alẹ́, Ale!,,True,1.0,1.0,1.0,0.5
+groq,v0-yo-child-a-yo-w-040,whisper-large-v3,yo,spk-yo-004,setA,word,ok,2092,ẹ̀bùn, Ebu,,True,1.0,0.8,1.0,0.8
+assemblyai,v0-sw-0073,universal-2,sw,spk-sw-001,setA,story,ok,29882,"Jembe lake lilikuwa fupi mno. Mlango wake ulikuwa chini mno. Kitanda chake kilikuwa kifupi mno. Mtu huyu alikuwa mrefu zaidi! Alitengeneza mpini wa jembe mrefu sana. Alitengeneza fremu ndefu za milango. Alitengeneza kitanda kirefu sana. Aliacha nyumba yake na kuishi katika msitu mkubwa. Aliishi kwa miaka mingi, naye alifurahi.",jembe lake li likuwa fupi mno mlangu lake li likuwa chini mno kitanda chake li likuwa kifupi mno mtu huyu alikuwa mrefu zahidi ali tengeneza mpini wa jembe mrefu sana ali tengeneza fremu ndefu zamlangu ali tengeneza kitanda kirefu sana ali tengeneza fremu ndefu zamlangu ali tengeneza kitanda kirefu sana ali ali acha nyumbayake na kuishi katika msitu mkubwa aliishi kwa miaka mingi nae ali furai,,True,0.8979591836734694,0.32926829268292684,0.673469387755102,0.2830188679245283
+sahara,v0-yo-0006,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5042,Dára! Ǹjẹ́ o lè sọ fún mi kíní ìtàn yẹn túmọ̀ sí?,Dára lè sọ fún mi kíni ìtàn yẹn?,,True,0.5833333333333334,0.3673469387755102,0.4166666666666667,0.3617021276595745
+sahara,v0-yo-0007,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4747,"Dára, jẹ́ ká gbìyànjú mọ́ lẹ́ẹ̀kan sí i, try again!",Dára jẹ́ ká gbìyànjú mọ́ lẹ́ẹ̀kan sí.,,True,0.5,0.29411764705882354,0.3,0.25
+deepgram,v0-yo-0073,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,10137,"Ẹ jẹ́ kí a dúpẹ́! O ṣe dára gan-an lónìí, well done!",udaro hao kadawasi adaole wa lojo tumbo that is good,,True,1.0,0.8653846153846154,1.0,0.8775510204081632
+deepgram,v0-yo-0074,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3194,Ó dàárọ̀! A ó padà wá ṣe àdáwọlé wa lọ́jọ́ tó ń bọ̀. Ó dára!,milk bowl je vois soleil comme si,,True,1.0,0.85,1.0,0.8421052631578947
+deepgram,v0-yo-0075,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2497,"Hmm,미 mi ò gbọ́ ọ̀. Jọ̀wọ́ sọ lẹ́ẹ̀kan sí i!",es solely é così sorodier é louder,,True,1.0,0.8863636363636364,1.0,0.8809523809523809
+sahara,v0-yo-0008,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,7702,"Dáadáa, slow down kí o sì ka fẹ́ẹ́fẹ́ẹ́ díẹ̀.","Ó dára, slow down, kò sì ká fẹ́rẹ́fẹ́ díẹ̀.",,True,0.7777777777777778,0.26666666666666666,0.6666666666666666,0.2558139534883721
+deepgram,v0-yo-0076,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,5616,"Ẹ sọ lẹ́ẹ̀kan síi, sọ̀rọ̀ díẹ̀ louder!",ello wasumo fu nu al rupupo wa,,True,1.0,0.868421052631579,1.0,0.8611111111111112
+sahara,v0-yo-0009,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,6910,"Jọ̀wọ́, mú fóònù wá sún mọ́ ẹnu rẹ kí o sọ̀rọ̀ speak clearly!",Jọwọ mú foonu wá sí ẹnu rẹ kí o sì sọ̀rọ̀.,,True,0.5384615384615384,0.47540983606557374,0.5384615384615384,0.4576271186440678
+deepgram,v0-yo-0077,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3442,"Ẹ jọ̀ọ́, wá sún mọ́ fóònù, ariwo púpọ̀ wà!",ello soy down ray again,,True,1.0,0.8333333333333334,1.0,0.8205128205128205
+deepgram,v0-yo-0078,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4757,"Ẹ jọ̀ọ́, sọ ìdáhùn rẹ mọ́ again.",dorothea j'ai quand même paris a son mis,,True,1.1428571428571428,1.03125,1.1428571428571428,1.1
+sahara,v0-yo-0010,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,6352,Ṣé o ṣetán? Jẹ́ ká bẹ̀rẹ̀ — ready?,"Ṣé ó ti ṣe tán? Jẹ́ ká bẹ̀rẹ̀, Redic.",,True,0.875,0.35294117647058826,0.7142857142857143,0.26666666666666666
+deepgram,v0-yo-0079,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3863,"Dúró díẹ̀, jẹ́ kí n parí àsọ mi!",she was a quick cat yen yen tu bodada,,True,1.125,1.0,1.125,1.0333333333333334
+deepgram,v0-yo-0080,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3182,"Ṣé o sọ pé ""cat""? Ìyẹn ni ohun tó gbọ́ dáadáa.",éwale i bien jumeta te kunde le real time yi,,True,1.0,0.8260869565217391,1.0,0.8809523809523809
+sahara,v0-yo-0011,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,6332,Ṣe o rò pé kí ni yóò ṣẹlẹ̀ tó bá tẹ̀lé? Sọ fún mi!,Ṣe o rò pé kí ni ó ṣẹlẹ̀ tó bá tẹ̀lé? Tell mi.,,True,0.2857142857142857,0.18,0.21428571428571427,0.16666666666666666
+deepgram,v0-yo-0081,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3295,"Ẹ wọlé, ìgbìyànjú mẹ́ta ti kùnlẹ̀ lórí item yìí.",i shuru e rowa sachant que le test soit dubaï,,True,1.1111111111111112,0.8333333333333334,1.1111111111111112,0.8478260869565217
+sahara,v0-yo-0012,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4051,"Ṣe kó o, èmi yóò sọ ó lẹ́ẹ̀kan sí i, fara balẹ̀ gbọ́.","Let emi o so lekan si
+",,True,1.0,0.7169811320754716,0.9230769230769231,0.7
+deepgram,v0-yo-0082,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3379,Ìṣòro ẹ̀rọ wà. Session kò lè tẹ̀síwájú báyìí.,that is fine maybe no any tourism on lower number n'y by,,True,1.5,1.0444444444444445,1.5,1.0930232558139534
+deepgram,v0-yo-0083,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,1111,"Ó dára, màá bínú. Ẹni tó lè ràn ọ́ lọ́wọ́ ń bọ̀ ní báyìí.",duro en el convala tendon lower now,,True,1.0,0.7719298245614035,1.0,0.7592592592592593
+deepgram,v0-yo-0084,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,1368,"Dúró, ènìyàn kan wá láti ràn ọ́ lọ́wọ́ now.",jerky hary attinent et collés ridin lèvre kétha et foresee,,True,1.1111111111111112,1.0232558139534884,1.1111111111111112,1.0731707317073171
+sahara,v0-yo-0013,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5930,"Dúró díẹ̀, jẹ́ kí n pe olùrànlọ́wọ́ wá, okay?","Dúró díẹ̀, jẹ́ kí n pé olùrànlọ́wọ́ wá. Okay.",,True,0.3333333333333333,0.08888888888888889,0.1111111111111111,0.023809523809523808
+deepgram,v0-yo-0085,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,1734,Jẹ́ kí a jẹrìí: a ti yàn ipele reading level kẹta. Ẹ fọwọ́ sí i?,i joko yi ti parri omono o parri domo meta o se je cor romeri tutu score retinjade,,True,1.2,1.03125,1.2,1.0491803278688525
+assemblyai,v0-sw-0074,universal-2,sw,spk-sw-001,setA,story,ok,43794,"Tom anabeba tenga la ndizi zilizoiva. Tom anaenda sokoni kuuza ndizi. Lakini hakuna anayenunua ndizi za Tom. ""Ni wanawake pekee ndio wanaouza matunda,"" watu wanasema. Lakini Tom hakati tamaa. Anaita, ""Nunua ndizi zangu tamu!"" Mwanamke mmoja ananunua ndizi zake. Watu wengine wanakuja na kununua ndizi za Tom. Mara, tenga linakuwa tupu, naye Tom anafurahi.",tom anabeba tanga la ndizi zilzoiva tom anaenda sokoni kuuza ndizi lakini hakuna anainunuwa ndizi za tom ni mwanamke mpeke diyo anawuza mtunda watu wanasema lakini tom hakachi tama anaita nunuandizi za kutuma nunuandizi za ngu tamu wanamke mmoja ananunua ndizi zake watu wengine wana kuja na kununua ndizi za tom mara tenga ni nakua tupu nae tom anafurai,,True,0.7407407407407407,0.2112676056338028,0.42592592592592593,0.13609467455621302
+deepgram,v0-yo-0086,nova-3/multi,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,1296,"Ìjókòó yìí ti parí. Ọmọ náà pari ìdánwò mẹ́ta, ó ṣẹṣẹ kọ ọrọ mẹ́rin tuntun, score rẹ̀ jẹ́ ìdajì.",et que le y ait eu paris mon au monde tout comme roi sibi,,True,1.0,0.75,1.0,0.7391304347826086
+deepgram,v0-yo-b-0001,nova-3/multi,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,684,Sọ fún mi nípa ilé-ìwé rẹ.,sofumini par il est iwere,,True,1.0,0.7692307692307693,1.0,0.68
+deepgram,v0-yo-b-0002,nova-3/multi,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,1157,Kí ni o ṣe lánàá lẹ́yìn ilé-ìwé?,kiniyoshela no len ile yue,,True,1.0,0.65625,1.0,0.5806451612903226
+sahara,v0-yo-0014,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3825,Jẹ́ ká gbìyànjú àdánwò kékeré kan. Ready? Bẹ̀rẹ̀!,"Jẹ́ ká gbìyànjú ìdánwò kékeré kan, Redi bẹ̀rẹ̀.",,True,0.5,0.14285714285714285,0.25,0.06521739130434782
+deepgram,v0-yo-b-0003,nova-3/multi,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,1937,Báwo ni o ṣe ń lọ sí ọjà láti ilé?,bao nuchen loci o gelatine,,True,1.0,0.7058823529411765,1.0,0.6666666666666666
+sahara,v0-yo-0015,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3984,"Ó yani lẹ́nu! Well done, ó tọ́ pátápátá!","Ó yá ni lẹ́nu well pátá pátá
+",,True,0.875,0.45,0.75,0.3783783783783784
+deepgram,v0-yo-b-0004,nova-3/multi,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,2341,"Ẹ̀kọ́ wo ni o fẹ́ràn jùlọ, kí ló sì dé?",et quand on est au fur et au fur fur et fur fur mesure,,True,1.4,1.1282051282051282,1.4,1.1891891891891893
+assemblyai,v0-sw-0075,universal-2,sw,spk-sw-001,setA,comprehension_question,ok,8643,Jembe la mtu huyu lilikuwa refu au fupi mwanzoni?,jembe lamtu huyu li likuwa mrefu au fupi manzoni,,True,0.7777777777777778,0.12244897959183673,0.6666666666666666,0.08333333333333333
+deepgram,v0-yo-b-0005,nova-3/multi,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,1682,Sọ fún mi nípa àkókò kan tí o ràn ẹnìkan lọ́wọ́.,soft un mini bar à coco con t o r n a n a color o,,True,1.3636363636363635,0.6666666666666666,1.3636363636363635,0.6595744680851063
+sahara,v0-yo-0016,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2952,"Ó dára! O ka a dáadáa, [[well done]]!","This is good, ó kà á dáadá
+",,True,1.0,0.8108108108108109,1.0,0.8333333333333334
+deepgram,v0-yo-b-0006,nova-3/multi,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,1728,Ka ní ohùn sókè láti ọ̀kan dé ogún.,cani o suke lachi o conde o gum,,True,1.0,0.6,1.0,0.5882352941176471
+deepgram,v0-yo-b-0007,nova-3/multi,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,2688,Mélòó ni mẹ́ẹ̀ẹ́dógún kún èje? Sọ fún mi bí o ṣe rí ìdáhùn náà.,mélodie me édougukun eje sofumi byoché ri et da un nom,,True,1.0,0.6507936507936508,1.0,0.6065573770491803
+deepgram,v0-yo-b-0008,nova-3/multi,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,1559,Sọ fún mi ohun kan tó ṣẹlẹ̀ ní ilé-ìwé ní ọ̀sẹ̀ yìí.,so for me o un canto chele ni leeway ni osei,,True,1.0,0.5961538461538461,1.0,0.5686274509803921
+sahara,v0-yo-0017,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5369,"Ó dára! O ka ọ̀rọ̀ náà dáadáa, well done!","Ó dára, ó ka ọ̀rọ̀ náà dáadáa.",,True,0.5555555555555556,0.34146341463414637,0.3333333333333333,0.2894736842105263
+assemblyai,v0-sw-0076,universal-2,sw,spk-sw-001,setA,comprehension_question,ok,6928,Kwa nini mtu huyu alitengeneza vitu vipya?,kwa nini mtu huyu ali tengeneza vitu vipya,,True,0.5714285714285714,0.07142857142857142,0.2857142857142857,0.024390243902439025
+deepgram,v0-yo-b-0009,nova-3/multi,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,944,Kí ni o fẹ́ ṣe nígbà tí o bá dàgbà?,kini o fessie niggati oba daba,,True,0.9,0.5142857142857142,0.9,0.47058823529411764
+deepgram,v0-yo-b-0010,nova-3/multi,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,344,"Ṣàlàyé eré kan tí o ń ṣeré pẹ̀lú àwọn ọ̀rẹ́ rẹ, àti òfin rẹ̀.",charliez et recontinent un chéri que loin honrère à ti au fin rère,,True,1.0,0.7868852459016393,1.0,0.7966101694915254
+deepgram,v0-yo-child-a-yo-ls-001,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,520,ba,va,,True,1.0,0.5,1.0,0.5
+deepgram,v0-yo-child-a-yo-ls-002,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,675,be,b,,True,1.0,0.5,1.0,0.5
+sahara,v0-yo-0018,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3213,"Ó dára púpọ̀! O ka gbogbo ìtàn náà dáadáa, well done!","Ó dára púpọ̀, ó ka gbogbo ìtàn náà dáadáa.",,True,0.45454545454545453,0.2641509433962264,0.2727272727272727,0.22
+deepgram,v0-yo-child-a-yo-ls-003,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,1553,bẹ,b,,True,1.0,0.5,1.0,0.5
+assemblyai,v0-sw-0077,universal-2,sw,spk-sw-001,setA,comprehension_question,ok,3633,Tom alikuwa akiuza nini sokoni?,tom alikuwa akiuza ninisokoni,,True,0.6,0.0967741935483871,0.4,0.03333333333333333
+deepgram,v0-yo-child-a-yo-ls-004,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,801,bi,b,,True,1.0,0.5,1.0,0.5
+sahara,v0-yo-0019,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3510,"Ó dára gan! O ka ìtàn náà dáadáa, well done!","Ó dára gan, ó ka itan náà dáadáa.",,True,0.6,0.36363636363636365,0.4,0.3170731707317073
+deepgram,v0-yo-child-a-yo-ls-005,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,2551,bo,boom,,True,1.0,1.0,1.0,1.0
+assemblyai,v0-sw-0078,universal-2,sw,spk-sw-001,setA,comprehension_question,ok,4851,Kwa nini watu hawakutaka kununua ndizi za Tom mwanzoni?,kwa nini watu hawa kutaka kununua ndizi za tomu mwanzoni,,True,0.5555555555555556,0.09090909090909091,0.3333333333333333,0.037037037037037035
+deepgram,v0-yo-child-a-yo-ls-006,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,2080,bọ,bah,,True,1.0,1.0,1.0,1.0
+deepgram,v0-yo-child-a-yo-ls-007,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,1067,bu,vous,,True,1.0,1.5,1.0,1.5
+sahara,v0-yo-0020,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3585,"Àgbàdo! O gbìyànjú, o ṣe é! Good job!","Ó gbìyànjú ò ṣe cool job
+",,True,0.875,0.4594594594594595,0.625,0.3939393939393939
+deepgram,v0-yo-child-a-yo-ls-008,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,1140,ma,ma,,True,0.0,0.0,0.0,0.0
+deepgram,v0-yo-child-a-yo-ls-009,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,1315,me,me,,True,0.0,0.0,0.0,0.0
+deepgram,v0-yo-child-a-yo-ls-010,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,536,mẹ,me,,True,1.0,0.5,1.0,0.5
+deepgram,v0-yo-child-a-yo-ls-011,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,526,mi,me,,True,1.0,0.5,1.0,0.5
+deepgram,v0-yo-child-a-yo-ls-012,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,725,mo,mou,,True,1.0,0.5,1.0,0.5
+sahara,v0-yo-0021,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4410,"Ẹ̀yẹn ni! O ti ṣe é. Well done, ọmọ mi!","Bẹẹni o ti ṣe well ọmọ mi
+",,True,0.7,0.46153846153846156,0.4,0.34285714285714286
+deepgram,v0-yo-child-a-yo-ls-013,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,1339,mọ,more,,True,1.0,1.5,1.0,1.5
+assemblyai,v0-sw-0080,universal-2,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,7495,Ulifanya nini jana baada ya shule?,unafikaje sokoni ukitoka nyumbani kwenu,,True,1.0,0.9117647058823529,1.0,0.9090909090909091
+deepgram,v0-yo-child-a-yo-ls-014,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,1518,mu,,,True,1.0,1.0,1.0,1.0
+deepgram,v0-yo-child-a-yo-ls-015,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,1439,na,no,,True,1.0,0.5,1.0,0.5
+sahara,v0-yo-0022,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3963,"Ìdáhùn rẹ dára gan-an! Well done, ọmọ mi!","Ìdáhùn re dára gan mi
+",,True,0.75,0.5121951219512195,0.5555555555555556,0.47368421052631576
+deepgram,v0-yo-child-a-yo-ls-016,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,1595,ne,nee,,True,1.0,0.5,1.0,0.5
+deepgram,v0-yo-child-a-yo-ls-017,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,945,nẹ,né,,True,1.0,0.5,1.0,0.5
+deepgram,v0-yo-child-a-yo-ls-018,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,1028,ni,nee,,True,1.0,1.0,1.0,1.0
+sahara,v0-yo-0023,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3741,"Ó dára! O gbìyànjú gan-an, mo fẹ́ràn ìyẹn!","Daddy School, ó gbìyànjú gan. Mo fẹ́ ran ìyẹn.",,True,1.0,0.5,0.6666666666666666,0.4358974358974359
+assemblyai,v0-sw-0081,universal-2,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,6275,Unafikaje sokoni ukitoka nyumbani kwenu?,somo gani unalipenda zaidi na kwanini,,True,1.2,0.775,1.2,0.7948717948717948
+deepgram,v0-yo-child-a-yo-ls-019,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,958,no,hello,,True,1.0,2.0,1.0,2.0
+deepgram,v0-yo-child-a-yo-ls-021,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,653,nu,no,,True,1.0,0.5,1.0,0.5
+deepgram,v0-yo-child-a-yo-ls-022,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,787,la,la,,True,0.0,0.0,0.0,0.0
+deepgram,v0-yo-child-a-yo-ls-023,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,802,le,le,,True,0.0,0.0,0.0,0.0
+sahara,v0-yo-0024,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3762,"Ó dára! O ti n ṣe better ju ìbẹ̀rẹ̀ lọ, mo fẹ́ràn rẹ̀!","Ó dára, ó ti ń ṣìtà ju ìbẹ̀rẹ̀ lọ. Mo fẹ́ràn rẹ.",,True,0.6153846153846154,0.25925925925925924,0.38461538461538464,0.19607843137254902
+deepgram,v0-yo-child-a-yo-ls-024,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,887,lẹ,le,,True,1.0,0.5,1.0,0.5
+deepgram,v0-yo-child-a-yo-ls-025,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,811,li,lee,,True,1.0,1.0,1.0,1.0
+assemblyai,v0-sw-0082,universal-2,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,4872,"Somo gani unalipenda zaidi, na kwa nini?",niambie wakati ulipo ulipo msaidi ya mtu,,True,1.0,0.8,1.0,0.7894736842105263
+deepgram,v0-yo-child-a-yo-ls-026,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,1410,lo,no,,True,1.0,0.5,1.0,0.5
+deepgram,v0-yo-child-a-yo-ls-027,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,1215,lọ,no,,True,1.0,1.0,1.0,1.0
+sahara,v0-yo-0025,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3616,"Ó dára! O ka pẹ̀lú ìgboyà, well done!","Ó dára, ó kà á pẹ̀lú ìgboyà. Well done.",,True,0.875,0.21621621621621623,0.375,0.11764705882352941
+deepgram,v0-yo-child-a-yo-ls-028,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,801,lu,loup,,True,1.0,1.0,1.0,1.0
+deepgram,v0-yo-child-a-yo-ls-029,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,1210,ka,,,True,1.0,1.0,1.0,1.0
+deepgram,v0-yo-child-a-yo-ls-030,nova-3/multi,yo,spk-yo-003,setA,syllable,ok,495,ki,key,,True,1.0,1.0,1.0,1.0
+assemblyai,v0-sw-0083,universal-2,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,5498,Niambie wakati ulipomsaidia mtu.,hesabu kwa sauti kwanzia moja hadi ishirini,,True,1.75,0.96875,1.75,1.0
+sahara,v0-yo-0026,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4036,"Ó dára! O ṣe àṣìṣe, o sì ṣe àtúnṣe rẹ̀ dára! Well done!","Ó dára, ó ṣe àṣìṣe. Òṣìṣẹ́ àtúnṣe rẹ dára. Well done.",,True,0.6923076923076923,0.21818181818181817,0.38461538461538464,0.1568627450980392
+deepgram,v0-yo-child-a-yo-p-001,nova-3/multi,yo,spk-yo-004,setA,paragraph,ok,2340,Ìyá ń dáná fún oúnjẹ. Iná ń jó gbóná gbóná. Iná ń fún ni ìmọ́lẹ̀. Gbogbo wa fẹ́ràn iná gan-an.,i a un tano funge i non droguenogueno i non funi ni molle buboa ferme i no go,,True,0.95,0.648936170212766,0.9523809523809523,0.6111111111111112
+sahara,v0-yo-0027,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3757,"Ìdáhùn rẹ dára gan-an! Wow, o ronú nǹkan tó ṣàánú púpọ̀!","Ìdáhùn rẹ dára gan, ò rò nǹkan tó ṣe.",,True,0.6363636363636364,0.44642857142857145,0.5,0.39622641509433965
+deepgram,v0-yo-child-a-yo-p-002,nova-3/multi,yo,spk-yo-004,setA,paragraph,ok,3198,Mo fẹ́ràn kíka ìwé gidigidi. Ìyá àti bàbá mi ṣiṣẹ́. Mo ka ìwé fúnra mi. Kíka jẹ́ ìdùnnú fún mi.,moferro kikaiwe guidi guidi iate babami shishe mokaiwe furarami kikaiwe idunu fu,,True,1.0,0.5789473684210527,1.0,0.5274725274725275
+assemblyai,v0-sw-0084,universal-2,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,5610,Hesabu kwa sauti kuanzia moja hadi ishirini.,kuminatano jumlisha saba ningapi niambie jinsi ulivyopata jibulako,,True,1.1428571428571428,1.1818181818181819,1.1428571428571428,1.2093023255813953
+deepgram,v0-yo-child-a-yo-s-001-q1,nova-3/multi,yo,spk-yo-004,setA,comprehension_question,ok,2632,Ǹjẹ́ ọkọ́ ọkùnrin náà gùn tàbí kúrú ní ìbẹ̀rẹ̀ ìtàn náà?,ng oco corino ocuru tabigum ni beretono ben ni oco corino ocuru ni beretono,,True,1.2727272727272727,1.1071428571428572,1.2727272727272727,1.1272727272727272
+sahara,v0-yo-0028,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3567,"Ó dára! Well done, ọmọ mi. Mo gbọ́ ọ dáadáa.","Ó dára well ọmọ mi, mo gbọ́ ọ dáadáa.",,True,0.5,0.22727272727272727,0.1,0.125
+deepgram,v0-yo-child-a-yo-s-001-q2,nova-3/multi,yo,spk-yo-004,setA,comprehension_question,ok,1028,Kí nìdí tí ọkùnrin náà fi ṣe ohun èlò tuntun fún ara rẹ̀?,ni diti o corina ofishe omwelo totofu arare ni torikwe o gaju,,True,1.0,0.8421052631578947,1.0,0.8571428571428571
+deepgram,v0-yo-child-a-yo-s-001,nova-3/multi,yo,spk-yo-004,setA,story,ok,2325,"Ọkọ́ rẹ̀ kúrú jù. Ọ̀nà ilẹ̀kùn rẹ̀ kéré jù. Ibùsùn rẹ̀ kúrú jù pẹ̀lú. Ọkùnrin yìí ga jù! Ó ṣe ọwọ ọkọ́ gígùn púpọ̀ kan. Ó ṣe ara ilẹ̀kùn gíga púpọ̀. Ó ṣe ibùsùn gígùn púpọ̀ kan. Ó kúrò ní ilé rẹ̀, ó sì gbé ní igbó ńlá kan. Ó gbé fún ọdún púpọ̀, ó sì láyọ̀.",oko recuru ju honou elekun elekun requeru ju ibu ibu son recuru ju pelu okuru i gaju oxe owa oko gigun pupua com ôché harai léguun giga pupua ôché ibu sum guigun pupuacon ô crony ilere ô si beni ibolan cor ôgbefu audidior dum pupua ô sylla,,True,1.0,0.65234375,1.0,0.6408163265306123
+assemblyai,v0-sw-0085,universal-2,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,5260,Kumi na tano jumlisha saba ni ngapi? Niambie jinsi ulivyopata jibu lako.,niambie jambo lililu tokea shuleni wiki,,True,1.0,0.7777777777777778,1.0,0.7714285714285715
+deepgram,v0-yo-child-a-yo-s-002-q1,nova-3/multi,yo,spk-yo-004,setA,comprehension_question,ok,658,Kí ni Adé gbìn sínú ọgbà rẹ̀?,chi n' y a d'eg ni s'in o'kbaret effo a t' ege,,True,1.5714285714285714,1.2413793103448276,1.5714285714285714,1.25
+sahara,v0-yo-0029,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4183,Wo lẹ́tà yìí. Ó ń ṣe ohun wo?,Wo lẹta yii o n si ohun wọn.,,True,0.75,0.41379310344827586,0.75,0.37037037037037035
+deepgram,v0-yo-child-a-yo-s-002-q2,nova-3/multi,yo,spk-yo-004,setA,comprehension_question,ok,1423,Kí nìdí tí ẹbí Adé fi láyọ̀ ní òpin ìtàn náà?,kiné de ti erbi a dei filai of knee opens or no cosy down foon y berry,,True,1.5454545454545454,1.1333333333333333,1.5454545454545454,1.1136363636363635
+deepgram,v0-yo-child-a-yo-w-011,nova-3/multi,yo,spk-yo-004,setA,word,ok,1025,ọwọ́,owa,,True,1.0,0.75,1.0,0.75
+deepgram,v0-yo-child-a-yo-w-019,nova-3/multi,yo,spk-yo-004,setA,word,ok,1102,ọjà,oh ya,,True,2.0,1.6666666666666667,2.0,1.6666666666666667
+assemblyai,v0-sw-0086,universal-2,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,4379,Niambie jambo lililotokea shuleni wiki hii.,unataka hukuwa nani ukikuwa,,True,1.0,0.7674418604651163,1.0,0.7619047619047619
+sahara,v0-yo-0030,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3030,"Jẹ́ kí a darapọ̀ mọ́ ara wọn: ṣe àkójọpọ̀, sọ wọ́n papọ̀!","Jẹ́ ká dá pọ̀ mọ́ ara wọn, had them to wọ́n pọ̀.",,True,0.6666666666666666,0.42105263157894735,0.5833333333333334,0.3888888888888889
+deepgram,v0-yo-child-a-yo-w-021,nova-3/multi,yo,spk-yo-004,setA,word,ok,695,odò,o dos,,True,2.0,1.0,2.0,1.0
+deepgram,v0-yo-child-a-yo-w-022,nova-3/multi,yo,spk-yo-004,setA,word,ok,698,oòrùn,o,,True,1.0,0.8,1.0,0.8
+deepgram,v0-yo-child-a-yo-w-023,nova-3/multi,yo,spk-yo-004,setA,word,ok,2171,òṣùpá,cómo se ocupa,,True,3.0,2.4,3.0,2.4
+sahara,v0-yo-0031,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3690,Wo lẹ́tà àkọ́kọ́ ọ̀rọ̀ yẹn. Èwo ni?,Wo lẹ́tà àkókò ọ̀rọ̀ yẹn wò ni.,,True,0.5714285714285714,0.22857142857142856,0.2857142857142857,0.18181818181818182
+deepgram,v0-yo-child-a-yo-w-024,nova-3/multi,yo,spk-yo-004,setA,word,ok,756,àpò,आप वह,,True,2.0,1.6666666666666667,2.0,1.6666666666666667
+assemblyai,v0-sw-0087,universal-2,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,5014,Unataka kuwa nini ukikua?,nieleze mchezo unaocheza na warafiki zako na,,True,1.75,1.36,1.75,1.3333333333333333
+deepgram,v0-yo-child-a-yo-w-025,nova-3/multi,yo,spk-yo-004,setA,word,ok,1252,àga,ага,,True,1.0,1.0,1.0,1.0
+deepgram,v0-yo-child-a-yo-w-026,nova-3/multi,yo,spk-yo-004,setA,word,ok,596,adìẹ,आगे,,True,1.0,1.0,1.0,1.0
+deepgram,v0-yo-child-a-yo-w-027,nova-3/multi,yo,spk-yo-004,setA,word,ok,819,ewúrẹ́,cure,,True,1.0,0.8333333333333334,1.0,0.8333333333333334
+sahara,v0-yo-0032,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3737,Wo ọ̀rọ̀ yìí dára! Ó dà bí ọ̀rọ̀ tí o mọ̀ tẹ́lẹ̀.,"Wo ọrọ yi dáadáa, ó dà bí ọrọ tí ó mọ̀ tẹ́lẹ̀.",,True,0.5,0.24489795918367346,0.4166666666666667,0.2127659574468085
+assemblyai,v0-sw-0088,universal-2,sw-en,spk-sw-001,setB,scripted_prompt_reading,ok,3727,"Nieleze mchezo unaocheza na marafiki zako, na kanuni zake.",kanuni zaki,,True,0.8888888888888888,0.8275862068965517,0.8888888888888888,0.8214285714285714
+deepgram,v0-yo-child-a-yo-w-028,nova-3/multi,yo,spk-yo-004,setA,word,ok,2147,màálù,malo,,True,1.0,0.6,1.0,0.6
+deepgram,v0-yo-child-a-yo-w-029,nova-3/multi,yo,spk-yo-004,setA,word,ok,1623,ológbò,o lobo,,True,2.0,0.6666666666666666,2.0,0.6666666666666666
+sahara,v0-yo-0033,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3436,Wo ó! Wo àwọn ọ̀rọ̀ mìíràn nínú gbolohun náà — wọn lè ràn ọ́ lọ́wọ́.,Ṣe ẹ̀ jọ̀wọ́ fi àkọsílẹ̀ àkọ́kọ́ sílẹ̀ kí n lè ṣe àtúnṣe rẹ.,,True,0.9333333333333333,0.7647058823529411,0.9285714285714286,0.78125
+deepgram,v0-yo-child-a-yo-w-030,nova-3/multi,yo,spk-yo-004,setA,word,ok,698,ọkọ̀,oco,,True,1.0,1.0,1.0,1.0
+deepgram,v0-yo-child-a-yo-w-031,nova-3/multi,yo,spk-yo-004,setA,word,ok,608,iṣẹ́,yché,,True,1.0,1.0,1.0,1.0
+deepgram,v0-yo-child-a-yo-w-032,nova-3/multi,yo,spk-yo-004,setA,word,ok,1388,eré,r,,True,1.0,0.6666666666666666,1.0,0.6666666666666666
+deepgram,v0-yo-child-a-yo-w-033,nova-3/multi,yo,spk-yo-004,setA,word,ok,505,òkúta,bogotá,,True,1.0,1.0,1.0,1.0
+sahara,v0-yo-0034,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3158,Rò ó! Kí ló ṣẹlẹ̀ nínú ìtàn wa? Èyí tó bá ìtàn mu ni ó tọ̀.,"Wò, kí ló ṣẹlẹ̀ nínú ìtàn wa? Eyi tó bá ìtàn mú ni right one.",,True,0.4375,0.2711864406779661,0.375,0.25
+deepgram,v0-yo-child-a-yo-w-034,nova-3/multi,yo,spk-yo-004,setA,word,ok,591,oúnjẹ,onde,,True,1.0,0.6,1.0,0.6
+assemblyai,v0-sw-0089,universal-2,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,6198,Hebu sasa soma syllable hii kwa sauti.,hebu soma sasa syllable hii kwa sauti,,True,0.5714285714285714,0.15789473684210525,0.2857142857142857,0.10810810810810811
+deepgram,v0-yo-child-a-yo-w-035,nova-3/multi,yo,spk-yo-004,setA,word,ok,988,ilé-ìwé,il est oui,,True,3.0,1.1428571428571428,1.5,1.0
+deepgram,v0-yo-child-a-yo-w-036,nova-3/multi,yo,spk-yo-004,setA,word,ok,848,ọkùnrin,oquiry,,True,1.0,0.8571428571428571,1.0,0.8571428571428571
+deepgram,v0-yo-child-a-yo-w-037,nova-3/multi,yo,spk-yo-004,setA,word,ok,799,obìnrin,obere,,True,1.0,0.5714285714285714,1.0,0.5714285714285714
+sahara,v0-yo-0035,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,2456,Rántí ohun tó ṣẹlẹ̀ ní ìbẹ̀rẹ̀ ìtàn wa. Think back!,"Rántí ohun tó ṣẹlẹ̀ ní tán, wá rò padà.",,True,0.5,0.43137254901960786,0.5,0.3877551020408163
+deepgram,v0-yo-child-a-yo-w-038,nova-3/multi,yo,spk-yo-004,setA,word,ok,453,ọjọ́,ocho,,True,1.0,1.0,1.0,1.0
+deepgram,v0-yo-child-a-yo-w-039,nova-3/multi,yo,spk-yo-004,setA,word,ok,805,alẹ́,ale,,True,1.0,0.5,1.0,0.5
+deepgram,v0-yo-child-a-yo-w-040,nova-3/multi,yo,spk-yo-004,setA,word,ok,571,ẹ̀bùn,hébreu,,True,1.0,1.0,1.0,1.0
+sahara,v0-yo-0036,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3292,"Jẹ ká gbiyanju lẹ́ẹ̀kan sí i. Sọ ohun kọ̀ọ̀kan lọ́ra lọ́ra, slowly!",Jẹ́ ká gbìyànjú lẹ́ẹ̀kan sí sọ ohun kan slowly.,,True,0.6666666666666666,0.40298507462686567,0.5,0.359375
+sahara,v0-yo-0037,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3169,Dúró! Wo ọ̀rọ̀ náà mọ́jú kíyèsí àárọ̀ rẹ̀ — look again!,"Dúró wo ọ̀rọ̀ náà mọ́jú, kíyèsí.",,True,0.8181818181818182,0.4909090909090909,0.4,0.4117647058823529
+sahara,v0-yo-0038,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3411,"Jẹ́ ká gbìyànjú — broken si awọn ìpín kéékéré, ó dára?","Jẹ́ ká gbìyànjú ká break ẹ̀ sí àwọn ìpín kékeré, ṣó dára?",,True,0.6363636363636364,0.2222222222222222,0.7,0.26
+sahara,v0-yo-0039,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3265,Ronu: kí ni àwòrán rẹ̀ trông bii? Draw am lórí ọkàn rẹ!,"Rona, kí ni àwòrán rẹ jọ́, draw láti orí?",,True,0.75,0.4909090909090909,0.6666666666666666,0.4423076923076923
+sahara,v0-yo-0040,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3315,Ẹ má bẹ̀rù! Whisper ohun náà kánkán fún mi.,"Ẹ má bẹ̀rù, Whisper òun náà fún mi.",,True,0.3333333333333333,0.23255813953488372,0.2222222222222222,0.21951219512195122
+sahara,v0-yo-0041,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3519,"Ó dára, ṣùgbọ́n ẹ̀kọ́ náà jẹ́ ""try again"" — tún gbọ́ó.","Ó dára, ṣùgbọ́n ẹ̀kọ́ náà jẹ́ ""try again"" tó gbọ́.",,True,0.2727272727272727,0.09259259259259259,0.2,0.0625
+sahara,v0-yo-0042,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3324,"Ẹ̀yẹ! Jẹ́ ká gbìyànjú lẹ́ẹ̀kan sí i, try again!","Ó dáa, jẹ́ ká gbìyànjú lẹ́ẹ̀kan sí i, try game.",,True,0.4444444444444444,0.23404255319148937,0.3333333333333333,0.18181818181818182
+sahara,v0-yo-0043,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3838,"Ẹ̀yin ọmọ, gbiyanjú mọ́. Ọ̀rọ̀ náà jẹ́ ""aso"", ṣe try again.","Ẹyin ọmọ, ẹ gbìyànjú mọ, ọrọ naa jẹ aṣọ try again.",,True,0.7272727272727273,0.3389830508474576,0.7272727272727273,0.2830188679245283
+sahara,v0-yo-0044,sahara-file-v1,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3891,"Ẹ jẹ ká gbìyànjú mọ̀. Jọwọ, ka gbólóọ̀run náà lẹ́ẹ̀kan sí i.","Ẹ jẹ́ ká try mọ́, jọ̀wọ́ ká gbólóhùn náà lẹ́ẹ̀kan sí.",,True,0.6666666666666666,0.3333333333333333,0.5833333333333334,0.3157894736842105
+sahara,v0-yo-0045,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2591,"Gbọ́ dáadáa: ""ọ̀wọ̀."" Ẹ̀yin repeat rẹ̀ — ""ọ̀wọ̀!""","Ó tọ́, ẹ jẹ́ ká tún wo ìtàn náà, sọ kíni?",,True,1.375,0.8571428571428571,1.5714285714285714,0.85
+sahara,v0-yo-0046,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3250,"Ò tó! Ẹ jẹ ká tún wo ìtàn náà, sai? Kí ni ó sọ?","Ó dára, ṣùgbọ́n ọ̀rọ̀ kan wà tí ó fo ká try.",,True,1.0,0.8085106382978723,1.0,0.813953488372093
+sahara,v0-yo-0047,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3399,"Ó dára, ṣùgbọ́n ọ̀rọ̀ kan wà tí o fo. Jẹ́ ká try again!","Ọmọ mi ò dára, ṣùgbọ́n ìtọ́sọ́nà ohun náà yí padà. Jẹ́ ká try.",,True,0.8461538461538461,0.5818181818181818,0.7692307692307693,0.5961538461538461
+sahara,v0-yo-0048,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3415,"Ọmọ mi, ó dára, ṣùgbọ́n ìtọ́sọ̀nà ohùn náà yí padà. Jẹ́ ká try again!","Kò burú, ẹ jẹ́ ká skip kí á tẹ̀síwájú.",,True,1.0,0.782608695652174,1.0,0.7846153846153846
+sahara,v0-yo-0049,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3908,"Kò burú, ẹ jẹ ká skip èyí kí a siwaju.","Ó dára, ṣùgbọ́n jẹ́ ká sọ orúkọ rẹ pọ̀, repeat after me.",,True,1.1,1.0263157894736843,1.1,1.0555555555555556
+sahara,v0-yo-0050,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3554,Ó dára! Ṣùgbọ́n jẹ́ ká sọ orúkọ rẹ̀ pọ̀: repeat after me — Àmíná.,"Ìyẹn dáa, o ṣe dáadáa. Jẹ́ ká wo àwọn lẹ́tà báyìí, ṣe bẹ.",,True,1.0,0.8153846153846154,1.0,0.75
+sahara,v0-yo-0051,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3439,"Ó dára! O ṣe dáradára. Jẹ ká wo àwọn lẹ́tà báyìí, ṣe é bẹ́ẹ̀?","Ó dára, o ti ṣe ọjọ-ori, jẹ́ ká lọ ká ọ̀rọ̀ pọ̀ báyìí.",,True,0.8571428571428571,0.6721311475409836,0.7857142857142857,0.6140350877192983
+sahara,v0-yo-0052,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3154,Ó dára! O ti ṣe é! Jẹ ká lọ kà ọ̀rọ̀ pọ̀ báyìí.,"Ó ṣe dáa, jẹ́ ká parágírafù pọ̀ báyìí.",,True,0.6153846153846154,0.5957446808510638,0.6153846153846154,0.5681818181818182
+sahara,v0-yo-0053,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3188,Ẹ wà o! O ṣe daradara. Jẹ ká ka paragraph papọ̀ bayi!,"Ẹ wá ó, dára púpọ̀. A máa ka ìtàn nísìyí. Weldone.",,True,0.8333333333333334,0.7547169811320755,0.8333333333333334,0.76
+sahara,v0-yo-0054,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2423,Ẹ wà! Ó dára púpọ̀! A máa ń ka ìtàn nísinsìnyí. Well done!,"O dara, a máa n ṣe atunyẹwo pọ̀ rẹ. Keep going, ìwọ náà n ṣe.",,True,1.1538461538461537,0.8448275862068966,1.1538461538461537,0.8148148148148148
+sahara,v0-yo-0055,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3251,"Ó dára, a máa ń ṣe àtúnyẹ̀wò papọ̀ rẹ̀. Keep going, ìwọ ń ṣe dáadáa!","Ó dára, a má wà níbí, a ó practice letter pọ̀ sí.",,True,0.8,0.6617647058823529,0.8,0.671875
+sahara,v0-yo-0056,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3338,"Ó dára, a máa wà níbí. A óò practice lẹ́tà pọ̀ síi!","Kò pọ̀, lọ́pọ̀lọpọ̀ a má ṣe àwọn ọ̀rọ̀ sí papọ̀, okay.",,True,1.0,0.9019607843137255,1.0,0.8958333333333334
+sahara,v0-yo-0057,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3192,"Kò tọ̀pọ̀lọpọ̀! A máa ń ṣe àwọn ọ̀rọ̀ síi papọ̀, okay?","Ó dára, a ó ṣiṣẹ́ pẹ̀lú paragraf. Ó ń ṣe dáadáa.",,True,1.0,0.8703703703703703,0.9090909090909091,0.8627450980392157
+sahara,v0-yo-0058,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3454,"Ó dára, a ó máa ṣiṣẹ pẹ̀lú paragraph. O ń ṣe dáadáa!","Ó dára, ẹ jẹ́ kí a ṣe àtúnyẹ̀wò lẹ́tà díẹ̀ pọ̀. Redication.",,True,0.8333333333333334,0.75,0.8333333333333334,0.7551020408163265
+sahara,v0-yo-0059,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3353,"Ó dára, ẹ jẹ́ ká ṣe àtúnyẹ̀wò lẹ́tà díẹ̀ papọ̀. Ready? Jẹ́ kí a bẹ̀rẹ̀!","Ẹ káàbọ̀ ní ìtẹ̀já àkókò yìí, a ó wá level tó dára jù.",,True,1.0,0.7746478873239436,0.9333333333333333,0.7611940298507462
+sahara,v0-yo-0060,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3237,"Ẹ káàbọ̀! Ní ìtẹ̀jáde àkọ́kọ́ yìí, a ó wá ìpele tó dára jù fún ọ.","Ìyíṣẹ́ dára, kí ẹ̀ gbà yin, arẹ́ parí.",,True,1.0,0.8153846153846154,1.0,0.8225806451612904
+sahara,v0-yo-0061,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3321,"Ẹ̀yẹ kékeré, o ṣe dára! Keep going, a fẹ́rẹ̀ parí!","Ẹ má worry, ọmọ mi. Ìdánwò ni, ìwọ ń ṣe dáadáa.",,True,1.1,0.8,1.1,0.8043478260869565
+sahara,v0-yo-0062,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3167,"Ẹ má worry, ọmọ mi! Ìdánwò ni — ìwọ ń ṣe dáadáa.","Ẹ̀rù má bà ọmọ mi, ìwọ lè ṣe. No worried rárá.",,True,0.8333333333333334,0.6666666666666666,0.7272727272727273,0.6511627906976745
+sahara,v0-yo-0063,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3184,"Ẹ̀rù má bà ọ, ọmọ mi. Ìwọ lè ṣe é — no worries rárá!","Ó dára, ó ṣe dáadáa. Keep up ẹ̀kọ́ wa fẹ́rẹ́ pa.",,True,1.0,0.8076923076923077,1.0,0.851063829787234
+sahara,v0-yo-0064,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3376,"Ó dára! O ṣe dáadáa, keep it up! Ẹ̀kọ́ wa fẹ́rẹ̀ parí.",Ó dára tó ń béèrè yìí lè ṣùgbọ́n mo trust fún.,,True,0.9166666666666666,0.7037037037037037,0.8333333333333334,0.7
+sahara,v0-yo-0065,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3263,"Ó dára! Ìbéèrè tó ń bọ̀ yìí le díẹ̀, ṣùgbọ́n mo gbádùn fún ọ!","Ẹ káàbọ̀ padà, welcome back. Jẹ́ ká tẹ̀síwájú.",,True,1.0,0.819672131147541,1.0,0.7931034482758621
+sahara,v0-yo-0066,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3283,"Ẹ káàbọ̀ padà! Welcome back, jẹ́ ká tẹ̀síwájú papọ̀ nhẹ̀!","Ẹ jẹ́ kí a gbọ́ o, sọ̀rọ̀ sí Specule.",,True,0.9,0.7719298245614035,0.9,0.7777777777777778
+sahara,v0-yo-0067,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3267,"Ẹ jẹ́ kí a gbọ́ ọ̀ ẹ! Sọ̀rọ̀ síi, speak up, ìwọ lè ṣe é!","Ẹ wá jẹ́ ká padà focus, ọmọ mi. À ń ṣe nǹkan.",,True,0.8666666666666667,0.75,0.8666666666666667,0.7307692307692307
+sahara,v0-yo-0068,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4134,"Ẹ wá, jẹ ká padà! Focus, ọmọ mi — a ń ṣe nǹkan tó dára!",Ó dára. Good job lónìí. Ìwé kíkà wa má wà lọ́la.,,True,1.0,0.7818181818181819,1.0,0.7755102040816326
+sahara,v0-yo-0069,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3283,Ó dára! Good job lónìí. Ìwé kíkà wa máa ń bá a lọ lọ́la!,"Ó dájú pé a tún padà wá, lẹ́yìn náà a lè tẹ̀síwájú.",,True,0.8571428571428571,0.75,0.8571428571428571,0.7169811320754716
+sahara,v0-yo-0070,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3454,"Dára, a ó tún padà wá. A lè tẹ̀síwájú lẹ́yìn náà, ọkàn mi!","Ó dára, a má padà wá ní ọjọ tó ń bọ. Thank you, ọmọ mi.",,True,1.0769230769230769,0.603448275862069,0.8461538461538461,0.5925925925925926
+sahara,v0-yo-0071,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3208,"Ó dára, a máa padà wá ọjọ́ tó ń bọ̀. O ṣe àgbàdo, ọmọ mi!","Iwọ n ṣe dáadáa, pílẹ̀ rẹ jẹ́ level 1, ó dára gan.",,True,1.0,0.8421052631578947,1.0,0.7924528301886793
+sahara,v0-yo-0072,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2998,"Ìwọ ń ṣiṣẹ́ dáadáa! Ìpele rẹ jẹ́ level one, ó dára gan-an!","Ẹ jẹ́ kí a dúpẹ́, ó ṣe dára gan lónìí.",,True,1.0,0.7068965517241379,0.8461538461538461,0.6545454545454545
+sahara,v0-yo-0073,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3174,"Ẹ jẹ́ kí a dúpẹ́! O ṣe dára gan-an lónìí, well done!","Ódàárọ̀, a ó padà wá sí Adáwolé wa lọ́jọ́ tó ń bọ̀.",,True,1.0,0.7692307692307693,1.0,0.7959183673469388
+sahara,v0-yo-0074,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2116,Ó dàárọ̀! A ó padà wá ṣe àdáwọlé wa lọ́jọ́ tó ń bọ̀. Ó dára!,"Mi ò gbọ́, jọ̀wọ́ sọ lẹ́ẹ̀kan sí.",,True,1.0,0.8166666666666667,1.0,0.8245614035087719
+sahara,v0-yo-0075,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3009,"Hmm,미 mi ò gbọ́ ọ̀. Jọ̀wọ́ sọ lẹ́ẹ̀kan sí i!","Eso leekan siro die la
+",,True,1.0,0.8863636363636364,1.0,0.8571428571428571
+sahara,v0-yo-0076,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3316,"Ẹ sọ lẹ́ẹ̀kan síi, sọ̀rọ̀ díẹ̀ louder!","Ẹ jọ̀wọ́, wa sunmọ foonu, ariwo púpọ̀ wà.",,True,1.0,0.8421052631578947,1.0,0.8611111111111112
+sahara,v0-yo-0077,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3104,"Ẹ jọ̀ọ́, wá sún mọ́ fóònù, ariwo púpọ̀ wà!","Ejo sọ ìdáhùn rẹ, yougaen.
+",,True,1.0,0.7857142857142857,1.0,0.7948717948717948
+sahara,v0-yo-0078,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3494,"Ẹ jọ̀ọ́, sọ ìdáhùn rẹ mọ́ again.","Dúró die jẹ́ kín parí aṣọ mi
+",,True,1.0,0.84375,1.0,0.8666666666666667
+sahara,v0-yo-0079,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3197,"Dúró díẹ̀, jẹ́ kí n parí àsọ mi!",Ṣé o sọ pé card yìí ni ohun tó gbọ́ dáadáa?,,True,1.375,1.03125,1.375,1.0666666666666667
+sahara,v0-yo-0080,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3341,"Ṣé o sọ pé ""cat""? Ìyẹn ni ohun tó gbọ́ dáadáa.",Ẹ wọlé ìgbìyànjú mẹta tí Kúnlé lórí item yìí.,,True,1.0,0.8478260869565217,1.0,0.9047619047619048
+sahara,v0-yo-0081,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3112,"Ẹ wọlé, ìgbìyànjú mẹ́ta ti kùnlẹ̀ lórí item yìí.",Ìṣòro èrò wa ṣe kò le tẹsíwájú.,,True,1.0,0.7916666666666666,1.0,0.8043478260869565
+sahara,v0-yo-0082,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3760,Ìṣòro ẹ̀rọ wà. Session kò lè tẹ̀síwájú báyìí.,Ìdí nìyẹn tí Má bínú ẹni tó rí ran lọ́wọ́ ń bọ̀ ní báyì.,,True,1.75,0.9555555555555556,1.75,0.9767441860465116
+sahara,v0-yo-0083,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3275,"Ó dára, màá bínú. Ẹni tó lè ràn ọ́ lọ́wọ́ ń bọ̀ ní báyìí.",Dúró ẹni kan wá láti ran lọ́wọ́ now.,,True,0.9285714285714286,0.6666666666666666,0.8571428571428571,0.6481481481481481
+sahara,v0-yo-0084,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,2329,"Dúró, ènìyàn kan wá láti ràn ọ́ lọ́wọ́ now.",Jẹ́ kí a rí àti yàn ìpele reading level kẹta. Ẹ fọwọ́ sí.,,True,1.4444444444444444,1.0,1.4444444444444444,1.0
+sahara,v0-yo-0085,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3703,Jẹ́ kí a jẹrìí: a ti yàn ipele reading level kẹta. Ẹ fọwọ́ sí i?,"Ìjòkó yìí ti parí. Ọmọ náà parí ìdánwò 3, ó ṣẹ̀ṣẹ̀ kọ́ ọ̀rọ̀ 4 tuntun. Score ti jáde.",,True,1.2,1.078125,1.2,1.0327868852459017
+sahara,v0-yo-0086,sahara-file-v1,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,3415,"Ìjókòó yìí ti parí. Ọmọ náà pari ìdánwò mẹ́ta, ó ṣẹṣẹ kọ ọrọ mẹ́rin tuntun, score rẹ̀ jẹ́ ìdajì.","Ìlẹ̀ yìí ti parí, mú tó kàn wá síbí.",,True,0.8947368421052632,0.7395833333333334,0.8421052631578947,0.7391304347826086
+sahara,v0-yo-b-0001,sahara-file-v1,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,2973,Sọ fún mi nípa ilé-ìwé rẹ.,"Sọ fún mi nípa Ilé ìwé re
+",,True,0.5,0.15384615384615385,0.14285714285714285,0.04
+sahara,v0-yo-b-0002,sahara-file-v1,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,3107,Kí ni o ṣe lánàá lẹ́yìn ilé-ìwé?,"Kíni ose lànà lẹ́yìn ilé ìwé
+",,True,1.0,0.21875,0.625,0.16129032258064516
+sahara,v0-yo-b-0003,sahara-file-v1,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,3238,Báwo ni o ṣe ń lọ sí ọjà láti ilé?,Báwo ni o ṣe ń lọ sí ọjà láti ilé?,,True,0.0,0.0,0.0,0.0
+sahara,v0-yo-b-0004,sahara-file-v1,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,3732,"Ẹ̀kọ́ wo ni o fẹ́ràn jùlọ, kí ló sì dé?","Ẹ̀kọ́ wo ni o fẹ́ràn jùlọ, kí ló sì dé?",,True,0.0,0.0,0.0,0.0
+sahara,v0-yo-b-0005,sahara-file-v1,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,3664,Sọ fún mi nípa àkókò kan tí o ràn ẹnìkan lọ́wọ́.,Sọ fún mi nípa àkókò kan tí ó ran ẹnikan lọ́wọ́.,,True,0.2727272727272727,0.0625,0.2727272727272727,0.06382978723404255
+sahara,v0-yo-b-0006,sahara-file-v1,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,3200,Ka ní ohùn sókè láti ọ̀kan dé ogún.,Ká ní ohun sókè láti 1 dé 20.,,True,0.5,0.3142857142857143,0.5,0.3235294117647059
+sahara,v0-yo-b-0007,sahara-file-v1,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,2532,Mélòó ni mẹ́ẹ̀ẹ́dógún kún èje? Sọ fún mi bí o ṣe rí ìdáhùn náà.,Mẹ́ẹ̀dogún jẹ́ 15. Sọ fún mi bí o ṣe rí ìdáhùn náà.,,True,0.35714285714285715,0.30158730158730157,0.35714285714285715,0.29508196721311475
+sahara,v0-yo-b-0008,sahara-file-v1,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,3383,Sọ fún mi ohun kan tó ṣẹlẹ̀ ní ilé-ìwé ní ọ̀sẹ̀ yìí.,Sọ fún mi gbogbo nǹkan tó ṣẹlẹ̀ ní ilé-iwe ní ọ̀hún.,,True,0.4166666666666667,0.3076923076923077,0.38461538461538464,0.3137254901960784
+sahara,v0-yo-b-0009,sahara-file-v1,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,3306,Kí ni o fẹ́ ṣe nígbà tí o bá dàgbà?,Kí ni o fẹ́ ṣe? Nígbà tí o bá dàgbà?,,True,0.2,0.05714285714285714,0.0,0.0
+sahara,v0-yo-b-0010,sahara-file-v1,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,3393,"Ṣàlàyé eré kan tí o ń ṣeré pẹ̀lú àwọn ọ̀rẹ́ rẹ, àti òfin rẹ̀.",Ṣàlàyé ere kan tí o n ṣeré pẹ̀lú àwọn ọ̀rẹ́ rẹ àti,,True,0.35714285714285715,0.21311475409836064,0.2857142857142857,0.1864406779661017
+sahara,v0-yo-child-a-yo-ls-001,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,2717,ba,"
+",,True,1.0,1.0,1.0,1.0
+sahara,v0-yo-child-a-yo-ls-002,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,2927,be,"Gbé
+",,True,1.0,1.5,1.0,1.0
+sahara,v0-yo-child-a-yo-ls-003,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,2759,bẹ,"Bẹ́
+",,True,1.0,1.5,1.0,0.5
+sahara,v0-yo-child-a-yo-ls-004,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,2760,bi,"Bí
+",,True,1.0,1.5,1.0,0.5
+sahara,v0-yo-child-a-yo-ls-005,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,3307,bo,"Bó
+",,True,1.0,1.5,1.0,0.5
+sahara,v0-yo-child-a-yo-ls-006,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,2698,bọ,"Bọ́
+",,True,1.0,1.5,1.0,0.5
+sahara,v0-yo-child-a-yo-ls-007,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,2787,bu,"Brin
+",,True,1.0,2.5,1.0,1.5
+sahara,v0-yo-child-a-yo-ls-008,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,2067,ma,"Man
+",,True,1.0,1.5,1.0,0.5
+sahara,v0-yo-child-a-yo-ls-009,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,2967,me,"Me
+",,True,1.0,1.0,0.0,0.0
+sahara,v0-yo-child-a-yo-ls-010,,yo,spk-yo-003,setA,syllable,error,649,mẹ,,"HTTP 400: {""data"":{},""message"":""audio file duration of 0seconds is less than minimum of 1seconds required for processing"",""status"":""Error""}",True,1.0,1.0,1.0,1.0
+sahara,v0-yo-child-a-yo-ls-011,,yo,spk-yo-003,setA,syllable,error,1422,mi,,"HTTP 400: {""data"":{},""message"":""audio file duration of 0seconds is less than minimum of 1seconds required for processing"",""status"":""Error""}",True,1.0,1.0,1.0,1.0
+sahara,v0-yo-child-a-yo-ls-012,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,3221,mo,"Mo
+",,True,1.0,1.0,0.0,0.0
+sahara,v0-yo-child-a-yo-ls-013,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,2708,mọ,"Mo
+",,True,1.0,1.5,1.0,0.5
+sahara,v0-yo-child-a-yo-ls-014,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,3181,mu,"
+",,True,1.0,1.0,1.0,1.0
+sahara,v0-yo-child-a-yo-ls-015,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,2681,na,"No
+",,True,1.0,1.5,1.0,0.5
+sahara,v0-yo-child-a-yo-ls-016,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,2827,ne,"
+",,True,1.0,1.0,1.0,1.0
+sahara,v0-yo-child-a-yo-ls-017,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,2681,nẹ,"No
+",,True,1.0,1.5,1.0,0.5
+sahara,v0-yo-child-a-yo-ls-018,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,3393,ni,"Re
+",,True,1.0,1.5,1.0,1.0
+sahara,v0-yo-child-a-yo-ls-019,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,3115,no,"
+",,True,1.0,1.0,1.0,1.0
+sahara,v0-yo-child-a-yo-ls-021,,yo,spk-yo-003,setA,syllable,error,701,nu,,"HTTP 400: {""data"":{},""message"":""audio file duration of 0seconds is less than minimum of 1seconds required for processing"",""status"":""Error""}",True,1.0,1.0,1.0,1.0
+sahara,v0-yo-child-a-yo-ls-022,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,2818,la,"
+",,True,1.0,1.0,1.0,1.0
+sahara,v0-yo-child-a-yo-ls-023,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,2650,le,"
+",,True,1.0,1.0,1.0,1.0
+sahara,v0-yo-child-a-yo-ls-024,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,2958,lẹ,"Le
+",,True,1.0,1.5,1.0,0.5
+sahara,v0-yo-child-a-yo-ls-025,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,2949,li,"Mi
+",,True,1.0,1.0,1.0,0.5
+sahara,v0-yo-child-a-yo-ls-026,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,3020,lo,"No
+",,True,1.0,1.0,1.0,0.5
+sahara,v0-yo-child-a-yo-ls-027,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,3045,lọ,"
+",,True,1.0,1.0,1.0,1.0
+sahara,v0-yo-child-a-yo-ls-028,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,3018,lu,"
+",,True,1.0,1.0,1.0,1.0
+sahara,v0-yo-child-a-yo-ls-029,sahara-file-v1,yo,spk-yo-003,setA,syllable,ok,3085,ka,"Cow
+",,True,1.0,2.0,1.0,1.5
+sahara,v0-yo-child-a-yo-ls-030,,yo,spk-yo-003,setA,syllable,error,659,ki,,"HTTP 400: {""data"":{},""message"":""audio file duration of 0seconds is less than minimum of 1seconds required for processing"",""status"":""Error""}",True,1.0,1.0,1.0,1.0
+sahara,v0-yo-child-a-yo-p-001,sahara-file-v1,yo,spk-yo-004,setA,paragraph,ok,5062,Ìyá ń dáná fún oúnjẹ. Iná ń jó gbóná gbóná. Iná ń fún ni ìmọ́lẹ̀. Gbogbo wa fẹ́ràn iná gan-an.,"Ìyàná fún oúnjẹ, iná gbóná-gbóná, iná fúnni ní ìmọ́lẹ̀, gbogbo wa fẹ́ràn iná gan-an.",,True,0.75,0.24468085106382978,0.38095238095238093,0.17777777777777778
+sahara,v0-yo-child-a-yo-p-002,sahara-file-v1,yo,spk-yo-004,setA,paragraph,ok,3895,Mo fẹ́ràn kíka ìwé gidigidi. Ìyá àti bàbá mi ṣiṣẹ́. Mo ka ìwé fúnra mi. Kíka jẹ́ ìdùnnú fún mi.,Mo fẹ́ràn kíka ìwé gidigidi. Mo ka ìwé fúnra fúnra mi. Kíkà jẹ́nú.,,True,0.55,0.43157894736842106,0.55,0.43956043956043955
+sahara,v0-yo-child-a-yo-s-001-q1,sahara-file-v1,yo,spk-yo-004,setA,comprehension_question,ok,2999,Ǹjẹ́ ọkọ́ ọkùnrin náà gùn tàbí kúrú ní ìbẹ̀rẹ̀ ìtàn náà?,"Njẹ ọkọ ọkunrin náà kúrú tàbí gun ní ibẹrẹ itan náà? Bẹẹni, ọkọ ọkunrin náà kúrò ní ibẹrẹ itan.",,True,1.3636363636363635,1.0714285714285714,1.3636363636363635,1.0363636363636364
+sahara,v0-yo-child-a-yo-s-001-q2,sahara-file-v1,yo,spk-yo-004,setA,comprehension_question,ok,3701,Kí nìdí tí ọkùnrin náà fi ṣe ohun èlò tuntun fún ara rẹ̀?,Kí ni idi tí ọkùnrin náà fi ṣe ohun elo tuntun fún ara rẹ ní torí pé ó ga jù?,,True,0.7692307692307693,0.43859649122807015,0.7692307692307693,0.44642857142857145
+sahara,v0-yo-child-a-yo-s-001,sahara-file-v1,yo,spk-yo-004,setA,story,ok,6488,"Ọkọ́ rẹ̀ kúrú jù. Ọ̀nà ilẹ̀kùn rẹ̀ kéré jù. Ibùsùn rẹ̀ kúrú jù pẹ̀lú. Ọkùnrin yìí ga jù! Ó ṣe ọwọ ọkọ́ gígùn púpọ̀ kan. Ó ṣe ara ilẹ̀kùn gíga púpọ̀. Ó ṣe ibùsùn gígùn púpọ̀ kan. Ó kúrò ní ilé rẹ̀, ó sì gbé ní igbó ńlá kan. Ó gbé fún ọdún púpọ̀, ó sì láyọ̀.","Ọkọ rẹ kuru ju, ona ilẹ̀kùn ilẹ̀kùn rẹ kéré ju. Pẹ̀lú ọkùnrin yìí ga ju, ó ṣe owó ọkọ̀ gigun púpọ̀, ó ṣe ara ilẹ̀kùn giga pupọ̀, ó ṣe ibun gigun púpọ̀. Ó kúrò ní ilé rẹ, ó sì gbé ní igbó ńlá kan, ó gbé fún odidi ọdún púpọ̀.",,True,0.6491228070175439,0.30859375,0.47368421052631576,0.2612244897959184
+sahara,v0-yo-child-a-yo-s-002-q1,sahara-file-v1,yo,spk-yo-004,setA,comprehension_question,ok,3107,Kí ni Adé gbìn sínú ọgbà rẹ̀?,Kíni Adé gbìn sínú ogbà rẹ fún àti ẹ gbé?,,True,1.1428571428571428,0.5517241379310345,1.1428571428571428,0.5714285714285714
+sahara,v0-yo-child-a-yo-s-002-q2,sahara-file-v1,yo,spk-yo-004,setA,comprehension_question,ok,3795,Kí nìdí tí ẹbí Adé fi láyọ̀ ní òpin ìtàn náà?,"Kí ni ìdí tí ẹbí Adé fi láyọ ní òpin ìtàn, kò sí ìdáhùn fún ìbéèrè yín.",,True,0.9090909090909091,0.6888888888888889,0.8181818181818182,0.6590909090909091
+sahara,v0-yo-child-a-yo-w-011,sahara-file-v1,yo,spk-yo-004,setA,word,ok,2932,ọwọ́,"Ọwọ́
+",,True,1.0,0.5,0.0,0.0
+sahara,v0-yo-child-a-yo-w-019,sahara-file-v1,yo,spk-yo-004,setA,word,ok,3163,ọjà,"Ọjà
+",,True,1.0,0.6666666666666666,0.0,0.0
+sahara,v0-yo-child-a-yo-w-021,sahara-file-v1,yo,spk-yo-004,setA,word,ok,2744,odò,"Ó ní
+",,True,2.0,1.6666666666666667,2.0,1.3333333333333333
+sahara,v0-yo-child-a-yo-w-022,sahara-file-v1,yo,spk-yo-004,setA,word,ok,2969,oòrùn,"Ó ran
+",,True,2.0,0.8,2.0,0.6
+sahara,v0-yo-child-a-yo-w-023,sahara-file-v1,yo,spk-yo-004,setA,word,ok,2090,òṣùpá,"Òṣùpá
+",,True,1.0,0.4,0.0,0.0
+sahara,v0-yo-child-a-yo-w-024,sahara-file-v1,yo,spk-yo-004,setA,word,ok,3004,àpò,"Apo
+",,True,1.0,1.0,1.0,0.6666666666666666
+sahara,v0-yo-child-a-yo-w-025,sahara-file-v1,yo,spk-yo-004,setA,word,ok,3228,àga,"Aga
+",,True,1.0,0.6666666666666666,1.0,0.3333333333333333
+sahara,v0-yo-child-a-yo-w-026,sahara-file-v1,yo,spk-yo-004,setA,word,ok,3245,adìẹ,"Adìẹ
+",,True,1.0,0.5,0.0,0.0
+sahara,v0-yo-child-a-yo-w-027,sahara-file-v1,yo,spk-yo-004,setA,word,ok,3023,ewúrẹ́,"Ewúrẹ́
+",,True,1.0,0.3333333333333333,0.0,0.0
+sahara,v0-yo-child-a-yo-w-028,sahara-file-v1,yo,spk-yo-004,setA,word,ok,3017,màálù,"Malu
+",,True,1.0,1.0,1.0,0.6
+sahara,v0-yo-child-a-yo-w-029,sahara-file-v1,yo,spk-yo-004,setA,word,ok,3491,ológbò,"Olóńgbò
+",,True,1.0,0.5,1.0,0.16666666666666666
+sahara,v0-yo-child-a-yo-w-030,sahara-file-v1,yo,spk-yo-004,setA,word,ok,2923,ọkọ̀,"Ọkọ
+",,True,1.0,0.5,1.0,0.25
+sahara,v0-yo-child-a-yo-w-031,sahara-file-v1,yo,spk-yo-004,setA,word,ok,3105,iṣẹ́,"Iṣẹ́
+",,True,1.0,0.5,0.0,0.0
+sahara,v0-yo-child-a-yo-w-032,sahara-file-v1,yo,spk-yo-004,setA,word,ok,3175,eré,"Èré
+",,True,1.0,0.6666666666666666,1.0,0.3333333333333333
+sahara,v0-yo-child-a-yo-w-033,sahara-file-v1,yo,spk-yo-004,setA,word,ok,2350,òkúta,"
+",,True,1.0,1.0,1.0,1.0
+sahara,v0-yo-child-a-yo-w-034,sahara-file-v1,yo,spk-yo-004,setA,word,ok,3008,oúnjẹ,"Oúnjẹ
+",,True,1.0,0.4,0.0,0.0
+sahara,v0-yo-child-a-yo-w-035,sahara-file-v1,yo,spk-yo-004,setA,word,ok,3034,ilé-ìwé,"Ilé ìwé
+",,True,2.0,0.42857142857142855,0.0,0.0
+sahara,v0-yo-child-a-yo-w-036,sahara-file-v1,yo,spk-yo-004,setA,word,ok,3050,ọkùnrin,"Ọkùnrin
+",,True,1.0,0.2857142857142857,0.0,0.0
+sahara,v0-yo-child-a-yo-w-037,sahara-file-v1,yo,spk-yo-004,setA,word,ok,3031,obìnrin,"Obìnrin
+",,True,1.0,0.2857142857142857,0.0,0.0
+sahara,v0-yo-child-a-yo-w-038,sahara-file-v1,yo,spk-yo-004,setA,word,ok,3020,ọjọ́,"Ọjọ́
+",,True,1.0,0.5,0.0,0.0
+sahara,v0-yo-child-a-yo-w-039,sahara-file-v1,yo,spk-yo-004,setA,word,ok,2992,alẹ́,"Ale
+",,True,1.0,0.75,1.0,0.5
+sahara,v0-yo-child-a-yo-w-040,sahara-file-v1,yo,spk-yo-004,setA,word,ok,3050,ẹ̀bùn,"Ewo
+",,True,1.0,1.0,1.0,1.0
+assemblyai,v0-sw-0090,universal-2,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,8816,Hebu jaribu kuisoma tena. One more time!,ebujaribu kusoma tena one more time,,True,0.8571428571428571,0.15,0.42857142857142855,0.07894736842105263
+assemblyai,v0-sw-0091,universal-2,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,5730,"Soma polepole, take your time, usikimbilie maneno.",soma pole pole take your time usiache manenu,,True,0.8571428571428571,0.26,0.5714285714285714,0.19148936170212766
+assemblyai,v0-sw-0092,universal-2,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4328,Uko ready? Twende!,kwa hivyo 20,,True,1.0,0.8333333333333334,1.0,0.875
+assemblyai,v0-sw-0093,universal-2,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4682,"Hongera! Good job, umeitamka vizuri!",ongira good job,,True,1.0,0.6388888888888888,0.6,0.5757575757575758
+assemblyai,v0-sw-0094,universal-2,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4366,Umesoma kifungu vizuri sana. Great job!,umei tamka vizuri,,True,0.8333333333333334,0.717948717948718,0.8333333333333334,0.6756756756756757
+assemblyai,v0-sw-0095,universal-2,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4567,Good try! Umejitahidi; tujaribu tena pamoja.,umeisoma kifungo vizuri sana great job,,True,1.0,0.7954545454545454,1.0,0.8048780487804879
+assemblyai,v0-sw-0096,universal-2,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4867,Unazidi kufanya vizuri. Keep it up!,good try umeji taidi tujaribu tena pamoja,,True,1.1666666666666667,0.9142857142857143,1.1666666666666667,0.9696969696969697
+assemblyai,v0-sw-0097,universal-2,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4484,Soma sentensi yote; maneno mengine yatakupa clue.,unazidi kufanya vizuri keep it up,,True,1.0,0.8163265306122449,1.0,0.8085106382978723
+assemblyai,v0-sw-0098,universal-2,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4608,Angalia neno hilo tena kwa makini. Take your time.,soma sentence yote maneno mengi ya takupa klu,,True,1.0,0.76,1.0,0.75
+assemblyai,v0-sw-0099,universal-2,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4984,Ulikaribia! Sikiliza sauti ya herufi hii: mmm. Try again.,angalia nenohilu tena kwa makini take your time,,True,1.0,0.7543859649122807,1.0,0.7735849056603774
+assemblyai,v0-sw-0100,universal-2,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4388,Sikiliza: “shule.” Sasa repeat after me: “shule.”,uli karibia,,True,1.0,0.8775510204081632,1.0,0.8536585365853658
+assemblyai,v0-sw-0101,universal-2,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,5280,Ulikaribia! Umeruka neno moja. Read tena bila kuliacha.,sikiliza sauti ya herufihi try again,,True,1.0,0.7636363636363637,1.0,0.75
+assemblyai,v0-sw-0102,universal-2,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4780,Hongera! Sasa tunaendelea kusoma maneno. Ready? Twende!,sikiliza shule sasa repeat after me shule,,True,1.0,0.7818181818181819,1.0,0.7647058823529411
+assemblyai,v0-sw-0103,universal-2,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4751,Tutaendelea kufanya mazoezi ya sauti za herufi. You’re doing well!,uli karibia umeruka neno moja reed tena bila kuliacha,,True,1.0,0.803030303030303,1.0,0.8125
+assemblyai,v0-sw-0104,universal-2,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4287,"Umefanya vizuri sana! Keep going, tunakaribia mwisho!",hongera sasa tunaendelea kusoma maneno ready twende,,True,1.0,0.7924528301886793,1.0,0.82
+assemblyai,v0-sw-0105,universal-2,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4859,Usiwe na wasiwasi; tuko pamoja. Ready? Tuanze!,tutandelea kufanya mazoezi ya sauti za herufi you're doing well,,True,1.4285714285714286,1.065217391304348,1.4285714285714286,1.119047619047619
+assemblyai,v0-sw-0106,universal-2,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4182,"Karibu tena! Welcome back, tuendelee tulipoishia.",umefanya vizuri sana keep going tunakaribia mwisho,,True,1.1666666666666667,0.8571428571428571,1.1666666666666667,0.8695652173913043
+assemblyai,v0-sw-0107,universal-2,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4749,"Asante sana kwa kazi yako nzuri leo, well done!",karibu tena welcome tuendele tulipo ishia,,True,1.0,0.7872340425531915,1.0,0.8
+assemblyai,v0-sw-0108,universal-2,sw-en,spk-sw-001,setC,scaffolding_utterance,ok,4321,"Samahani, sikusikia. Please jaribu tena.",samaani sikusikia please jarebutena,,True,1.0,0.2,0.6,0.08108108108108109
+assemblyai,v0-yo-0001,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4323,"Wo lẹ́tà yìí, kí ni ohùn rẹ̀? Sọ fún mi!",wole tayi kinyomure,,True,1.0,0.775,1.0,0.7297297297297297
+assemblyai,v0-yo-0002,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4618,Ṣe àyẹwò! Jọwọ ka syllable tó wà níbẹ̀ fún mi.,xe ayewo jo wokay selebutu wani befu mi,,True,1.0,0.6086956521739131,0.9,0.5681818181818182
+assemblyai,v0-yo-0003,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4349,"Ẹ wò ọ̀rọ̀ yìí, kí o sì ka á sókè.",e wu oro i kesi ka la odli,,True,0.9,0.6470588235294118,0.9,0.625
+assemblyai,v0-yo-0004,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5429,"Dára, jẹ́ ká bẹ̀rẹ̀. Jọwọ, read àdoédoé yìí fún mi.",dara cheka bere jawo kalitri jo i fumi,,True,1.0,0.6666666666666666,1.0,0.5957446808510638
+assemblyai,v0-yo-0005,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3883,"Jẹ́ ká bẹ̀rẹ̀! Jọ̀wọ́, ka ìtàn yìí káàárọ̀ látọ̀dọ̀ ìbẹ̀rẹ̀.",let's start jo o ka ito i la tibere,,True,0.9,0.7666666666666667,0.9,0.7368421052631579
+assemblyai,v0-yo-0006,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3881,Dára! Ǹjẹ́ o lè sọ fún mi kíní ìtàn yẹn túmọ̀ sí?,dara in juli sofu mi kini ito yemen dara,,True,0.9166666666666666,0.6122448979591837,0.9166666666666666,0.5957446808510638
+assemblyai,v0-yo-0007,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4431,"Dára, jẹ́ ká gbìyànjú mọ́ lẹ́ẹ̀kan sí i, try again!",dara djeka gbinyo dju mon lekon si,,True,1.0,0.6862745098039216,1.0,0.6458333333333334
+assemblyai,v0-yo-0008,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4118,"Dáadáa, slow down kí o sì ka fẹ́ẹ́fẹ́ẹ́ díẹ̀.",o dara slow down kosi kafere fadye,,True,0.8888888888888888,0.5333333333333333,0.8888888888888888,0.5116279069767442
+assemblyai,v0-yo-0009,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4294,"Jọ̀wọ́, mú fóònù wá sún mọ́ ẹnu rẹ kí o sọ̀rọ̀ speak clearly!",jo wo mufu nuwa sienure kiusi soro,,True,1.0,0.7213114754098361,1.0,0.6949152542372882
+assemblyai,v0-yo-0010,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4498,Ṣé o ṣetán? Jẹ́ ká bẹ̀rẹ̀ — ready?,she o tishito je ka bere ready,,True,0.875,0.6176470588235294,0.7142857142857143,0.5666666666666667
+assemblyai,v0-yo-0011,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4466,Ṣe o rò pé kí ni yóò ṣẹlẹ̀ tó bá tẹ̀lé? Sọ fún mi!,she uru pekin yushele tu bateli tell me,,True,1.0,0.64,1.0,0.625
+assemblyai,v0-yo-0012,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4275,"Ṣe kó o, èmi yóò sọ ó lẹ́ẹ̀kan sí i, fara balẹ̀ gbọ́.",lisin e miyo o sole kansi,,True,1.0,0.7547169811320755,1.0,0.74
+assemblyai,v0-yo-0013,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4738,"Dúró díẹ̀, jẹ́ kí n pe olùrànlọ́wọ́ wá, okay?",duru dje djekin pi uluralowawa okei,,True,1.0,0.6222222222222222,1.0,0.5714285714285714
+assemblyai,v0-yo-0014,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4871,Jẹ́ ká gbìyànjú àdánwò kékeré kan. Ready? Bẹ̀rẹ̀!,jekagbin yakju idon wkikirikon ready bere,,True,1.0,0.6326530612244898,0.875,0.5434782608695652
+assemblyai,v0-yo-0015,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4358,"Ó yani lẹ́nu! Well done, ó tọ́ pátápátá!",well done utu pata kpata,,True,1.0,0.675,0.75,0.6216216216216216
+assemblyai,v0-yo-0016,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4264,"Ó dára! O ka a dáadáa, [[well done]]!",this is good oka dada,,True,1.0,0.8378378378378378,1.0,0.8
+assemblyai,v0-yo-0017,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4953,"Ó dára! O ka ọ̀rọ̀ náà dáadáa, well done!",udera ukaoro no dada well done,,True,0.8888888888888888,0.4146341463414634,0.7777777777777778,0.3684210526315789
+assemblyai,v0-yo-0018,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4624,"Ó dára púpọ̀! O ka gbogbo ìtàn náà dáadáa, well done!",udara pupo uka guguin tono odada well done,,True,0.9090909090909091,0.4716981132075472,0.8181818181818182,0.44
+assemblyai,v0-yo-0019,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5100,"Ó dára gan! O ka ìtàn náà dáadáa, well done!",o daragon o kayton o dada well done,,True,0.9,0.36363636363636365,0.7,0.2926829268292683
+assemblyai,v0-yo-0020,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4602,"Àgbàdo! O gbìyànjú, o ṣe é! Good job!",ogmi oju ose good job,,True,1.0,0.6216216216216216,0.75,0.5151515151515151
+assemblyai,v0-yo-0021,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,3978,"Ẹ̀yẹn ni! O ti ṣe é. Well done, ọmọ mi!",beni otishe well done omomi,,True,1.0,0.5128205128205128,0.8,0.4
+assemblyai,v0-yo-0022,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4236,"Ìdáhùn rẹ dára gan-an! Well done, ọmọ mi!",ida unre daraka well done omomi,,True,1.0,0.4878048780487805,0.7777777777777778,0.42105263157894735
+assemblyai,v0-yo-0023,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4483,"Ó dára! O gbìyànjú gan-an, mo fẹ́ràn ìyẹn!",that is good ogme yajugon mwfero inye,,True,1.0,0.7857142857142857,1.0,0.7948717948717948
+assemblyai,v0-yo-0024,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4874,"Ó dára! O ti n ṣe better ju ìbẹ̀rẹ̀ lọ, mo fẹ́ràn rẹ̀!",o dara otin shi beta dju i bere lo mu feron re,,True,1.0,0.5185185185185185,1.0,0.47058823529411764
+assemblyai,v0-yo-0025,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4441,"Ó dára! O ka pẹ̀lú ìgboyà, well done!",odara oka kwe lu i buja well done,,True,0.875,0.4864864864864865,0.75,0.4117647058823529
+assemblyai,v0-yo-0026,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5022,"Ó dára! O ṣe àṣìṣe, o sì ṣe àtúnṣe rẹ̀ dára! Well done!",u dara u she a she she u she she a tun she re dara well done,,True,1.3076923076923077,0.5636363636363636,1.1538461538461537,0.5294117647058824
+assemblyai,v0-yo-0027,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,7117,"Ìdáhùn rẹ dára gan-an! Wow, o ronú nǹkan tó ṣàánú púpọ̀!",ត្រូងស្រូងស្រូងស្រូងស្រូងស្រូងស្រូងស្រូងស្រូងស្រូងស្រូងស្រូងស្រូងស្រូងស្រូងស្រូងស្រូងស្រូងស្រូងស្រូងស�,,True,1.0,1.8214285714285714,3.4166666666666665,1.6981132075471699
+assemblyai,v0-yo-0028,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,6677,"Ó dára! Well done, ọmọ mi. Mo gbọ́ ọ dáadáa.",odara well done omo mi mbuo dada,,True,1.0,0.45454545454545453,0.7,0.35
+assemblyai,v0-yo-0029,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4882,Wo lẹ́tà yìí. Ó ń ṣe ohun wo?,wulet ayi un shi unwo,,True,1.0,0.6896551724137931,1.0,0.6296296296296297
+assemblyai,v0-yo-0030,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4840,"Jẹ́ kí a darapọ̀ mọ́ ara wọn: ṣe àkójọpọ̀, sọ wọ́n papọ̀!",jeka da po moara un add them together sunga pako,,True,1.0,0.7192982456140351,1.0,0.7037037037037037
+assemblyai,v0-yo-0031,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4823,Wo lẹ́tà àkọ́kọ́ ọ̀rọ̀ yẹn. Èwo ni?,wu leta ako kolonye i wuni,,True,1.0,0.6857142857142857,1.0,0.6363636363636364
+assemblyai,v0-yo-0032,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4770,Wo ọ̀rọ̀ yìí dára! Ó dà bí ọ̀rọ̀ tí o mọ̀ tẹ́lẹ̀.,wu oro i very well oda bioro tiu motele,,True,1.0,0.7346938775510204,1.0,0.7021276595744681
+assemblyai,v0-yo-0033,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4411,Wo ó! Wo àwọn ọ̀rọ̀ mìíràn nínú gbolohun náà — wọn lè ràn ọ́ lọ́wọ́.,look wuwa wuwa romero ninu buluno wali rolo wo,,True,1.0,0.7058823529411765,1.0,0.671875
+assemblyai,v0-yo-0034,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4293,Rò ó! Kí ló ṣẹlẹ̀ nínú ìtàn wa? Èyí tó bá ìtàn mu ni ó tọ̀.,wu ki lo shalerinu itonwa e ito ba itonmuni raytswon,,True,1.0,0.6440677966101694,1.0,0.625
+assemblyai,v0-yo-0035,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4609,Rántí ohun tó ṣẹlẹ̀ ní ìbẹ̀rẹ̀ ìtàn wa. Think back!,rantsi u mtu shele ni tonwa think back,,True,1.0,0.5686274509803921,0.8,0.5102040816326531
+assemblyai,v0-yo-0036,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,5188,"Jẹ ká gbiyanju lẹ́ẹ̀kan sí i. Sọ ohun kọ̀ọ̀kan lọ́ra lọ́ra, slowly!",jeka gbinyo jule konsi son konkon sluli,,True,1.0,0.6567164179104478,1.0,0.609375
+assemblyai,v0-yo-0037,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4198,Dúró! Wo ọ̀rọ̀ náà mọ́jú kíyèsí àárọ̀ rẹ̀ — look again!,duru waro no modu kie si look again,,True,0.9090909090909091,0.6181818181818182,0.8,0.5490196078431373
+assemblyai,v0-yo-0038,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4767,"Jẹ́ ká gbìyànjú — broken si awọn ìpín kéékéré, ó dára?",je ka gwenyo ju ka breke si anwen ipinke kiri shu darra,,True,1.0,0.5555555555555556,1.1,0.56
+assemblyai,v0-yo-0039,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4404,Ronu: kí ni àwòrán rẹ̀ trông bii? Draw am lórí ọkàn rẹ!,ronu ki ni awu norejo drore lati uri,,True,0.9166666666666666,0.6727272727272727,0.8333333333333334,0.6153846153846154
+assemblyai,v0-yo-0040,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4467,Ẹ má bẹ̀rù! Whisper ohun náà kánkán fún mi.,ema beru wispa unofu mi,,True,1.0,0.6511627906976745,0.8888888888888888,0.6097560975609756
+assemblyai,v0-yo-0041,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4851,"Ó dára, ṣùgbọ́n ẹ̀kọ́ náà jẹ́ ""try again"" — tún gbọ́ó.",odera shumon e kono oje try again tubo,,True,1.0,0.5925925925925926,0.8,0.5416666666666666
+assemblyai,v0-yo-0042,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4722,"Ẹ̀yẹ! Jẹ́ ká gbìyànjú lẹ́ẹ̀kan sí i, try again!",nguja jeka gminyo jule konsi try again,,True,0.8888888888888888,0.574468085106383,0.7777777777777778,0.5454545454545454
+assemblyai,v0-yo-0043,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4918,"Ẹ̀yin ọmọ, gbiyanjú mọ́. Ọ̀rọ̀ náà jẹ́ ""aso"", ṣe try again.",enyama edbiyo jumo oronoje asho try again,,True,0.9090909090909091,0.5932203389830508,0.8181818181818182,0.5471698113207547
+assemblyai,v0-yo-0044,universal-2,yo-en,spk-yo-001,setC,scaffolding_utterance,ok,4808,"Ẹ jẹ ká gbìyànjú mọ̀. Jọwọ, ka gbólóọ̀run náà lẹ́ẹ̀kan sí i.",eceka trai mo jowo kakbolu uno lekonsi,,True,1.0,0.6833333333333333,1.0,0.6491228070175439
+assemblyai,v0-yo-0045,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4764,"Gbọ́ dáadáa: ""ọ̀wọ̀."" Ẹ̀yin repeat rẹ̀ — ""ọ̀wọ̀!""",otu eje ka tungu itono su kin yuso,,True,1.0,0.8571428571428571,1.1428571428571428,0.825
+assemblyai,v0-yo-0046,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4492,"Ò tó! Ẹ jẹ ká tún wo ìtàn náà, sai? Kí ni ó sọ?",odara shubun oro konwa tiofu jeka try again,,True,1.0,0.851063829787234,1.0,0.8837209302325582
+assemblyai,v0-yo-0047,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4586,"Ó dára, ṣùgbọ́n ọ̀rọ̀ kan wà tí o fo. Jẹ́ ká try again!",omomi udara shugmo itoso no u no ipada jeka try again,,True,0.9230769230769231,0.6909090909090909,0.8461538461538461,0.6730769230769231
+assemblyai,v0-yo-0048,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4192,"Ọmọ mi, ó dára, ṣùgbọ́n ìtọ́sọ̀nà ohùn náà yí padà. Jẹ́ ká try again!",kuburu eje ka skip kia tesi waju,,True,1.0,0.8695652173913043,1.0,0.8615384615384616
+assemblyai,v0-yo-0049,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4838,"Kò burú, ẹ jẹ ká skip èyí kí a siwaju.",odara shugwa njeka so urukorepo repeat after me amina,,True,1.0,1.0789473684210527,1.0,1.1388888888888888
+assemblyai,v0-yo-0050,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,9669,Ó dára! Ṣùgbọ́n jẹ́ ká sọ orúkọ rẹ̀ pọ̀: repeat after me — Àmíná.,ose dada je ka wo anwa leta bayi she ebe,,True,1.0,0.7846153846153846,1.0,0.7666666666666667
+assemblyai,v0-yo-0051,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,5728,"Ó dára! O ṣe dáradára. Jẹ ká wo àwọn lẹ́tà báyìí, ṣe é bẹ́ẹ̀?",o dara you have done it djeka loka oro bobayi,,True,1.0,0.7704918032786885,0.9285714285714286,0.7543859649122807
+assemblyai,v0-yo-0052,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4741,Ó dára! O ti ṣe é! Jẹ ká lọ kà ọ̀rọ̀ pọ̀ báyìí.,ḫu ʃe dara-dara dʒeka ka paragraf ba po bayi,,True,1.0,0.8085106382978723,1.0,0.7727272727272727
+assemblyai,v0-yo-0053,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4903,Ẹ wà o! O ṣe daradara. Jẹ ká ka paragraph papọ̀ bayi!,ewa udara pupo ama aka iton nisihi well done,,True,1.0,0.7924528301886793,1.0,0.8
+assemblyai,v0-yo-0054,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4622,Ẹ wà! Ó dára púpọ̀! A máa ń ka ìtàn nísinsìnyí. Well done!,odara amanshe atunye wupa pore keep going iwanonshe dada,,True,1.0,0.8275862068965517,1.0,0.8703703703703703
+assemblyai,v0-yo-0055,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4522,"Ó dára, a máa ń ṣe àtúnyẹ̀wò papọ̀ rẹ̀. Keep going, ìwọ ń ṣe dáadáa!",udara ama awanibi awo practice later bako si,,True,1.0,0.7647058823529411,1.0,0.75
+assemblyai,v0-yo-0056,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4501,"Ó dára, a máa wà níbí. A óò practice lẹ́tà pọ̀ síi!",kukbo lopo lopo ama ashe awo orosi upapo ok,,True,1.0,0.8627450980392157,1.0,0.8541666666666666
+assemblyai,v0-yo-0057,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4584,"Kò tọ̀pọ̀lọpọ̀! A máa ń ṣe àwọn ọ̀rọ̀ síi papọ̀, okay?",o dara aw ma shishepelu paragraf on shedada,,True,1.0,0.8518518518518519,1.0,0.8431372549019608
+assemblyai,v0-yo-0058,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4611,"Ó dára, a ó máa ṣiṣẹ pẹ̀lú paragraph. O ń ṣe dáadáa!",oodara eje ki ashi atunye uleta adiekpapo ready eje ki abere,,True,1.0,0.8846153846153846,1.0,0.8979591836734694
+assemblyai,v0-yo-0059,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4459,"Ó dára, ẹ jẹ́ ká ṣe àtúnyẹ̀wò lẹ́tà díẹ̀ papọ̀. Ready? Jẹ́ kí a bẹ̀rẹ̀!",ekabo ni itejadia koko i awa levu todara jufo,,True,1.0,0.8169014084507042,1.0,0.8059701492537313
+assemblyai,v0-yo-0060,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4600,"Ẹ káàbọ̀! Ní ìtẹ̀jáde àkọ́kọ́ yìí, a ó wá ìpele tó dára jù fún ọ.",iyi keke reo she dara keep going aferegbari,,True,1.0,0.8615384615384616,1.0,0.8548387096774194
+assemblyai,v0-yo-0061,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4242,"Ẹ̀yẹ kékeré, o ṣe dára! Keep going, a fẹ́rẹ̀ parí!",ema worry omomi you don't worry you won't say da da,,True,1.1,0.88,1.1,0.9130434782608695
+assemblyai,v0-yo-0062,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4662,"Ẹ má worry, ọmọ mi! Ìdánwò ni — ìwọ ń ṣe dáadáa.",e rumaba o momi i wole she no worries rara,,True,1.0,0.7708333333333334,1.0,0.7674418604651163
+assemblyai,v0-yo-0063,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4388,"Ẹ̀rù má bà ọ, ọmọ mi. Ìwọ lè ṣe é — no worries rárá!",udara ushidanda keep it up eko wafere wpari,,True,1.0,0.8076923076923077,1.0,0.7872340425531915
+assemblyai,v0-yo-0064,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4562,"Ó dára! O ṣe dáadáa, keep it up! Ẹ̀kọ́ wa fẹ́rẹ̀ parí.",odara iberi ton iberi yi ledie shugon mo trust fon o,,True,1.0,0.8333333333333334,1.0,0.86
+assemblyai,v0-yo-0065,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4453,"Ó dára! Ìbéèrè tó ń bọ̀ yìí le díẹ̀, ṣùgbọ́n mo gbádùn fún ọ!",eka bo pada welcome back jeka tesi waju papo,,True,1.0,0.8360655737704918,1.0,0.8275862068965517
+assemblyai,v0-yo-0066,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4332,"Ẹ káàbọ̀ padà! Welcome back, jẹ́ ká tẹ̀síwájú papọ̀ nhẹ̀!",eje kia gau sorosi speak up iwo leshe,,True,1.0,0.8245614035087719,1.0,0.8148148148148148
+assemblyai,v0-yo-0067,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4265,"Ẹ jẹ́ kí a gbọ́ ọ̀ ẹ! Sọ̀rọ̀ síi, speak up, ìwọ lè ṣe é!",ewa jekapada fukoso momi anshe nkontu dara,,True,1.0,0.8571428571428571,1.0,0.8269230769230769
+assemblyai,v0-yo-0068,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4509,"Ẹ wá, jẹ ká padà! Focus, ọmọ mi — a ń ṣe nǹkan tó dára!",oodara good job luni iweki kawa mawa lola,,True,1.0,0.8,1.0,0.7959183673469388
+assemblyai,v0-yo-0069,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4331,Ó dára! Good job lónìí. Ìwé kíkà wa máa ń bá a lọ lọ́la!,it is good i will talk about that later see what you like to know,,True,1.0714285714285714,0.9107142857142857,1.0,0.9245283018867925
+assemblyai,v0-yo-0070,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4258,"Dára, a ó tún padà wá. A lè tẹ̀síwájú lẹ́yìn náà, ọkàn mi!",udara hama wapadawani ojotumbo thank you omomi,,True,1.0,0.7586206896551724,1.0,0.7222222222222222
+assemblyai,v0-yo-0071,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4209,"Ó dára, a máa padà wá ọjọ́ tó ń bọ̀. O ṣe àgbàdo, ọmọ mi!",iwan shedada ipele reje level 1 oda ragon,,True,1.0,0.8070175438596491,1.0,0.7924528301886793
+assemblyai,v0-yo-0072,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4228,"Ìwọ ń ṣiṣẹ́ dáadáa! Ìpele rẹ jẹ́ level one, ó dára gan-an!",eje kia dupe ose daragon luni well done,,True,1.0,0.7586206896551724,1.0,0.7454545454545455
+assemblyai,v0-yo-0073,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4471,"Ẹ jẹ́ kí a dúpẹ́! O ṣe dára gan-an lónìí, well done!",udaro hau padawasi ya daole wa lojotumbo that is good,,True,1.0,0.8846153846153846,1.0,0.8775510204081632
+assemblyai,v0-yo-0074,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,6564,Ó dàárọ̀! A ó padà wá ṣe àdáwọlé wa lọ́jọ́ tó ń bọ̀. Ó dára!,ḥḥḥ ḥḥḥ ḥḥ ḥḥ ḥḥ ḥḥ ḥḥ ḥḥ ḥḥ ḥḥ ḥḥ ḥḥ ḥḥ ḥḥ ḥḥ ḥḥ ḥḥ �,,True,1.2,0.85,1.1333333333333333,0.8421052631578947
+assemblyai,v0-yo-0075,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,6423,"Hmm,미 mi ò gbọ́ ọ̀. Jọ̀wọ́ sọ lẹ́ẹ̀kan sí i!",e sole e konsi soro di e lauda,,True,1.0,0.8636363636363636,1.0,0.8333333333333334
+assemblyai,v0-yo-0076,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,6597,"Ẹ sọ lẹ́ẹ̀kan síi, sọ̀rọ̀ díẹ̀ louder!",ḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏ�,,True,1.0,1.9736842105263157,1.0,2.0555555555555554
+assemblyai,v0-yo-0077,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,5369,"Ẹ jọ̀ọ́, wá sún mọ́ fóònù, ariwo púpọ̀ wà!",ejo soy downray again,,True,1.0,0.8333333333333334,1.0,0.8205128205128205
+assemblyai,v0-yo-0078,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4138,"Ẹ jọ̀ọ́, sọ ìdáhùn rẹ mọ́ again.",duru diye jekin pari aso mi,,True,1.0,0.84375,1.0,0.8333333333333334
+assemblyai,v0-yo-0079,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4173,"Dúró díẹ̀, jẹ́ kí n parí àsọ mi!",si uso kwikat ian yontu bodada,,True,1.0,0.90625,1.0,0.9
+assemblyai,v0-yo-0080,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4422,"Ṣé o sọ pé ""cat""? Ìyẹn ni ohun tó gbọ́ dáadáa.",ewoli ibi anjume tatikundi lori itemi ichi,,True,1.0,0.8695652173913043,1.0,0.9047619047619048
+assemblyai,v0-yo-0081,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4219,"Ẹ wọlé, ìgbìyànjú mẹ́ta ti kùnlẹ̀ lórí item yìí.",iyi shuru erowa session kuletesu wajubai,,True,1.0,0.8958333333333334,1.0,0.8913043478260869
+assemblyai,v0-yo-0082,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4736,Ìṣòro ẹ̀rọ wà. Session kò lè tẹ̀síwájú báyìí.,that is fine mabinu e ni turiru allahu akbar nibai,,True,1.25,1.0,1.25,1.0232558139534884
+assemblyai,v0-yo-0083,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4330,"Ó dára, màá bínú. Ẹni tó lè ràn ọ́ lọ́wọ́ ń bọ̀ ní báyìí.",nduru eni kongwa la chenro loa nao,,True,1.0,0.7894736842105263,1.0,0.7777777777777778
+assemblyai,v0-yo-0084,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4587,"Dúró, ènìyàn kan wá láti ràn ọ́ lọ́wọ́ now.",jeky aree ati inyanyikule reading level caterer forc,,True,1.0,0.9767441860465116,1.0,1.024390243902439
+assemblyai,v0-yo-0085,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4717,Jẹ́ kí a jẹrìí: a ti yàn ipele reading level kẹta. Ẹ fọwọ́ sí i?,i joko yi tikpari omono okpari i donvu meta useje kolo meri tutun sko reti jade,,True,1.0666666666666667,0.96875,1.0666666666666667,0.9836065573770492
+assemblyai,v0-yo-0086,universal-2,yo-en,spk-yo-002,setC,scaffolding_utterance,ok,4531,"Ìjókòó yìí ti parí. Ọmọ náà pari ìdánwò mẹ́ta, ó ṣẹṣẹ kọ ọrọ mẹ́rin tuntun, score rẹ̀ jẹ́ ìdajì.",ekpeleyi itikpari mwen omotokon wa sibi,,True,1.0,0.8229166666666666,1.0,0.8152173913043478
+assemblyai,v0-yo-b-0001,universal-2,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,4119,Sọ fún mi nípa ilé-ìwé rẹ.,sofu minipa ili iwire,,True,1.0,0.5384615384615384,1.0,0.44
+assemblyai,v0-yo-b-0002,universal-2,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,4171,Kí ni o ṣe lánàá lẹ́yìn ilé-ìwé?,kini o she lano le inyi le iwe,,True,1.1428571428571428,0.59375,1.0,0.5161290322580645
+assemblyai,v0-yo-b-0003,universal-2,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,4120,Báwo ni o ṣe ń lọ sí ọjà láti ilé?,ba onyo shen losi o jala tili,,True,1.0,0.6764705882352942,1.0,0.6363636363636364
+assemblyai,v0-yo-b-0004,universal-2,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,4240,"Ẹ̀kọ́ wo ni o fẹ́ràn jùlọ, kí ló sì dé?",eko weni ufeno jolo kilosi de,,True,1.0,0.5897435897435898,1.0,0.5675675675675675
+assemblyai,v0-yo-b-0005,universal-2,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,4681,Sọ fún mi nípa àkókò kan tí o ràn ẹnìkan lọ́wọ́.,sofu minikpa akukukon tiyuron eni konlowo,,True,1.0,0.5833333333333334,1.0,0.5531914893617021
+assemblyai,v0-yo-b-0006,universal-2,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,4191,Ka ní ohùn sókè láti ọ̀kan dé ogún.,ḏanī ʻūn suke lachi ʻokon de ʻugun,,True,1.0,0.5428571428571428,1.0,0.5294117647058824
+assemblyai,v0-yo-b-0007,universal-2,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,4408,Mélòó ni mẹ́ẹ̀ẹ́dógún kún èje? Sọ fún mi bí o ṣe rí ìdáhùn náà.,melo ni mè dògòn kòn e dje sòfòn mi bi o xe ri i dòn nò,,True,0.9285714285714286,0.5079365079365079,0.9285714285714286,0.45901639344262296
+assemblyai,v0-yo-b-0008,universal-2,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,4295,Sọ fún mi ohun kan tó ṣẹlẹ̀ ní ilé-ìwé ní ọ̀sẹ̀ yìí.,sofo mi onkonto shele ni liwi ni oseyi,,True,0.9166666666666666,0.5961538461538461,0.9230769230769231,0.5686274509803921
+assemblyai,v0-yo-b-0009,universal-2,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,6526,Kí ni o fẹ́ ṣe nígbà tí o bá dàgbà?,ḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏḏ,,True,1.0,1.542857142857143,1.0,1.588235294117647
+assemblyai,v0-yo-b-0010,universal-2,yo-en,spk-yo-001,setB,scripted_prompt_reading,ok,6082,"Ṣàlàyé eré kan tí o ń ṣeré pẹ̀lú àwọn ọ̀rẹ́ rẹ, àti òfin rẹ̀.",xalaye iri konti unshi uri pelu anwen re re ati ufin re,,True,1.0,0.5573770491803278,1.0,0.5423728813559322
+assemblyai,v0-yo-child-a-yo-ls-001,universal-2,yo,spk-yo-003,setA,syllable,ok,4330,ba,bye,,True,1.0,1.0,1.0,1.0
+assemblyai,v0-yo-child-a-yo-ls-002,universal-2,yo,spk-yo-003,setA,syllable,ok,3871,be,e,,True,1.0,0.5,1.0,0.5
+assemblyai,v0-yo-child-a-yo-ls-003,universal-2,yo,spk-yo-003,setA,syllable,ok,3965,bẹ,yeah,,True,1.0,2.0,1.0,2.0
+assemblyai,v0-yo-child-a-yo-ls-004,universal-2,yo,spk-yo-003,setA,syllable,ok,3940,bi,b,,True,1.0,0.5,1.0,0.5
+assemblyai,v0-yo-child-a-yo-ls-005,universal-2,yo,spk-yo-003,setA,syllable,ok,3932,bo,,,True,1.0,1.0,1.0,1.0
+assemblyai,v0-yo-child-a-yo-ls-006,universal-2,yo,spk-yo-003,setA,syllable,ok,3523,bọ,s'il vous plaît,,True,3.0,7.5,3.0,7.5
+assemblyai,v0-yo-child-a-yo-ls-007,universal-2,yo,spk-yo-003,setA,syllable,ok,3537,bu,you,,True,1.0,1.0,1.0,1.0
+assemblyai,v0-yo-child-a-yo-ls-008,universal-2,yo,spk-yo-003,setA,syllable,ok,4768,ma,ma,,True,0.0,0.0,0.0,0.0
+assemblyai,v0-yo-child-a-yo-ls-009,universal-2,yo,spk-yo-003,setA,syllable,ok,3983,me,me,,True,0.0,0.0,0.0,0.0
+assemblyai,v0-yo-child-a-yo-ls-010,universal-2,yo,spk-yo-003,setA,syllable,ok,3620,mẹ,me,,True,1.0,0.5,1.0,0.5
+assemblyai,v0-yo-child-a-yo-ls-011,universal-2,yo,spk-yo-003,setA,syllable,ok,3523,mi,mi,,True,0.0,0.0,0.0,0.0
+assemblyai,v0-yo-child-a-yo-ls-012,universal-2,yo,spk-yo-003,setA,syllable,ok,3910,mo,mwo,,True,1.0,0.5,1.0,0.5
+assemblyai,v0-yo-child-a-yo-ls-013,universal-2,yo,spk-yo-003,setA,syllable,ok,3846,mọ,ma,,True,1.0,0.5,1.0,0.5
+assemblyai,v0-yo-child-a-yo-ls-014,universal-2,yo,spk-yo-003,setA,syllable,ok,3926,mu,e,,True,1.0,1.0,1.0,1.0
+assemblyai,v0-yo-child-a-yo-ls-015,universal-2,yo,spk-yo-003,setA,syllable,ok,3632,na,no,,True,1.0,0.5,1.0,0.5
+assemblyai,v0-yo-child-a-yo-ls-016,universal-2,yo,spk-yo-003,setA,syllable,ok,3856,ne,you,,True,1.0,1.5,1.0,1.5
+assemblyai,v0-yo-child-a-yo-ls-017,universal-2,yo,spk-yo-003,setA,syllable,ok,3601,nẹ,na,,True,1.0,0.5,1.0,0.5
+assemblyai,v0-yo-child-a-yo-ls-018,universal-2,yo,spk-yo-003,setA,syllable,ok,3955,ni,ni,,True,0.0,0.0,0.0,0.0
+assemblyai,v0-yo-child-a-yo-ls-019,universal-2,yo,spk-yo-003,setA,syllable,ok,4069,no,you,,True,1.0,1.0,1.0,1.0
+assemblyai,v0-yo-child-a-yo-ls-021,universal-2,yo,spk-yo-003,setA,syllable,ok,3528,nu,ប,,True,1.0,1.0,1.0,1.0
+assemblyai,v0-yo-child-a-yo-ls-022,universal-2,yo,spk-yo-003,setA,syllable,ok,3896,la,la,,True,0.0,0.0,0.0,0.0
+assemblyai,v0-yo-child-a-yo-ls-023,universal-2,yo,spk-yo-003,setA,syllable,ok,3643,le,lee,,True,1.0,0.5,1.0,0.5
+assemblyai,v0-yo-child-a-yo-ls-024,universal-2,yo,spk-yo-003,setA,syllable,ok,4141,lẹ,le,,True,1.0,0.5,1.0,0.5
+assemblyai,v0-yo-child-a-yo-ls-025,universal-2,yo,spk-yo-003,setA,syllable,ok,3971,li,eme,,True,1.0,1.5,1.0,1.5
+assemblyai,v0-yo-child-a-yo-ls-026,universal-2,yo,spk-yo-003,setA,syllable,ok,3999,lo,no,,True,1.0,0.5,1.0,0.5
+assemblyai,v0-yo-child-a-yo-ls-027,universal-2,yo,spk-yo-003,setA,syllable,ok,4331,lọ,no,,True,1.0,1.0,1.0,1.0
+assemblyai,v0-yo-child-a-yo-ls-028,universal-2,yo,spk-yo-003,setA,syllable,ok,3965,lu,you,,True,1.0,1.0,1.0,1.0
+assemblyai,v0-yo-child-a-yo-ls-029,universal-2,yo,spk-yo-003,setA,syllable,ok,4029,ka,ha,,True,1.0,0.5,1.0,0.5
+assemblyai,v0-yo-child-a-yo-ls-030,universal-2,yo,spk-yo-003,setA,syllable,ok,3539,ki,thank you,,True,2.0,4.0,2.0,4.0
+assemblyai,v0-yo-child-a-yo-p-001,universal-2,yo,spk-yo-004,setA,paragraph,ok,5220,Ìyá ń dáná fún oúnjẹ. Iná ń jó gbóná gbóná. Iná ń fún ni ìmọ́lẹ̀. Gbogbo wa fẹ́ràn iná gan-an.,in yaw n dano fwo nje in no w njo bwona bwona in no w fwo n ini mole bwok bwa fe mron ino gwo,,True,1.25,0.6595744680851063,1.1904761904761905,0.6222222222222222
+assemblyai,v0-yo-child-a-yo-p-002,universal-2,yo,spk-yo-004,setA,paragraph,ok,5217,Mo fẹ́ràn kíka ìwé gidigidi. Ìyá àti bàbá mi ṣiṣẹ́. Mo ka ìwé fúnra mi. Kíka jẹ́ ìdùnnú fún mi.,mw feno ki ka ewe gidi gidi ia ati baba mi nsishe mwo ka ewe fura fura mi ki ka aje idunu fungi,,True,1.05,0.5263157894736842,1.0,0.4725274725274725
+assemblyai,v0-yo-child-a-yo-s-001-q1,universal-2,yo,spk-yo-004,setA,comprehension_question,ok,4945,Ǹjẹ́ ọkọ́ ọkùnrin náà gùn tàbí kúrú ní ìbẹ̀rẹ̀ ìtàn náà?,mdje oko okurinu okuru tabidgun ni ibere itono be ni oko okurinu okuru ni ibere itono,,True,1.4545454545454546,1.1785714285714286,1.4545454545454546,1.2
+assemblyai,v0-yo-child-a-yo-s-001-q2,universal-2,yo,spk-yo-004,setA,comprehension_question,ok,4729,Kí nìdí tí ọkùnrin náà fi ṣe ohun èlò tuntun fún ara rẹ̀?,nini nditi okonrino ofishe onwe ilo totofo arare nito rikwe ogadju,,True,1.0,0.8245614035087719,1.0,0.8392857142857143
+assemblyai,v0-yo-child-a-yo-s-001,universal-2,yo,spk-yo-004,setA,story,ok,6409,"Ọkọ́ rẹ̀ kúrú jù. Ọ̀nà ilẹ̀kùn rẹ̀ kéré jù. Ibùsùn rẹ̀ kúrú jù pẹ̀lú. Ọkùnrin yìí ga jù! Ó ṣe ọwọ ọkọ́ gígùn púpọ̀ kan. Ó ṣe ara ilẹ̀kùn gíga púpọ̀. Ó ṣe ibùsùn gígùn púpọ̀ kan. Ó kúrò ní ilé rẹ̀, ó sì gbé ní igbó ńlá kan. Ó gbé fún ọdún púpọ̀, ó sì láyọ̀.",oko rekoruju ono eleku rekeruju ibu sun rekoruju pelu oko riyigaju ose awa oko gigun pukwa kon ose ara elegun gigan pukwa ose ibu sun gigun pukwa kon okro ni ilere ose beni ibolan kon ogbefun odidi odun pukwa ose lari,,True,0.9824561403508771,0.58203125,0.9824561403508771,0.5591836734693878
+assemblyai,v0-yo-child-a-yo-s-002-q1,universal-2,yo,spk-yo-004,setA,comprehension_question,ok,3619,Kí ni Adé gbìn sínú ọgbà rẹ̀?,akin yadegmi sino ogbayore efati ege,,True,1.0,0.9655172413793104,1.0,0.9642857142857143
+assemblyai,v0-yo-child-a-yo-s-002-q2,universal-2,yo,spk-yo-004,setA,comprehension_question,ok,3899,Kí nìdí tí ẹbí Adé fi láyọ̀ ní òpin ìtàn náà?,kin e di tia e bia e de fi layo ni okme itona kosi i dan fumi i bere i,,True,1.7272727272727273,1.0888888888888888,1.7272727272727273,1.0909090909090908
+assemblyai,v0-yo-child-a-yo-w-011,universal-2,yo,spk-yo-004,setA,word,ok,3875,ọwọ́,oya,,True,1.0,1.0,1.0,1.0
+assemblyai,v0-yo-child-a-yo-w-019,universal-2,yo,spk-yo-004,setA,word,ok,4141,ọjà,otya,,True,1.0,1.3333333333333333,1.0,1.3333333333333333
+assemblyai,v0-yo-child-a-yo-w-021,universal-2,yo,spk-yo-004,setA,word,ok,3890,odò,odu,,True,1.0,0.3333333333333333,1.0,0.3333333333333333
+assemblyai,v0-yo-child-a-yo-w-022,universal-2,yo,spk-yo-004,setA,word,ok,4025,oòrùn,oyo,,True,1.0,0.8,1.0,0.8
+assemblyai,v0-yo-child-a-yo-w-023,universal-2,yo,spk-yo-004,setA,word,ok,4220,òṣùpá,osupa,,True,1.0,0.8,1.0,0.8
+assemblyai,v0-yo-child-a-yo-w-024,universal-2,yo,spk-yo-004,setA,word,ok,4196,àpò,akbo,,True,1.0,1.3333333333333333,1.0,1.3333333333333333
+assemblyai,v0-yo-child-a-yo-w-025,universal-2,yo,spk-yo-004,setA,word,ok,4237,àga,aga,,True,1.0,0.3333333333333333,1.0,0.3333333333333333
+assemblyai,v0-yo-child-a-yo-w-026,universal-2,yo,spk-yo-004,setA,word,ok,4037,adìẹ,adye,,True,1.0,0.5,1.0,0.5
+assemblyai,v0-yo-child-a-yo-w-027,universal-2,yo,spk-yo-004,setA,word,ok,4228,ewúrẹ́,e ore,,True,2.0,0.6666666666666666,2.0,0.6666666666666666
+assemblyai,v0-yo-child-a-yo-w-028,universal-2,yo,spk-yo-004,setA,word,ok,4068,màálù,malu,,True,1.0,0.6,1.0,0.6
+assemblyai,v0-yo-child-a-yo-w-029,universal-2,yo,spk-yo-004,setA,word,ok,4300,ológbò,ologbo,,True,1.0,0.3333333333333333,1.0,0.3333333333333333
+assemblyai,v0-yo-child-a-yo-w-030,universal-2,yo,spk-yo-004,setA,word,ok,4013,ọkọ̀,oko,,True,1.0,0.75,1.0,0.75
+assemblyai,v0-yo-child-a-yo-w-031,universal-2,yo,spk-yo-004,setA,word,ok,4001,iṣẹ́,ishe,,True,1.0,0.75,1.0,0.75
+assemblyai,v0-yo-child-a-yo-w-032,universal-2,yo,spk-yo-004,setA,word,ok,3982,eré,ere,,True,1.0,0.3333333333333333,1.0,0.3333333333333333
+assemblyai,v0-yo-child-a-yo-w-033,universal-2,yo,spk-yo-004,setA,word,ok,4079,òkúta,okuta,,True,1.0,0.4,1.0,0.4
+assemblyai,v0-yo-child-a-yo-w-034,universal-2,yo,spk-yo-004,setA,word,ok,3846,oúnjẹ,onye,,True,1.0,0.6,1.0,0.6
+assemblyai,v0-yo-child-a-yo-w-035,universal-2,yo,spk-yo-004,setA,word,ok,3958,ilé-ìwé,ileiwe,,True,1.0,0.5714285714285714,1.0,0.5714285714285714
+assemblyai,v0-yo-child-a-yo-w-036,universal-2,yo,spk-yo-004,setA,word,ok,3879,ọkùnrin,okwuri,,True,1.0,0.5714285714285714,1.0,0.5714285714285714
+assemblyai,v0-yo-child-a-yo-w-037,universal-2,yo,spk-yo-004,setA,word,ok,3839,obìnrin,obeiri,,True,1.0,0.42857142857142855,1.0,0.42857142857142855
+assemblyai,v0-yo-child-a-yo-w-038,universal-2,yo,spk-yo-004,setA,word,ok,4029,ọjọ́,ojo,,True,1.0,0.75,1.0,0.75
+assemblyai,v0-yo-child-a-yo-w-039,universal-2,yo,spk-yo-004,setA,word,ok,3941,alẹ́,ale,,True,1.0,0.5,1.0,0.5
+assemblyai,v0-yo-child-a-yo-w-040,universal-2,yo,spk-yo-004,setA,word,ok,4112,ẹ̀bùn,ebu,,True,1.0,0.8,1.0,0.8

@@ -10,6 +10,9 @@ contributor (or future us) would otherwise have to rediscover.
 
 ## Data documentation
 
+- [`ASR-BENCHMARK.md`](ASR-BENCHMARK.md) — completed 262-clip comparison of
+  Sahara, Groq Whisper, AssemblyAI, and Deepgram, including accuracy,
+  reliability, latency, limitations, and reproducibility
 - [`SYNTHETIC-DATA-EVALUATION.md`](SYNTHETIC-DATA-EVALUATION.md) — generation
   model, review pipeline, and qualitative Yoruba and Swahili linguist findings
 - [`SOURCES.md`](SOURCES.md) — source-by-source provenance and limitations

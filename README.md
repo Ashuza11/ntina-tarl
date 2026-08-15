@@ -7,8 +7,9 @@ children aged roughly 6 to 8, following the Teaching at the Right Level
 **Status: partially built.** The reading assessment pipeline (record, score,
 facilitator confirmation) runs end to end against the real Sahara speech API
 for both language pairs. The linguistic datasets (text and audio) are
-packaged and validated. The offline PWA, the drilling/monitoring-record loop
-beyond a single reading check, and the benchmark harness are not built yet.
+published and validated, and a four-provider ASR benchmark is complete. The
+offline PWA and the drilling/monitoring-record loop beyond a single reading
+check are not built yet.
 See [Status and roadmap](#status-and-roadmap) for the specific line between
 the two.
 
@@ -130,7 +131,7 @@ tools/                      scripts, not application code
 docs/                       decisions worth not re-deriving
   API-FINDINGS.md              live-tested Sahara STT findings
   INSTRUMENT-SPEC.md, SOURCES.md
-benchmark/                  not yet built. Currently contains only a README describing the plan.
+benchmark/                  reproducible four-provider ASR benchmark, results, and charts
 _specs/                     spec template for non-trivial features before building them
 ```
 
@@ -171,15 +172,16 @@ conventions, and build-order notes.
   facilitator confirm/override step before any result counts.
 - The reading instrument (78 items per language) and the scaffolding
   corpus, packaged and validated as Hugging Face-ready datasets.
+- A 262-clip benchmark of Sahara, Groq Whisper Large V3, AssemblyAI, and
+  Deepgram, with resumable API calls, WER/CER analysis, latency measurements,
+  and presentation-ready charts. Sahara produced the lowest aggregate error
+  rates; Deepgram was fastest. See [`docs/ASR-BENCHMARK.md`](docs/ASR-BENCHMARK.md).
 
 **Planned, not built:**
 
-- Publishing the two datasets to Hugging Face.
 - Offline operation and PWA install.
 - The practice-drill loop and the automated monitoring record (step 6 of
   the pipeline above is designed, not implemented).
-- The multi-model speech benchmark (`benchmark/` currently holds only a
-  plan).
 - Yoruba dialectal adaptation.
 - Country-curriculum frequency validation of the syllable and word
   selections. Human language review is complete, but the selections still
@@ -190,8 +192,9 @@ conventions, and build-order notes.
 
 - Ntina assists the facilitator. It does not replace the teacher, and no
   level assignment takes effect until a human facilitator confirms it.
-- The audio dataset has three contributors total (one Swahili, two
-  Yoruba). Results from it are indicative, not speaker-independent.
+- The audio dataset has five contributors total: one Swahili adult, two
+  Yoruba adults, and two Yoruba children. Results are indicative, not
+  speaker-independent.
 - Recording a child requires both guardian consent and the child's own
   assent. See the `guardian_consent` column convention in
   [`data/README.md`](data/README.md).

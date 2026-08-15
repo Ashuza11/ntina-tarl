@@ -19,6 +19,10 @@ tools/.cache/
 .DS_Store
 *.log
 
+# Resumable benchmark cache can contain provider-returned temporary audio URLs.
+# Commit scored/aggregate results, but keep raw API payloads local.
+benchmark/results/raw-results.jsonl
+
 # Agent
 .claude/
 .codex/
