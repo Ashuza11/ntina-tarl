@@ -16,8 +16,8 @@ the two.
 
 | Artifact | Status |
 |---|---|
-| Text dataset (Hugging Face) | Not yet published. Packaged locally at [`data/text-dataset-v0/`](data/text-dataset-v0/), intended slug `ntina-text-dataset-v0` |
-| Audio dataset (Hugging Face) | Not yet published. Packaged locally at [`data/recordings/dataset-v0/`](data/recordings/dataset-v0/), intended slug `ntina-voice-dataset-v0` |
+| Text dataset (Hugging Face) | [Ash11/ntina-text-dataset-v0](https://huggingface.co/datasets/Ash11/ntina-text-dataset-v0) |
+| Audio dataset (Hugging Face) | [Ash11/ntina-voice-dataset-v0](https://huggingface.co/datasets/Ash11/ntina-voice-dataset-v0) |
 | Live demo | Not deployed. Runs locally, see [Getting started](#getting-started) |
 | Pitch deck | Not currently in the repository. Screenshots of the working app are in [`Demo_img/`](Demo_img/) |
 
