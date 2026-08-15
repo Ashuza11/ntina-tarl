@@ -20,7 +20,7 @@ the two.
 | Text dataset (Hugging Face) | [Ash11/ntina-text-dataset-v0](https://huggingface.co/datasets/Ash11/ntina-text-dataset-v0) |
 | Audio dataset (Hugging Face) | [Ash11/ntina-voice-dataset-v0](https://huggingface.co/datasets/Ash11/ntina-voice-dataset-v0) |
 | Live demo | Not deployed. Runs locally, see [Getting started](#getting-started) |
-| Pitch deck | Not currently in the repository. Screenshots of the working app are in [`Demo_img/`](Demo_img/) |
+| Pitch deck | [`Ntina — Africomplings Summer School Final Project`](docs/Ntina-Africomplings_SummerSchool_Final_Project.pptx) |
 
 ## The problem
 
