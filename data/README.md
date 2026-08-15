@@ -7,9 +7,11 @@ file before you open anything.
 
 ## Rule 1 — File format
 
-**Always: File → Save As → CSV UTF-8 (Comma delimited) (*.csv)**
-**Never: plain "Save" or "Save As → CSV (Comma delimited)" (no "UTF-8" in the name)**
-**Never: .xlsx**
+**Never overwrite a Yoruba source with a plain spreadsheet CSV export.**
+For reviewed Yoruba scaffolding, retain the linguist's `.xlsx` workbook and
+run `python3 tools/recover-yoruba-scaffolding.py` from the repository root.
+The script copies only the review fields into the intact UTF-8 draft and
+validates every ID and base column before replacing the working CSV.
 
 Why this matters: Swahili and Yoruba text in this project includes characters
 plain English spreadsheets don't expect — Yoruba subdot letters (ẹ, ọ, ṣ) and
@@ -21,10 +23,9 @@ outright fail on those characters. "CSV UTF-8" is the specific Excel option
 that avoids this — it's the only one that can hold every character we need to
 write.
 
-`.xlsx` is excluded for a different reason: it's a compressed binary format,
-so changes to it can't be reviewed line-by-line the way changes to a text
-file can. CSV UTF-8 is a plain text file, so every edit is visible and
-reviewable.
+An `.xlsx` file is not the deployable dataset format because it cannot be
+reviewed line-by-line, but it can be retained as Unicode review provenance.
+The generated UTF-8 CSV remains the reviewable and deployable artifact.
 
 If a file you're editing ever displays a character as a box, a question
 mark, or garbled text after reopening it — stop, don't save over it, and

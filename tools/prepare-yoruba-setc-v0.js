@@ -216,7 +216,9 @@ const expected = new Set([
   ...setBRows.map((row) => row.file_name),
 ])
 const actual = new Set(
-  fs.readdirSync(audioDir).filter((name) => name.startsWith("yo-en_") && name.endsWith(".wav")),
+  fs.readdirSync(audioDir).filter(
+    (name) => name.startsWith("yo-en_") && name.includes("_SPEAKER_") && name.endsWith(".wav"),
+  ),
 )
 const missing = [...expected].filter((name) => !actual.has(name))
 const unexpected = [...actual].filter((name) => !expected.has(name))

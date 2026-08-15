@@ -53,28 +53,40 @@ has to stay monolingual to remain a valid measurement.
 
 ### Text dataset
 
-Packaged at [`data/text-dataset-v0/`](data/text-dataset-v0/), 470 rows
-across five configurations.
+Packaged at [`data/text-dataset-v0/`](data/text-dataset-v0/), 450 rows
+across four configurations. The public dataset is available on Hugging Face:
+**[Ash11/ntina-text-dataset-v0](https://huggingface.co/datasets/Ash11/ntina-text-dataset-v0)**.
 
 | Configuration | Rows | Contents |
 |---|---:|---|
-| `scaffolding` | 176 | Swahili-English and Yoruba-English tutor utterances, with reviewer verdicts preserved |
-| `instrument` | 156 | Swahili and Yoruba TaRL reading items (syllables, words, paragraphs, stories, comprehension questions) |
-| `prompts` | 30 | Ten Set B free-response prompts in English, Swahili, and Yoruba |
+| `scaffolding` | 176 | Approved/repaired Standard Kiswahili-English and Standard Yoruba-English tutor utterances |
+| `instrument` | 156 | Approved Standard Kiswahili and Standard Yoruba TaRL reading items |
+| `prompts` | 30 | Ten approved/reference Set B prompts in English, Standard Kiswahili, and Standard Yoruba |
 | `dialogue_acts` | 88 | Language-neutral pedagogical functions and triggers the scaffolding is drafted against |
-| `adaptation_pilot` | 20 | Tanzanian Kiswahili Sanifu localization pilot (see below) |
 
-Full dataset card, licensing detail, and the known Yoruba encoding issue in
-one source file: [`data/text-dataset-v0/README.md`](data/text-dataset-v0/README.md).
+The Yoruba scaffolding was recovered from the linguist's Unicode workbook and
+validated against all 88 intact draft rows. Full dataset card and licensing
+detail: [`data/text-dataset-v0/README.md`](data/text-dataset-v0/README.md).
+The scaffolding was synthetically drafted with the model identifier
+`claude-sonnet-4-6` and then corrected through native-speaker/linguist review.
+The observed Yoruba and Swahili drafting issues are documented in
+[`docs/SYNTHETIC-DATA-EVALUATION.md`](docs/SYNTHETIC-DATA-EVALUATION.md).
 
 ### Audio dataset
 
 Packaged at [`data/recordings/dataset-v0/`](data/recordings/dataset-v0/),
-204 aligned WAV clips (mono, 16 kHz, 16-bit PCM) from adult Swahili and
-Yoruba contributors: 108 Swahili clips and 96 Yoruba clips, with transcripts,
-speaker metadata, consent confirmation, device, and noise-condition fields.
+262 aligned WAV clips (mono, 16 kHz, 16-bit PCM): 108 Swahili adult clips,
+96 Yoruba adult clips, and 58 Yoruba child clips from two different children.
+The children recorded the two partial Set A folders. Contributor and guardian
+consent are confirmed. Ten untranscribed Yoruba child Set B responses are
+excluded from V0 and retained locally for a later version.
+The public dataset is available on Hugging Face:
+**[Ash11/ntina-voice-dataset-v0](https://huggingface.co/datasets/Ash11/ntina-voice-dataset-v0)**.
 Full dataset card:
 [`data/recordings/dataset-v0/README.md`](data/recordings/dataset-v0/README.md).
+
+Participant and guardian permissions use the
+[`Bilingual Code-Switching Data Collection Consent Form`](docs/Bilingual_Code_Switching_Data_Collection_Consent_Form.docx).
 
 ### Dialectal adaptation
 
@@ -121,33 +133,6 @@ docs/                       decisions worth not re-deriving
 benchmark/                  not yet built. Currently contains only a README describing the plan.
 _specs/                     spec template for non-trivial features before building them
 ```
-
-## For linguists
-
-You do not need git or a terminal for most of this project. You need a
-spreadsheet program that can save "CSV UTF-8," and a text editor if you want
-to look at a file without risking an accidental save.
-
-**The files you own:**
-
-- `data/instrument/swahili.csv` and `data/instrument/yoruba.csv`, the
-  reading test items.
-- `data/scaffolding/sw-en.DRAFT.csv` and `yo-en.DRAFT.csv`, where you mark
-  each AI-drafted line `keep`, `fix` (with your replacement), or `reject`.
-- `data/recordings/prompts-setB.csv`, the free-response question
-  translations.
-
-**The one rule that matters most:** always use **File → Save As → CSV
-UTF-8 (Comma delimited)**. Never plain "Save," never "CSV (Comma
-delimited)" without "UTF-8" in the name, never `.xlsx`. Plain CSV saves
-silently destroy Yoruba subdot letters (ẹ, ọ, ṣ) and tone marks. If a file
-ever shows a character as a box or a question mark after you reopen it,
-stop, do not save over it, and flag it to the team instead. Full
-explanation and the complete column-by-column glossary for every file:
-[`data/README.md`](data/README.md).
-
-Review instructions specifically for the scaffolding DRAFT files:
-[`data/scaffolding/REVIEWING-DRAFTS.md`](data/scaffolding/REVIEWING-DRAFTS.md).
 
 ## Getting started
 
@@ -196,9 +181,10 @@ conventions, and build-order notes.
 - The multi-model speech benchmark (`benchmark/` currently holds only a
   plan).
 - Yoruba dialectal adaptation.
-- Native-speaker review of the instrument's syllable and word selections,
-  which currently rest on general linguistic knowledge rather than a
-  corpus frequency count. See `docs/SOURCES.md` for the specifics.
+- Country-curriculum frequency validation of the syllable and word
+  selections. Human language review is complete, but the selections still
+  rest on general linguistic knowledge rather than textbook frequency data.
+  See `docs/SOURCES.md` for the distinction.
 
 ## Limitations
 
@@ -209,8 +195,8 @@ conventions, and build-order notes.
 - Recording a child requires both guardian consent and the child's own
   assent. See the `guardian_consent` column convention in
   [`data/README.md`](data/README.md).
-- Several instrument and scaffolding rows are still marked draft or
-  unreviewed. Do not treat unreviewed rows as validated content.
+- The text dataset is human-verified, but that does not make its author-created
+  short items official national-curriculum or textbook-frequency selections.
 
 ## Team
 

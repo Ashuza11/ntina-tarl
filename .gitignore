@@ -19,9 +19,9 @@ tools/.cache/
 .DS_Store
 *.log
 
-# Agent 
-.claude 
-.codex 
+# Agent
+.claude/
+.codex/
 
 # Recording corpora stay local in the application repository. The prepared
 # dataset is uploaded separately to Hugging Face only after consent/QA.

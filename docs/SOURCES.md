@@ -177,7 +177,10 @@ access to a Swahili or Yoruba textbook corpus, so I did not do this.** The
 syllable and word selections in the CSVs are based on general linguistic
 knowledge of each language's most common consonants and everyday
 child-vocabulary, informed by the sourced methodology above — not on an
-actual corpus count. This is flagged in `docs/INSTRUMENT-SPEC.md` and on
-every affected row's `review_status`, and it's the single biggest thing
-that needs native-speaker/linguist sign-off before this instrument is used
-for anything real.
+actual corpus count. This limitation remains documented in
+`docs/INSTRUMENT-SPEC.md` and the row-level provenance fields. The completed
+V0 review subsequently verified Standard Kiswahili with two Swahili speakers
+(Tanzania and Congo) and approved Standard Yoruba with two Yoruba speakers
+and a linguist. That review confirms language variety and acceptability; it
+does not retroactively turn the selections into textbook-frequency samples
+or official national curriculum items.

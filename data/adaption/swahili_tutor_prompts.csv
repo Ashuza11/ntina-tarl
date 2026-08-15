@@ -1,0 +1,777 @@
+prompt,completion,enhanced_prompt,enhanced_completion,act_id,allowed_english_term,audience,category,code_switch_policy,country,curriculum_register,literacy_skill,literal_target,max_words,original_context,tarl_level
+Prompt the child to look at the first letter of the word.,Angalia herufi ya kwanza. Inasema nini?,,Angalia herufi ya kwanza ya neno.,hint-word-first-letter-001,,child,hint,none,Tanzania,Tanzanian primary education; Kiswahili Sanifu,word_reading,,10,"hint
+
+word
+
+child
+
+10
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+word_reading
+
+none",word
+Reassure a child who seems frustrated after a few misses in a row.,"Usijali, baadhi ya maneno ni magumu. Keep trying, unaweza!",,"Usijali, hakuna shida. Usikate tamaa, keep trying, unaweza kufanikiwa.",encourage-frustrated-001,,child,encouragement,familiar_cue,Tanzania,Tanzanian primary education; Kiswahili Sanifu,cross_level_session_support,,12,"encouragement
+
+any
+
+child
+
+12
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+cross_level_session_support
+
+familiar_cue",any
+Reassure the child they're staying at beginner level to build confidence.,Tutaendelea kufanya mazoezi ya sauti za herufi. You’re doing well!,,Tutabaki katika kiwango cha kuanzia ili uwe na ujasiri zaidi. You're doing well!,level-stay-beginner-001,,child,level_transition,familiar_cue,Tanzania,Tanzanian primary education; Kiswahili Sanifu,letter_sound_recognition,,14,"level_transition
+
+beginner
+
+child
+
+14
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+letter_sound_recognition
+
+familiar_cue",beginner
+Close out a normal session and tell the child what happens next.,"Hongera sana! Umefanya vizuri leo. Tutaendelea kesho, sawa?",,"Umefanya vizuri sana, tumemaliza leo. Tutakutana tena kesho.",closing-session-complete-001,,child,closing,none,Tanzania,Tanzanian primary education; Kiswahili Sanifu,cross_level_session_support,,14,"closing
+
+any
+
+child
+
+14
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+cross_level_session_support
+
+none",any
+Warmly end a session that's stopping earlier than planned.,Umejitahidi leo! Tutaishia hapa na kuendelea wakati mwingine. Bye!,,"Leo tunaishia mapema, umefanya vizuri sana. Good job, tutaendelea wakati mwingine.",closing-session-ended-early-001,,child,closing,familiar_cue,Tanzania,Tanzanian primary education; Kiswahili Sanifu,cross_level_session_support,,14,"closing
+
+any
+
+child
+
+14
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+cross_level_session_support
+
+familiar_cue",any
+Gently correct a misunderstanding without discouraging the child.,"Hmm, hebu tusikie tena — jibu liko karibu sana!",,"Umejitahidi, lakini sio hivyo kabisa. Usijali, hebu tusome tena sehemu hii ya hadithi kwa makini.",correction-comprehension-001,,child,correction,none,Tanzania,Tanzanian primary education; Kiswahili Sanifu,story_reading_and_comprehension,,12,"correction
+
+story
+
+child
+
+12
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+story_reading_and_comprehension
+
+none",story
+Gently correct a misread sentence within a paragraph.,"Karibu! Hebu jaribu tena, soma sentensi polepole zaidi.",,Soma sentensi hiyo tena polepole.,correction-sentence-soft-001,,child,correction,none,Tanzania,Tanzanian primary education; Kiswahili Sanifu,paragraph_reading_and_fluency,,12,"correction
+
+paragraph
+
+child
+
+12
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+paragraph_reading_and_fluency
+
+none",paragraph
+Suggest thinking about what would make sense in the story so far.,Fikiria story yetu. Neno gani linafaa hapa?,,"Hebu fikiria kinachoweza kuwa na maana katika hadithi hii hadi sasa, okay?",hint-story-context-001,,child,hint,familiar_cue,Tanzania,Tanzanian primary education; Kiswahili Sanifu,story_reading_and_comprehension,,14,"hint
+
+story
+
+child
+
+14
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+story_reading_and_comprehension
+
+familiar_cue",story
+Ask the child to read the word shown aloud.,"Sawa, hebu usome neno hili kwa sauti!",,Soma neno hili.,instr-start-word-001,,child,instruction,familiar_cue,Tanzania,Tanzanian primary education; Kiswahili Sanifu,word_reading,,10,"instruction
+
+word
+
+child
+
+10
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+word_reading
+
+familiar_cue",word
+"Gently correct a misread letter sound without saying ""wrong"".",Ulikaribia! Sikiliza sauti ya herufi hii: mmm. Try again.,,"Ulikaribia, sikiliza sauti ya herufi: mmm. Try again.",correction-letter-soft-001,,child,correction,familiar_cue,Tanzania,Tanzanian primary education; Kiswahili Sanifu,letter_sound_recognition,mmm,10,"correction
+
+beginner
+
+child
+
+10
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+letter_sound_recognition
+
+familiar_cue
+
+mmm",beginner
+Ask the child to read the story aloud from the beginning.,Sawa! Sasa read hadithi hii kwa sauti kuanzia mwanzo.,,Soma story hiyo kwa sauti kuanzia mwanzo.,instr-start-story-001,story,child,instruction,technical_term,Tanzania,Tanzanian primary education; Kiswahili Sanifu,story_reading_and_comprehension,,12,"instruction
+
+story
+
+child
+
+12
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+story_reading_and_comprehension
+
+technical_term
+
+story",story
+Ask the child to try reading the same item one more time.,Hebu jaribu kuisoma tena. One more time!,,"Hebu jaribu kusoma hii tena, one more time.",instr-retry-001,,child,instruction,familiar_cue,Tanzania,Tanzanian primary education; Kiswahili Sanifu,cross_level_session_support,,10,"instruction
+
+any
+
+child
+
+10
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+cross_level_session_support
+
+familiar_cue",any
+Praise fluent reading of a full paragraph.,Umesoma kifungu vizuri sana. Great job!,,Very good! Umesoma kifungu hiki kwa ufasaha.,praise-first-try-paragraph-001,,child,praise,familiar_cue,Tanzania,Tanzanian primary education; Kiswahili Sanifu,paragraph_reading_and_fluency,,10,"praise
+
+paragraph
+
+child
+
+10
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+paragraph_reading_and_fluency
+
+familiar_cue",paragraph
+Reassure a shy or nervous-sounding child before they begin.,Usiwe na wasiwasi; tuko pamoja. Ready? Tuanze!,,"Usiogope, unaweza kufanya vizuri sana. Okay, jaribu tu.",encourage-nervous-001,,child,encouragement,familiar_cue,Tanzania,Tanzanian primary education; Kiswahili Sanifu,cross_level_session_support,,12,"encouragement
+
+any
+
+child
+
+12
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+cross_level_session_support
+
+familiar_cue",any
+Gently correct a misread syllable.,"Karibu! Hebu tusikie tena — sema ""si"", si ""su"".",,"Umekosea kidogo. Hii ni 'si', sio 'su'. Jaribu kusoma tena.",correction-syllable-soft-001,,child,correction,none,Tanzania,Tanzanian primary education; Kiswahili Sanifu,syllable_recognition_and_blending,si; su,10,"correction
+
+letter_syllable
+
+child
+
+10
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+syllable_recognition_and_blending
+
+none
+
+si; su",letter_syllable
+Ask the child to look at the letter shown and say its sound.,"Tazama herufi hii. Sasa, say the sound unayoiona!",,Angalia herufi hii na useme sound yake.,instr-start-beginner-001,sound,child,instruction,technical_term,Tanzania,Tanzanian primary education; Kiswahili Sanifu,letter_sound_recognition,,12,"instruction
+
+beginner
+
+child
+
+12
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+letter_sound_recognition
+
+technical_term
+
+sound",beginner
+Announce moving up from letter/syllable to word level.,Hongera! Sasa tunaendelea kusoma maneno. Ready? Twende!,,"Sasa umemaliza herufi na silabi, tunaendelea kwenye ngazi ya maneno.",level-up-letter-to-word-001,,child,level_transition,none,Tanzania,Tanzanian primary education; Kiswahili Sanifu,syllable_recognition_and_blending,,14,"level_transition
+
+letter_syllable
+
+child
+
+14
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+syllable_recognition_and_blending
+
+none",letter_syllable
+Model the correct pronunciation and ask the child to repeat it.,Sikiliza: ‘shule.’ Sasa repeat after me: ‘shule.’,,"Sikiliza: ""shule"". Rudia baada yangu.",correction-model-pronunciation-001,repeat after me,child,correction,technical_term,Tanzania,Tanzanian primary education; Kiswahili Sanifu,word_reading,shule,12,"correction
+
+word
+
+child
+
+12
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+word_reading
+
+technical_term
+
+repeat after me
+
+shule",word
+Too much background noise. Ask the child to move somewhere quieter or closer to the phone.,Kuna noise nyingi. Tafadhali sogea karibu na simu.,,Kuna noise nyingi. Tafadhali nenda mahali pa utulivu au sogea karibu na simu.,repair-background-noise-001,noise,child,repair,technical_term,Tanzania,Tanzanian primary education; Kiswahili Sanifu,cross_level_session_support,,10,"repair
+
+any
+
+child
+
+10
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+cross_level_session_support
+
+technical_term
+
+noise",any
+Suggest using the rest of the sentence as a clue for the tricky word.,Soma sentensi yote; maneno mengine yatakupa clue.,,Jaribu kutumia sehemu inayobaki ya sentensi kama clue ya neno gumu.,hint-sentence-context-001,clue,child,hint,technical_term,Tanzania,Tanzanian primary education; Kiswahili Sanifu,paragraph_reading_and_fluency,,14,"hint
+
+paragraph
+
+child
+
+14
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+paragraph_reading_and_fluency
+
+technical_term
+
+clue",paragraph
+Ask a simple comprehension question about the story just read.,"Great! Sasa niambie, hadithi hii ilikuwa inamhusu nani?",,Umesoma nini kwenye hadithi?,instr-comprehension-001,,child,instruction,none,Tanzania,Tanzanian primary education; Kiswahili Sanifu,story_reading_and_comprehension,,14,"instruction
+
+story
+
+child
+
+14
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+story_reading_and_comprehension
+
+none",story
+Praise correct syllable read on the first try.,"Vizuri! First try, umeisoma sawasawa!",,"Vizuri sana, umeisoma sahihi mara ya kwanza, correct!",praise-first-try-syllable-001,,child,praise,familiar_cue,Tanzania,Tanzanian primary education; Kiswahili Sanifu,syllable_recognition_and_blending,,8,"praise
+
+letter_syllable
+
+child
+
+8
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+syllable_recognition_and_blending
+
+familiar_cue",letter_syllable
+Ask the child to slow down and read at a calmer pace.,"Soma polepole, take your time, usiache maneno.",,"Polepole, soma kwa utulivu.",instr-slow-down-001,,child,instruction,natural_only,Tanzania,Tanzanian primary education; Kiswahili Sanifu,cross_level_session_support,,10,"instruction
+
+any
+
+child
+
+10
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+cross_level_session_support
+
+natural_only",any
+Gently correct a misread word.,"Karibu! Hebu tujaribu tena, soma neno hili polepole.",,"Hebu jaribu tena, soma neno hili polepole kwa usahihi.",correction-word-soft-001,,child,correction,none,Tanzania,Tanzanian primary education; Kiswahili Sanifu,word_reading,,10,"correction
+
+word
+
+child
+
+10
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+word_reading
+
+none",word
+Audio was too quiet. Ask the child to speak a little louder.,"Sema tena, sauti kubwa zaidi kidogo!",,Sema kwa sauti kubwa kidogo.,repair-too-quiet-001,,child,repair,none,Tanzania,Tanzanian primary education; Kiswahili Sanifu,cross_level_session_support,,8,"repair
+
+any
+
+child
+
+8
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+cross_level_session_support
+
+none",any
+Praise finishing a story with strong fluency.,Umeisoma hadithi yote kwa ufasaha. Well done!,,Hongera! Umemaliza kusoma hadithi kwa ufasaha mzuri sana.,praise-first-try-story-001,,child,praise,natural_only,Tanzania,Tanzanian primary education; Kiswahili Sanifu,story_reading_and_comprehension,,10,"praise
+
+story
+
+child
+
+10
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+story_reading_and_comprehension
+
+natural_only",story
+Encourage a child who seems to be losing focus or getting tired.,"Umefanya vizuri sana! Keep going, tunakaribia mwisho!",,"Come on, unaweza kufanya hivyo, usikate tamaa, keep going!",encourage-tired-001,,child,encouragement,familiar_cue,Tanzania,Tanzanian primary education; Kiswahili Sanifu,cross_level_session_support,,12,"encouragement
+
+any
+
+child
+
+12
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+cross_level_session_support
+
+familiar_cue",any
+Praise a thoughtful answer to a comprehension question.,"Vizuri sana! Jibu lako ni zuri, umefikiria vizuri!",,"Hongera, jibu lako ni zuri sana, linaonyesha umefikiria kwa kina.",praise-comprehension-001,,child,praise,none,Tanzania,Tanzanian primary education; Kiswahili Sanifu,story_reading_and_comprehension,,10,"praise
+
+story
+
+child
+
+10
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+story_reading_and_comprehension
+
+none",story
+Suggest the word looks like one they already know.,Neno hili linafanana na unalolijua. Try kukumbuka.,,"Look, neno hili linafanana na lingine unalolijua tayari.",hint-word-familiar-001,,child,hint,familiar_cue,Tanzania,Tanzanian primary education; Kiswahili Sanifu,word_reading,,12,"hint
+
+word
+
+child
+
+12
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+word_reading
+
+familiar_cue",word
+Praise the child for succeeding after a retry at syllable level.,Umeisoma vizuri baada ya kujaribu tena. Well done!,,Umefaulu kusoma silabi baada ya kujaribu tena. Very good!,praise-after-retry-syllable-001,,child,praise,familiar_cue,Tanzania,Tanzanian primary education; Kiswahili Sanifu,syllable_recognition_and_blending,,10,"praise
+
+letter_syllable
+
+child
+
+10
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+syllable_recognition_and_blending
+
+familiar_cue",letter_syllable
+Prompt the child to think of the sound the letter makes.,Hebu fikiria: herufi hii ina sauti gani?,,"Hebu fikiria, herufi hii ina sauti gani?",hint-letter-sound-001,,child,hint,none,Tanzania,Tanzanian primary education; Kiswahili Sanifu,letter_sound_recognition,,10,"hint
+
+beginner
+
+child
+
+10
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+letter_sound_recognition
+
+none",beginner
+Ask the facilitator to confirm the assigned reading level before it takes effect.,Tafadhali confirm kiwango cha kusoma kabla hakijahifadhiwa.,,Tafadhali thibitisha level ya kusoma iliyopangwa kabla haijaanza kutumika.,facilitator-confirm-level-001,level,facilitator,facilitator,technical_term,Tanzania,Tanzanian primary education; Kiswahili Sanifu,cross_level_session_support,,12,"facilitator
+
+any
+
+facilitator
+
+12
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+cross_level_session_support
+
+technical_term
+
+level",any
+"Ask the child to read the paragraph aloud, at their own pace.","Sawa, sasa soma kifungu hiki kwa sauti, pole pole.",,"Soma paragraph hiyo kwa sauti kubwa, kwa kasi yako mwenyewe.",instr-start-paragraph-001,paragraph,child,instruction,technical_term,Tanzania,Tanzanian primary education; Kiswahili Sanifu,paragraph_reading_and_fluency,,12,"instruction
+
+paragraph
+
+child
+
+12
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+paragraph_reading_and_fluency
+
+technical_term
+
+paragraph",paragraph
+Prompt the child to blend the two sounds in the syllable together.,"Hebu unganisha sauti hizo mbili, then say them together.",,Tafadhali blend sauti hizo mbili kwenye silabi pamoja.,hint-syllable-blend-001,blend,child,hint,technical_term,Tanzania,Tanzanian primary education; Kiswahili Sanifu,syllable_recognition_and_blending,,12,"hint
+
+letter_syllable
+
+child
+
+12
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+syllable_recognition_and_blending
+
+technical_term
+
+blend",letter_syllable
+Announce moving up from word to paragraph level.,Hongera! Sasa tutasoma kifungu kizima. Ready?,,Sasa tutaenda kutoka kiwango cha neno hadi kiwango cha aya.,level-up-word-to-paragraph-001,,child,level_transition,natural_only,Tanzania,Tanzanian primary education; Kiswahili Sanifu,word_reading,,14,"level_transition
+
+word
+
+child
+
+14
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+word_reading
+
+natural_only",word
+Nothing was heard. Ask the child to try again.,"Samahani, sikusikia. Please jaribu tena.",,Sikukusikia chochote. Please jaribu tena.,repair-no-audio-001,,child,repair,familiar_cue,Tanzania,Tanzanian primary education; Kiswahili Sanifu,cross_level_session_support,,8,"repair
+
+any
+
+child
+
+8
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+cross_level_session_support
+
+familiar_cue",any
+Tell the child the session is being paused and can continue later.,"Tutapumzika hapa. Tutaendelea baadaye, okay?",,"Tunasimamisha kwa sasa, utaendelea baadaye, okay?",closing-session-paused-001,,child,closing,familiar_cue,Tanzania,Tanzanian primary education; Kiswahili Sanifu,cross_level_session_support,,12,"closing
+
+any
+
+child
+
+12
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+cross_level_session_support
+
+familiar_cue",any
+Praise correct word read on the first try.,"Hongera! First try, umelisoma neno vizuri!",,Vizuri sana! Umesoma neno sahihi kwa first try.,praise-first-try-word-001,,child,praise,familiar_cue,Tanzania,Tanzanian primary education; Kiswahili Sanifu,word_reading,,8,"praise
+
+word
+
+child
+
+8
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+word_reading
+
+familiar_cue",word
+Announce moving up from beginner to letter/syllable level.,Hongera! Sasa tunaendelea na silabi. Are you ready?,,"Hongera, umekamilisha kiwango cha mwanzo, sasa tutahamia kiwango cha herufi na silabi.",level-up-beginner-to-letter-001,,child,level_transition,none,Tanzania,Tanzanian primary education; Kiswahili Sanifu,letter_sound_recognition,,14,"level_transition
+
+beginner
+
+child
+
+14
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+letter_sound_recognition
+
+none",beginner
+Reassure the child they're staying at letter/syllable level.,Tutaendelea kufanya mazoezi ya silabi. You’re doing well!,,"Usijali, tunabaki kwenye kiwango cha herufi na silabi. Okay?",level-stay-letter-001,,child,level_transition,familiar_cue,Tanzania,Tanzanian primary education; Kiswahili Sanifu,syllable_recognition_and_blending,,14,"level_transition
+
+letter_syllable
+
+child
+
+14
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+syllable_recognition_and_blending
+
+familiar_cue",letter_syllable
+"Encourage the child partway through, noting they're doing this well.","Umefika mbali! Keep it up, unaendelea vizuri!",,"Unafanya vizuri sana! Good job, keep it up!",encourage-halfway-001,,child,encouragement,familiar_cue,Tanzania,Tanzanian primary education; Kiswahili Sanifu,cross_level_session_support,,12,"encouragement
+
+any
+
+child
+
+12
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+cross_level_session_support
+
+familiar_cue",any
+Announce moving up from paragraph to story level.,Hongera! Sasa tutasoma hadithi nzima. Ready? Twende!,,"Hongera, umemaliza aya. Sasa unapanda kiwango kutoka aya hadi hadithi. Ready?",level-up-paragraph-to-story-001,,child,level_transition,familiar_cue,Tanzania,Tanzanian primary education; Kiswahili Sanifu,paragraph_reading_and_fluency,,14,"level_transition
+
+paragraph
+
+child
+
+14
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+paragraph_reading_and_fluency
+
+familiar_cue",paragraph
+Praise the child for succeeding after a retry.,Umeweza! Good job kwa kujaribu tena!,,"Good, umesoma neno hilo kwa usahihi baada ya kujaribu tena.",praise-after-retry-word-001,,child,praise,familiar_cue,Tanzania,Tanzanian primary education; Kiswahili Sanifu,word_reading,,10,"praise
+
+word
+
+child
+
+10
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+word_reading
+
+familiar_cue",word
+Suggest thinking back to what happened earlier in the story.,Fikiria kidogo — nini kilitokea mwanzo wa hadithi?,,Fikiria tena kile kilichotokea awali katika hadithi hii.,hint-comprehension-001,,child,hint,none,Tanzania,Tanzanian primary education; Kiswahili Sanifu,story_reading_and_comprehension,,12,"hint
+
+story
+
+child
+
+12
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+story_reading_and_comprehension
+
+none",story
+Ask the child to read the syllable shown aloud.,Hebu sasa soma syllable hii kwa sauti.,,Soma silabu hii kwa sauti.,instr-start-letter-syllable-001,syllable,child,instruction,technical_term,Tanzania,Tanzanian primary education; Kiswahili Sanifu,syllable_recognition_and_blending,,10,"instruction
+
+letter_syllable
+
+child
+
+10
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+syllable_recognition_and_blending
+
+technical_term
+
+syllable",letter_syllable
+Praise correct letter-sound on the first try.,"Hongera! Good job, umeitamka vizuri!",,"Hongera, umesema sauti sahihi mara ya kwanza!",praise-first-try-beginner-001,,child,praise,none,Tanzania,Tanzanian primary education; Kiswahili Sanifu,letter_sound_recognition,,8,"praise
+
+beginner
+
+child
+
+8
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+letter_sound_recognition
+
+none",beginner
+Encourage the child before a noticeably harder item.,"Hili ni gumu kidogo, lakini unaweza. Ready?",,"Hili ni gumu kidogo, lakini unaweza kusoma vizuri.",encourage-hard-item-001,,child,encouragement,none,Tanzania,Tanzanian primary education; Kiswahili Sanifu,paragraph_reading_and_fluency,,12,"encouragement
+
+paragraph
+
+child
+
+12
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+paragraph_reading_and_fluency
+
+none",paragraph
+"Report a technical fault to the facilitator in plain, factual terms.",Kuna hitilafu ya kiufundi. Session haiwezi kuendelea sasa.,,"Kuna hitilafu ya kiufundi, mfumo haufanyi kazi sasa.",escalate-technical-fault-001,,facilitator,escalation,natural_only,Tanzania,Tanzanian primary education; Kiswahili Sanifu,cross_level_session_support,,12,"escalation
+
+any
+
+facilitator
+
+12
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+cross_level_session_support
+
+natural_only",any
+Alert the facilitator that repeated repair attempts have failed and their attention is needed now.,Tafadhali saidia; repair attempts tatu zimeshindwa.,,"Mwalimu, tumeshindwa kurekebisha baada ya majaribio kadhaa, tunahitaji msaada wako sasa.",escalate-call-facilitator-001,,facilitator,escalation,natural_only,Tanzania,Tanzanian primary education; Kiswahili Sanifu,cross_level_session_support,,8,"escalation
+
+any
+
+facilitator
+
+8
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+cross_level_session_support
+
+natural_only",any
+Report a brief factual summary of the session's results to the facilitator.,"Session imekamilika: maneno 18 sahihi, makosa 4 kwenye sauti za herufi.",,Matokeo ya session yamefupishwa.,facilitator-session-summary-001,session,facilitator,facilitator,technical_term,Tanzania,Tanzanian primary education; Kiswahili Sanifu,cross_level_session_support,,16,"facilitator
+
+any
+
+facilitator
+
+16
+
+Tanzania
+
+Tanzanian primary education; Kiswahili Sanifu
+
+cross_level_session_support
+
+technical_term
+
+session",any

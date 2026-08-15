@@ -1,31 +1,31 @@
 ﻿prompt_id,language,text,text_status,notes,source_file
 setB-01,en,Tell me about your school.,source_reference,,data/recordings/prompts-setB.csv
-setB-01,sw,Niambie kuhusu shule yako.,draft-needs-review,,data/recordings/prompts-setB.csv
-setB-01,yo,Sọ fún mi nípa ilé-ìwé rẹ.,draft-needs-review,,data/recordings/prompts-setB.csv
+setB-01,sw,Niambie kuhusu shule yako.,approved,,data/recordings/prompts-setB.csv
+setB-01,yo,Sọ fún mi nípa ilé-ìwé rẹ.,approved,,data/recordings/prompts-setB.csv
 setB-02,en,What did you do yesterday after school?,source_reference,,data/recordings/prompts-setB.csv
-setB-02,sw,Ulifanya nini jana baada ya shule?,draft-needs-review,,data/recordings/prompts-setB.csv
-setB-02,yo,Kí ni o ṣe lánàá lẹ́yìn ilé-ìwé?,draft-needs-review,,data/recordings/prompts-setB.csv
+setB-02,sw,Ulifanya nini jana baada ya shule?,approved,,data/recordings/prompts-setB.csv
+setB-02,yo,Kí ni o ṣe lánàá lẹ́yìn ilé-ìwé?,approved,,data/recordings/prompts-setB.csv
 setB-03,en,How do you get from your home to the market?,source_reference,,data/recordings/prompts-setB.csv
-setB-03,sw,Unafikaje sokoni ukitoka nyumbani kwenu?,draft-needs-review,,data/recordings/prompts-setB.csv
-setB-03,yo,Báwo ni o ṣe ń lọ sí ọjà láti ilé?,draft-needs-review,,data/recordings/prompts-setB.csv
+setB-03,sw,Unafikaje sokoni ukitoka nyumbani kwenu?,approved,,data/recordings/prompts-setB.csv
+setB-03,yo,Báwo ni o ṣe ń lọ sí ọjà láti ilé?,approved,,data/recordings/prompts-setB.csv
 setB-04,en,"What is your favourite subject, and why?",source_reference,,data/recordings/prompts-setB.csv
-setB-04,sw,"Somo gani unalipenda zaidi, na kwa nini?",draft-needs-review,,data/recordings/prompts-setB.csv
-setB-04,yo,"Ẹ̀kọ́ wo ni o fẹ́ràn jùlọ, kí ló sì dé?",draft-needs-review,,data/recordings/prompts-setB.csv
+setB-04,sw,"Somo gani unalipenda zaidi, na kwa nini?",approved,,data/recordings/prompts-setB.csv
+setB-04,yo,"Ẹ̀kọ́ wo ni o fẹ́ràn jùlọ, kí ló sì dé?",approved,,data/recordings/prompts-setB.csv
 setB-05,en,Tell me about a time you helped someone.,source_reference,,data/recordings/prompts-setB.csv
-setB-05,sw,Niambie wakati ulipomsaidia mtu.,draft-needs-review,,data/recordings/prompts-setB.csv
-setB-05,yo,Sọ fún mi nípa àkókò kan tí o ran ẹnìkan lọ́wọ́.,draft-needs-review,,data/recordings/prompts-setB.csv
+setB-05,sw,Niambie wakati ulipomsaidia mtu.,approved,,data/recordings/prompts-setB.csv
+setB-05,yo,Sọ fún mi nípa àkókò kan tí o ran ẹnìkan lọ́wọ́.,approved,,data/recordings/prompts-setB.csv
 setB-06,en,Count out loud from one to twenty.,source_reference,"Numbers are the strongest code-switch trigger in the classroom register -- which number form a speaker reaches for is an empirical result we want, not something to prompt for. Number register: prompt_sw uses standard Swahili number words (moja...ishirini); prompt_yo uses standard Yoruba number words (ọ̀kan...ogún). Neither uses digits or English, so the question itself doesn't prime an English or digit response.",data/recordings/prompts-setB.csv
-setB-06,sw,Hesabu kwa sauti kuanzia moja hadi ishirini.,draft-needs-review,"Numbers are the strongest code-switch trigger in the classroom register -- which number form a speaker reaches for is an empirical result we want, not something to prompt for. Number register: prompt_sw uses standard Swahili number words (moja...ishirini); prompt_yo uses standard Yoruba number words (ọ̀kan...ogún). Neither uses digits or English, so the question itself doesn't prime an English or digit response.",data/recordings/prompts-setB.csv
-setB-06,yo,Kàá ní ohùn sókè láti ọ̀kan dé ogún.,draft-needs-review,"Numbers are the strongest code-switch trigger in the classroom register -- which number form a speaker reaches for is an empirical result we want, not something to prompt for. Number register: prompt_sw uses standard Swahili number words (moja...ishirini); prompt_yo uses standard Yoruba number words (ọ̀kan...ogún). Neither uses digits or English, so the question itself doesn't prime an English or digit response.",data/recordings/prompts-setB.csv
+setB-06,sw,Hesabu kwa sauti kuanzia moja hadi ishirini.,approved,"Numbers are the strongest code-switch trigger in the classroom register -- which number form a speaker reaches for is an empirical result we want, not something to prompt for. Number register: prompt_sw uses standard Swahili number words (moja...ishirini); prompt_yo uses standard Yoruba number words (ọ̀kan...ogún). Neither uses digits or English, so the question itself doesn't prime an English or digit response.",data/recordings/prompts-setB.csv
+setB-06,yo,Kàá ní ohùn sókè láti ọ̀kan dé ogún.,approved,"Numbers are the strongest code-switch trigger in the classroom register -- which number form a speaker reaches for is an empirical result we want, not something to prompt for. Number register: prompt_sw uses standard Swahili number words (moja...ishirini); prompt_yo uses standard Yoruba number words (ọ̀kan...ogún). Neither uses digits or English, so the question itself doesn't prime an English or digit response.",data/recordings/prompts-setB.csv
 setB-07,en,What is 15 plus 7? Tell me how you worked it out.,source_reference,"Same reason as prompt 6 -- arithmetic answers are where code-switching to English numbers is most likely to happen spontaneously, and that switch pattern is exactly what this set exists to capture. Number register: prompt_sw uses standard Swahili number words (kumi na tano, saba); prompt_yo uses standard Yoruba number words (mẹ́ẹ̀ẹ́dógún 'fifteen', èje 'seven'). Yoruba's numeral system is genuinely complex (base-20, subtractive forms for many numbers) -- flag this row for extra-careful native-speaker check, higher uncertainty here than the other rows.",data/recordings/prompts-setB.csv
-setB-07,sw,Kumi na tano jumlisha saba ni ngapi? Niambie jinsi ulivyopata jibu lako.,draft-needs-review,"Same reason as prompt 6 -- arithmetic answers are where code-switching to English numbers is most likely to happen spontaneously, and that switch pattern is exactly what this set exists to capture. Number register: prompt_sw uses standard Swahili number words (kumi na tano, saba); prompt_yo uses standard Yoruba number words (mẹ́ẹ̀ẹ́dógún 'fifteen', èje 'seven'). Yoruba's numeral system is genuinely complex (base-20, subtractive forms for many numbers) -- flag this row for extra-careful native-speaker check, higher uncertainty here than the other rows.",data/recordings/prompts-setB.csv
-setB-07,yo,Mélòó ni mẹ́ẹ̀ẹ́dógún kún èje? Sọ fún mi bí o ṣe rí ìdáhùn náà.,draft-needs-review,"Same reason as prompt 6 -- arithmetic answers are where code-switching to English numbers is most likely to happen spontaneously, and that switch pattern is exactly what this set exists to capture. Number register: prompt_sw uses standard Swahili number words (kumi na tano, saba); prompt_yo uses standard Yoruba number words (mẹ́ẹ̀ẹ́dógún 'fifteen', èje 'seven'). Yoruba's numeral system is genuinely complex (base-20, subtractive forms for many numbers) -- flag this row for extra-careful native-speaker check, higher uncertainty here than the other rows.",data/recordings/prompts-setB.csv
+setB-07,sw,Kumi na tano jumlisha saba ni ngapi? Niambie jinsi ulivyopata jibu lako.,approved,"Same reason as prompt 6 -- arithmetic answers are where code-switching to English numbers is most likely to happen spontaneously, and that switch pattern is exactly what this set exists to capture. Number register: prompt_sw uses standard Swahili number words (kumi na tano, saba); prompt_yo uses standard Yoruba number words (mẹ́ẹ̀ẹ́dógún 'fifteen', èje 'seven'). Yoruba's numeral system is genuinely complex (base-20, subtractive forms for many numbers) -- flag this row for extra-careful native-speaker check, higher uncertainty here than the other rows.",data/recordings/prompts-setB.csv
+setB-07,yo,Mélòó ni mẹ́ẹ̀ẹ́dógún kún èje? Sọ fún mi bí o ṣe rí ìdáhùn náà.,approved,"Same reason as prompt 6 -- arithmetic answers are where code-switching to English numbers is most likely to happen spontaneously, and that switch pattern is exactly what this set exists to capture. Number register: prompt_sw uses standard Swahili number words (kumi na tano, saba); prompt_yo uses standard Yoruba number words (mẹ́ẹ̀ẹ́dógún 'fifteen', èje 'seven'). Yoruba's numeral system is genuinely complex (base-20, subtractive forms for many numbers) -- flag this row for extra-careful native-speaker check, higher uncertainty here than the other rows.",data/recordings/prompts-setB.csv
 setB-08,en,Tell me something that happened at school this week.,source_reference,,data/recordings/prompts-setB.csv
-setB-08,sw,Niambie jambo lililotokea shuleni wiki hii.,draft-needs-review,,data/recordings/prompts-setB.csv
-setB-08,yo,Sọ fún mi ohun kan tó ṣẹlẹ̀ ní ilé-ìwé ní ọ̀sẹ̀ yìí.,draft-needs-review,,data/recordings/prompts-setB.csv
+setB-08,sw,Niambie jambo lililotokea shuleni wiki hii.,approved,,data/recordings/prompts-setB.csv
+setB-08,yo,Sọ fún mi ohun kan tó ṣẹlẹ̀ ní ilé-ìwé ní ọ̀sẹ̀ yìí.,approved,,data/recordings/prompts-setB.csv
 setB-09,en,What do you want to do when you grow up?,source_reference,,data/recordings/prompts-setB.csv
-setB-09,sw,Unataka kuwa nini ukikua?,draft-needs-review,,data/recordings/prompts-setB.csv
-setB-09,yo,Kí ni o fẹ́ ṣe nígbà tí o bá dàgbà?,draft-needs-review,,data/recordings/prompts-setB.csv
+setB-09,sw,Unataka kuwa nini ukikua?,approved,,data/recordings/prompts-setB.csv
+setB-09,yo,Kí ni o fẹ́ ṣe nígbà tí o bá dàgbà?,approved,,data/recordings/prompts-setB.csv
 setB-10,en,"Explain a game you play with friends, and its rules.",source_reference,,data/recordings/prompts-setB.csv
-setB-10,sw,"Nieleze mchezo unaocheza na marafiki zako, na kanuni zake.",draft-needs-review,,data/recordings/prompts-setB.csv
-setB-10,yo,"Ṣàlàyé eré kan tí o ń ṣeré pẹ̀lú àwọn ọ̀rẹ́ rẹ, àti òfin rẹ̀.",draft-needs-review,,data/recordings/prompts-setB.csv
+setB-10,sw,"Nieleze mchezo unaocheza na marafiki zako, na kanuni zake.",approved,,data/recordings/prompts-setB.csv
+setB-10,yo,"Ṣàlàyé eré kan tí o ń ṣeré pẹ̀lú àwọn ọ̀rẹ́ rẹ, àti òfin rẹ̀.",approved,,data/recordings/prompts-setB.csv

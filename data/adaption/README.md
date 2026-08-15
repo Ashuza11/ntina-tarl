@@ -8,6 +8,19 @@ The pilot source is [`sw-en_tz-pilot-20.csv`](./sw-en_tz-pilot-20.csv). Its 20 e
 
 This experiment applies only to flexible tutor scaffolding. It does not authorize automatic localization of the constrained literacy assessment in `data/instrument/swahili.csv`.
 
+## Human variation elicitation packets
+
+Two printable 50-item packets support collection of verified regional-language seed data:
+
+- [`reviewer-packets/bukavu-kivu-swahili-50-pilot.pdf`](./reviewer-packets/bukavu-kivu-swahili-50-pilot.pdf) presents the reviewed Standard Kiswahili source for each pedagogical act and asks a Bukavu speaker to supply natural Bukavu Kivu Swahili, any natural French/English switch, and usage notes.
+- [`reviewer-packets/yoruba-variety-50-pilot.pdf`](./reviewer-packets/yoruba-variety-50-pilot.pdf) asks the speaker to name their town and regional variety, then supply both Standard Yorùbá and the corresponding regional form with tone, spelling, and code-switch notes.
+
+The Yorùbá packet intentionally does not reproduce the existing 50 draft scaffolding lines: only 32 of the 88 Yorùbá scaffolding drafts were accepted as written, while the rest have documented problems involving tone, wording, omissions, or code-switching. Presenting those drafts as verified Standard Yorùbá would contaminate the regional elicitation.
+
+Each packet covers 50 acts distributed across instruction, praise, hints, correction, level transitions, encouragement, closing, repair, escalation, and facilitator speech. The packets are data-collection forms, not speaker tests. Returned forms require transcription into structured CSV and a second reviewer before use in Adaptive Data.
+
+The reproducible generator is `tools/generate-variation-packets.py`. It requires ReportLab and a Unicode font capable of rendering Yorùbá diacritics.
+
 ## Adaption configuration
 
 - Dataset name: `swahili_english_tutor_prompts`
